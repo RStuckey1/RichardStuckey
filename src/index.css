@@ -1,7 +1,7 @@
 .card{
-  border: 5px solid hsl(0, 0%, 80%);
+  background-color: hex #2ec4b6;
   border-radius: 50px;
-  box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.1);
+  box-shadow: 5px 5px 30px hsla(0, 100%, 40%, 0.1);
   padding: 20px;
   margin: 10px;
   text-align: center;

@@ -1,16 +1,18 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 import Header from '../Header';
 import Footer from '../Footer';
-import '../Pages/Landing.css';
+import './Landing.css';
 
 
 function Landing() {
   return (
     <>
     <Header />
-    <body classname="landing-body">
+    <div classname="landing-body">
              <h1 classname="landing-title">Welcome to the Landing Page</h1>
     <Footer />
-    </body>
+    </div>
     </>
   );
 }

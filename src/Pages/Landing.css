@@ -1,7 +1,7 @@
 
-.landing .landing-title{
+landing-body {
 
-    background-color: hsl(0, 84%, 30%);
+    background-color: hex #cbf3f0;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
