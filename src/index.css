@@ -2,12 +2,12 @@
   border: 5px solid hsl(0, 0%, 80%);
   border-radius: 50px;
   box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.1);
-  background-color: hex #fff3b0;
   padding: 20px;
   margin: 10px;
   text-align: center;
   max-width: 250px;
   display: inline-block;
+  position: center;
 }
 
 .card .card-image{
@@ -58,15 +58,4 @@
 .card .card-text2{
   font-family: Arial, sans-serif;
   color: hsl(0, 80%, 42%);
-}
-
-h1{
-  font-family: Arial, sans-serif;
-  color: hsl(0, 80%, 42%);
-  font-size: large;
-  position: relative;
-}
-
-body{
-  background-color: hex #335C67";
 }

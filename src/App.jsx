@@ -8,7 +8,6 @@ import Contact from './Pages/Contact.jsx'
 import Landing from './Pages/Landing.jsx'
 import Portfolio from './Pages/Portfolio.jsx'
 import Resume from './Pages/Resume.jsx'
-import './index.css'
 
 
 function App() {
