@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import Card from "./Card";
+import './index.css';
 
 function Header() {
  
     return(
-        <header>
-            <Card />
+        <header classname="navheader">
+           <div className="card1"><Card /></div>
             <nav>
                 <ul>
                     <li><Link to="/About">About</Link></li>                    
