@@ -9,10 +9,11 @@ function Resume() {
             <Header />
             <h1>Resume</h1>
             <h2>Experience</h2>
-            <p>Currently, I am a student at the University of Central Florida. I am studying to earn a Bachelor's degree in Computer Science. I have taken courses in Java, C, and Python. I am also learning about data structures and algorithms. I am interested in learning more about web development and software engineering.</p>
+            <p>I made the choice to switch my carreer path in June,2024 so I can persue full-stack development</p>
+            <p>For the last 15 years</p>
             <h2>Education</h2>
-            <p>University of Central Florida</p>
-            <p>Bachelor's degree in Computer Science</p>
+            <p>University of Kansas(Lawrence, KS) </p>
+            <p>B.S. in Environmental Science with a Minor in Biological Anthropology</p>
             <Footer />
         </div>
         </>
