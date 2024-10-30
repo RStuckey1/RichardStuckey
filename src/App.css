@@ -1,0 +1,16 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    --primary-blue: #086788;
+    --light-blue: #87BCDE;
+    --light-green: #D3F9B5;
+    --earth-green: #82846D;
+    --dark-brown: #5C573E;
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  

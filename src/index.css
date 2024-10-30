@@ -1,4 +1,10 @@
 
+
+.card {
+  position: relative;
+  
+}
+
 .card1{
   background-color: hsl(35, 100%, 55%);
   border-radius: 50px;
@@ -81,3 +87,4 @@ li{
   margin: 10px;
   color: white;
 }
+
