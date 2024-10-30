@@ -5,7 +5,7 @@ import './index.css';
 function Header() {
  
     return(
-        <header classname="navheader">
+        <header className="navheader">
            <div className="card1"><Card /></div>
             <nav>
                 <ul>
