@@ -1,6 +1,4 @@
 import { useState } from "react";
-import Header from "../Header";
-import Footer from "../Footer";
 
 function Contact() {
     const [name, setName] = useState("");
@@ -10,7 +8,7 @@ function Contact() {
     return(
         <>
         <h1>Contact</h1>
-        <Header/>
+    
         <div>
             <form>
                 <label htmlFor="name">Name</label>
@@ -22,7 +20,7 @@ function Contact() {
                 <button type="submit">Submit</button>
             </form>
         </div>
-        <Footer/>
+        
         </>
     );};
 
