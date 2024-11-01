@@ -5,8 +5,11 @@ import './index.css';
 function Header() {
  
     return(
+        <div className="headerbox">
         <header className="navheader">
            <div className="card1"><Card /></div>
+
+
             <nav>
                 <ul>
                     <li><Link to="/About">About</Link></li>                    
@@ -16,6 +19,7 @@ function Header() {
                 </ul>
             </nav>
         </header>
+        </div>
     );
 }
 
