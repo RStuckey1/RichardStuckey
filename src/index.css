@@ -16,17 +16,11 @@
   font-size: 60px;
 }
 .headerbox{
+  display: flex;
   width: 90%;
   height: 20%;
   border: 15px solid black;
   padding: 2%
-}
-
-
-.navheader{
-  background-color: rgb(231, 50, 144);
-  display: inline;
-  position: center;
 }
 
 .card2{
@@ -58,9 +52,10 @@ ul{
 }
 
 li{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
   display: inline;
   margin: 10px;
-  color: rgb(233, 17, 17);
 }
 
 #contactInfo{
@@ -80,30 +75,28 @@ a:active{ color: #fe6a86; }
 
 
 .card1{
-  background-color: hsl(35, 100%, 55%);
+  container-type: flex;
+  background-color: #a2d6f9;
   border-radius: 50px;
-  border: hsl(0, 0%, 80%);
-  box-shadow: 5px 5px 30px hsla(0, 100%, 40%, 0.1);
   padding: 20px;
   margin: 10px;
   text-align: center;
-  max-width: 30%;
-  max-height: 60%;
-  left: 50%;
+  max-width: 500px;
+  max-height: 500px;
 }
 
 .card .card-image{
-    max-width: 60%;
-    height: auto;
+    max-width: 80%;
+    max-height: 80%;
     border-radius: 50%;
     margin-bottom: 10px;
 }
 
 .card .card-title{
   font-family: Arial, Helvetica, sans-serif ;
-  font-size: small;
+  font-size: x-large;
   font-style: b;
-  margin: 0;
+  margin: 10%;
   color: hsla(0, 0%, 0%,)
 }
 
@@ -111,4 +104,25 @@ a:active{ color: #fe6a86; }
   font-family: Arial, sans-serif;
   font-size: medium;
   color: hsl(146, 89%, 11%);
+}
+
+p{
+  font-family: Arial, sans-serif;
+  font-display: block;
+  font-size: 25px;
+  color: #fffdf7;
+}
+
+h1{
+  font-family: Arial, sans-serif;
+  font-display: block;
+  font-size: 60px;
+  color: #fcefb4;
+}
+
+h2{
+  font-family: Arial, sans-serif;
+  font-display: block;
+  font-size: 40px;
+  color: #fcefb4;
 }

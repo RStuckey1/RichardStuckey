@@ -6,7 +6,7 @@ function Header() {
 
     return (
 
-        <header className="navheader">
+        
             <div className="headerbox">
                 <div className="card1"><Card /></div>
 
@@ -21,7 +21,7 @@ function Header() {
                     </ul>
                 </nav>
             </div>
-        </header>
+      
 
     );
 }

@@ -2,7 +2,7 @@ import D20 from './assets/D20 pic.jpg'
 import { Link } from 'react-router-dom';
 
 
-function Card(){
+function Card2(){
    return(
     <Link to="https://github.com/Riesyn/rngd20" target="_blank">
         <div className="card2">
@@ -15,4 +15,4 @@ function Card(){
 
 }
 
-    export default Card;
+    export default Card2;

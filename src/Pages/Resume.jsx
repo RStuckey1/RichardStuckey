@@ -10,8 +10,14 @@ function Resume() {
             <p>For the last 15 years</p>
             <h2>Education</h2>
             <p>University of Kansas(Lawrence, KS) </p>
-            <p>B.S. in Environmental Science with a Minor in Biological Anthropology</p>
-           
+            <p>B.S. Environmental Science</p>
+            <p>B.S. Microbiology</p>
+            <h2>Work History</h2>
+            <p>Environmental Science Coporation </p>
+            <p>Landry's T-REX Cafe</p>
+            <p>Kansas City Zoo and Aquarium</p>
+            <p>Cogent</p>
+            <p>Commercial Water</p>
         </div>
         </>
     );
