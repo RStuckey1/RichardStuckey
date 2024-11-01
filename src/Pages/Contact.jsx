@@ -25,7 +25,7 @@ function Contact() {
             </form>
         </div>
         <div>
-            <ul classname="contactInfo">
+            <ul className="contactInfo">
                 <li><Link to="https://www.linkedin.com/in/richard-stuckey-9b2910234/" target="_blank">
                 <img className="linkedinIcon" src={linkedin} alt="linkedinicon"></img>
                 </Link>
