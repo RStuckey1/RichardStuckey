@@ -13,13 +13,8 @@ A React, mobile responsive, page that is a showcase of who I am.
 5) the page can then be viewed locally at https://localhost:3001
 
 
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
     ```md
-    ![alt text](assets/images/screenshot.png)
+    ![alt text](sitepics\Screenshot 2024-11-05 002758.png)
     ```
 
 
