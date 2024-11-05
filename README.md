@@ -14,7 +14,7 @@ A React, mobile responsive, page that is a showcase of who I am.
 
 
 
-![alt text](sitepics\Screenshot 2024-11-05 002758.png)
+![alt text](sitepics/Screenshot 2024-11-05 002758.png)
 
 
 
