@@ -13,10 +13,10 @@ A React, mobile responsive, page that is a showcase of who I am.
 5) the page can then be viewed locally at https://localhost:3001
 
 
-    ```md
-    ![alt text](sitepics\Screenshot 2024-11-05 002758.png)
-    ![main page](sitepics/Screenshot 2024-11-05 002758.png)
-    ```
+
+![alt text](sitepics\Screenshot 2024-11-05 002758.png)
+
+
 
 
 ## License
