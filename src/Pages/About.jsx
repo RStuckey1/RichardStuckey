@@ -11,6 +11,8 @@ function About() {
       <h2>The forgotten lesson is to have fun, you only have one go at life.</h2>
     </div>
 
+    
+
     </>
   );
 }
