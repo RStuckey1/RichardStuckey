@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
-import Card from './Card.jsx'
+import Card from './ProjectCards/Card.jsx'
 import Card2 from './Card2.jsx'
 import About from './Pages/About.jsx'
 import Contact from './Pages/Contact.jsx'
@@ -29,8 +29,8 @@ const router = createBrowserRouter([
       element: <Contact />,
     },
     {
-      path: '/Card2',
-      element: <Card2 />,
+      path: '/CardRGD20',
+      element: <CardRGD20 />,
     },
     {
       path: '/Header',

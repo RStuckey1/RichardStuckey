@@ -2,7 +2,7 @@ import carpalapp from './assets/carpalapp.jpg'
 import { Link } from 'react-router-dom';
 
 
-function Card4(){
+function CardCarPal(){
    return(
     <Link to="https://github.com/RStuckey1/Car-Pal-" target="_blank">
         <div className="card2">
@@ -15,4 +15,4 @@ function Card4(){
 
 }
 
-    export default Card4;
+    export default CardCarPal;

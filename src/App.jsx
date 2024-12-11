@@ -7,13 +7,15 @@ import './index.css'
 
 function App() {
   return <div className="portfolio-app">
+  
     <>
       <Header />
       <Outlet />
        
       <Footer />
     </>
-  </div>
+    </div>
+  
 }
 
 export default App;
