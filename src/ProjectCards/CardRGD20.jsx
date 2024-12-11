@@ -1,8 +1,8 @@
-import D20 from './assets/D20 pic.jpg'
+import D20 from '../assets/D20.jpg'
 import { Link } from 'react-router-dom';
 
 
-function CardRDG20(){
+function CardRDG20() {
    return(
     <Link to="https://github.com/Riesyn/rngd20" target="_blank">
         <div className="card2">

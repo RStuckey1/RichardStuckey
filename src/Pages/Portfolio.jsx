@@ -1,5 +1,5 @@
 
-import CardRGD20 from '../CardRGD20';
+import CardRGD20 from '../ProjectCards/CardRGD20';
 import CardGetItDone from '../ProjectCards/CardGetItDone';
 import CardCarPal from '../ProjectCards/CardcCarPal';
 

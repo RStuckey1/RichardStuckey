@@ -5,12 +5,12 @@ import App from './App.jsx'
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
 import Card from './ProjectCards/Card.jsx'
-import Card2 from './Card2.jsx'
 import About from './Pages/About.jsx'
 import Contact from './Pages/Contact.jsx'
 import Portfolio from './Pages/Portfolio.jsx'
 import Resume from './Pages/Resume.jsx'
 import ErrorPage from './Pages/ErrorPage.jsx'
+import CardRGD20 from './ProjectCards/CardRGD20.jsx'
 import './index.css'
 
 
