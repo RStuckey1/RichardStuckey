@@ -2,7 +2,7 @@ import getitdone from '../assets/getitdone.jpg'
 import { Link } from 'react-router-dom';
 
 
-function Card3(){
+function CardGetItDone(){
    return(
     <Link to="https://github.com/RStuckey1/Get-It-Done" target="_blank">
         <div className="card2">
@@ -15,4 +15,4 @@ function Card3(){
 
 }
 
-    export default Card3;
+    export default CardGetItDone;

@@ -11,6 +11,7 @@ import Portfolio from './Pages/Portfolio.jsx'
 import Resume from './Pages/Resume.jsx'
 import ErrorPage from './Pages/ErrorPage.jsx'
 import CardRGD20 from './ProjectCards/CardRGD20.jsx'
+import WeatherApp from './ProjectCards/CardWeatherApp.jsx'
 import './index.css'
 
 
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
     {
       path: '/Resume',
       element: <Resume />,
+    },
+    {
+      path: '/WeatherApp',
+      element: <WeatherApp />,
     },
   ]
 }
