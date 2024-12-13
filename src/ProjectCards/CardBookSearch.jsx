@@ -2,9 +2,9 @@ import booksearch from '../assets/booksearch.png'
 import { Link } from 'react-router-dom';
 
 
-function CardCarPal(){
+function CardBookSearch(){
    return(
-    <Link to="https://github.com/RStuckey1/Car-Pal-" target="_blank">
+    <Link to="https://github.com/RStuckey1/BookSearchMERN" target="_blank">
         <div className="card2">
             <img className="card-image2" src={booksearch} alt="book search icon"></img>
             <h2 className='card-title2'>Book Search</h2>
@@ -15,4 +15,4 @@ function CardCarPal(){
 
 }
 
-    export default CardCarPal;
+    export default CardBookSearch;
