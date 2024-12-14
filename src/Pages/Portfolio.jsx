@@ -6,26 +6,29 @@ import CardGastroBook from '../ProjectCards/CardGastroBook';
 import CardNotFadeAway from '../ProjectCards/CardNotFadeAway';
 import CardBookSearch from '../ProjectCards/CardBookSearch';
 import CardWeatherApp from '../ProjectCards/CardWeatherApp';
+import './Portfolio.css';
+   
 
 
 
 
 function Portfolio() {
-    return(
+    return (
         <>
-             <CardRGD20/>
-             <CardGetItDone/>
-             <CardCarPal/>
-             <CardGastroBook/>
-             <CardNotFadeAway/>
-             <CardBookSearch/>
-             <CardWeatherApp/>
-                 <div>
-                    <h2>Portfolio</h2>
-                    <p>Here are some of the projects I have worked on:</p>
-                    
-                 </div>
-            
+            <div>
+                <h2>Portfolio</h2>
+                <p>Here are some of the projects I have worked on:</p>
+
+            </div>
+            <div classname="portfolioCards">
+                <CardRGD20 />
+                <CardGetItDone />
+                <CardCarPal />
+                <CardGastroBook />
+                <CardNotFadeAway />
+                <CardBookSearch />
+                <CardWeatherApp />
+            </div>
         </>
     );
 }
