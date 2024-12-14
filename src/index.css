@@ -1,5 +1,6 @@
 :root {
   background-color: #2364aa;
+  background: linear-gradient(to top, #a4d1ed, #4a7c59, #68b0ab );
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -45,13 +46,13 @@ li{
 
 }
 
-a:link{ color: #fdfa36; }
+/* a:link{ color: #fdfa36; }
 
 a:visited{ color: #fdc500; }
 
 a:hover{ color: #ff8000; }
 
-a:active{ color: #fe6a86; }
+a:active{ color: #fe6a86; } */
 
 
 .card1{
