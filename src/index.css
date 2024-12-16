@@ -1,15 +1,18 @@
 :root {
-  background-color: #2364aa;
+  --primary-color: #4a7c59;
   background: linear-gradient(to top, #a4d1ed, #4a7c59, #68b0ab );
-
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  font-synthesis: none;
+  min-height: 100vh;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  /* font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 
@@ -19,8 +22,13 @@
 }
 .headerbox{
   display: flex;
-  width: 90%;
-  height: 20%;
+  flex-grow: 1;
+  justify-content: top;
+  align-items: center;
+
+  min-width: 100vh;
+  min-height: 2vh;
+
   border: 15px solid black;
   padding: 2%
 }
@@ -29,9 +37,9 @@
 
 
 
-ul{
+/* ul{
   list-style-type: none;
-}
+} */
 
 li{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -57,7 +65,7 @@ a:active{ color: #fe6a86; } */
 
 .card1{
   container-type: flex;
-  background-color: #a2d6f9;
+  background-image: linear-gradient(to bottom right, #a4d1ed, white );
   border-radius: 50px;
   padding: 20px;
   margin: 10px;
@@ -106,6 +114,6 @@ h2{
   font-family: Arial, sans-serif;
   font-display: block;
   font-size: 40px;
-  color: #fcefb4;
+  color: #000000;
 }
 
