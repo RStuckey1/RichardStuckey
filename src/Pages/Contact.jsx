@@ -1,45 +1,70 @@
-import { useState } from "react";
-import { Link } from 'react-router-dom';
-import linkedin from '../assets/linkedin.jpg';
-import github from '../assets/github.jpg';
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import '../index.css';
 
-function Contact() {
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [message, setMessage] = useState("");
+export const Contact = () => {
+    const form = useRef();
 
-    return(
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm('service_jronltk', 'template_ks3c6kw', form.current, {
+                publicKey: 'wWkycOEtsOwnBwDZI',
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
+    };
+
+    return (
         <>
-        <h1>Contact</h1>
-    
-        <div>
-            <form>
-                <label htmlFor="name">Name</label>
-                <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)}></input>
-                <label htmlFor="email">Email</label>
-                <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)}></input>
-                <label htmlFor="message">Message</label>
-                <input type="message" id="message" value={message} onChange={(e) => setMessage(e.target.value)}></input>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
-        <div>
-            <ul className="contactInfo">
-                <li><Link to="https://www.linkedin.com/in/richard-stuckey-9b2910234/" target="_blank">
-                <img className="linkedinIcon" src={linkedin} alt="linkedinicon"></img>
-                </Link>
-                </li>
-                <li><Link to="https://www.github.com/RStuckey1" target="_blank">          
-            <img className="github" src={github} alt="github"></img>
-            </Link>
-            </li>
-            </ul>
-        </div>
-        
+            <Box
+                component="form"
+                sx={{ '& .MultiTextField-root': { m: 1, width: '25ch' } }}
+                noValidate
+                autyocomplete="off"
+            >
+                <form ref={form} onSubmit={sendEmail}>
+                    <div>
+                        <TextField
+                            required
+                            id="Name"
+                            label="Name"
+                        />
+                        <TextField
+                            required
+                            id="Email"
+                            label="Email"
+                        />
+                        <TextField
+                            required
+                            id="Message"
+                            label="Message"
+                            multiline
+                            maxRows={8}
+                        />
+                        <Button
+                            variant="contained"
+                            size="medium"
+                            color="primary"
+                            type="submit"
+                        >SEND</Button>
+
+
+                    </div>
+                </form>
+            </Box>
         </>
-    );};
-
-
-
+    );
+};
 export default Contact;
