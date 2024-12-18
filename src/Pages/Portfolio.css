@@ -1,5 +1,5 @@
 .card2 {
-
+    background: linear-gradient(to top, #00a2ff, #eeb3ae);
     border: 1px solid hsl(0, 0%, 80%);
     border-radius: 10px;
     box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.1);
@@ -46,3 +46,15 @@
 
 
 }
+
+
+
+.card2:link{ 
+    color: #fdfa36;
+    text-decoration: none; }
+
+a:visited{ color: #fdc500; }
+
+a:hover{ color: #ff8000; }
+
+a:active{ color: #fe6a86; }

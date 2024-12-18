@@ -12,7 +12,7 @@ function Header() {
             <div className="card1"><Card /></div>
 
 
-            <nav>
+            <nav className="navbar">
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/About">About</Link></li>
