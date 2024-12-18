@@ -1,4 +1,6 @@
-
+import * as React from 'react';
+import ImageList from '@mui/material/ImageList';
+import ImageListItem from '@mui/material/ImageListItem';
 import CardRGD20 from '../ProjectCards/CardRGD20';
 import CardGetItDone from '../ProjectCards/CardGetItDone';
 import CardCarPal from '../ProjectCards/CardcCarPal';
@@ -7,6 +9,8 @@ import CardNotFadeAway from '../ProjectCards/CardNotFadeAway';
 import CardBookSearch from '../ProjectCards/CardBookSearch';
 import CardWeatherApp from '../ProjectCards/CardWeatherApp';
 import './Portfolio.css';
+import { Box } from '@mui/material';
+
    
 
 
@@ -15,20 +19,34 @@ import './Portfolio.css';
 function Portfolio() {
     return (
         <>
+            <Box sx={{ 
+                width: '100%',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                flexDirection: 'column',
+                textAlign: 'center',
+                }}>
             <div>
                 <h2>Portfolio</h2>
                 <p>Here are some of the projects I have worked on:</p>
 
             </div>
-            <div classname="portfolioCards">
+            <ImageList sx={{ 
+                width:1000, 
+                height: 1000 
+                }} cols={3} rowHeight={164}
+                >
+          
                 <CardRGD20 />
                 <CardGetItDone />
                 <CardCarPal />
                 <CardGastroBook />
                 <CardNotFadeAway />
                 <CardBookSearch />
-                <CardWeatherApp />
-            </div>
+                <CardWeatherApp />          
+        </ImageList>
+        </Box>
         </>
     );
 }
