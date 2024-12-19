@@ -5,24 +5,19 @@ import Button from '@mui/material/Button';
 import Paper from '@mui/material/Paper';
 import Stack from '@mui/material/Stack';
 import { styled } from '@mui/material/styles';
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import '../index.css';
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: '#00b9c0',
     ...theme.typography.body2,
-    padding: theme.spacing(1),
+    padding: theme.spacing(2),
     borderRadius: '10px',
     margin: '30px',
     textAlign: 'center',
-    color: theme.palette.text.secondary,
-    flexGrow: 3,
-    ...theme.applyStyles('dark', {
-        backgroundColor: '#333',
-        color: '#fff',
     }),
-}));
+);
 
 export const Contact = () => {
     const form = useRef();
@@ -42,6 +37,8 @@ export const Contact = () => {
                     console.log('FAILED...', error.text);
                 },
             );
+        
+        form.current.reset();
     };
 
     return (
@@ -71,6 +68,9 @@ export const Contact = () => {
                                         id="Name"
                                         label="Name"
                                         margin="dense"
+                                        backgroundColor="#00b9c0"
+                                        
+                                        
                                     />
                                 </Item>
                                 <Item>
