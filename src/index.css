@@ -1,17 +1,15 @@
+*{
+  box-sizing:border-box;
+}
+
 :root {
   background-image: linear-gradient(to top, #b3cbe0, #0e454e );
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  min-width:100%;
   min-height: 100vh;
-  flex-grow: 1;
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
   /* font-synthesis: none;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility; */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+  -moz-osx-font-smoothing: grayscale;
 }
 
 
@@ -21,13 +19,10 @@
 }
 .headerbox{
   display: flex;
-  flex-grow: 1;
   justify-content: top;
   align-items: center;
-
-  min-width: 100vh;
-  min-height: 2vh;
-
+  flex-grow: 1;
+  min-width: 100%;
   border: 15px solid black;
   padding: 2%
 }
