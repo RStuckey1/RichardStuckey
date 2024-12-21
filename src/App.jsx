@@ -1,9 +1,9 @@
 import { Outlet } from 'react-router-dom'
-import Header from './Header'
 import Footer from './Footer'
 import './assets/penguin.jpg'
 import './assets/RickBees.jpg'
 import './index.css'
+import { Navbar } from './components/Navbar'
 
 
 
@@ -11,11 +11,11 @@ function App() {
   return <div className="portfolio-app">
 
     <>
-      <Header />
+      <Navbar />
       <div>
         <Outlet />
       </div>
-        <Footer />
+      <Footer />
     </>
   </div>
 
