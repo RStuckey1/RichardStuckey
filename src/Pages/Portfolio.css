@@ -12,7 +12,11 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     align-items: start;
+    transition: color 500ms linear;
+}
 
+.card2:hover {
+    color: #ff8000;
 }
 
 .card2 .card-image2 {
