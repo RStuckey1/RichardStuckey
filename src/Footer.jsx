@@ -1,8 +1,9 @@
 
 import { Link } from 'react-router-dom';
-import linkedin from './assets/linkedin.jpg';
-import github from './assets/github.jpg';
+import linkedin from './assets/linkedin.png';
+import github from './assets/githubCat.png';
 import { Box } from '@mui/material';
+import "./index.css";
 
 function Footer() {
 
@@ -10,6 +11,8 @@ function Footer() {
         
             <Box sx = {{
             display: 'flex', 
+            padding: '80px',
+            margin: '10px',
             justifyContent: 'center', 
             alignItems: 'center', 
             flexDirection: 'row', 

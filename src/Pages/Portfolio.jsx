@@ -33,9 +33,11 @@ function Portfolio() {
 
             </div>
             <ImageList sx={{ 
-                width:1000, 
-                height: 1000 
-                }} cols={3} rowHeight={164}
+                width:1200, 
+                height: 1000, 
+                ml: 10
+                }} cols={2} rowHeight={250} gap={50}
+                padding={10}
                 >
           
                 <CardRGD20 />

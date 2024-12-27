@@ -8,18 +8,23 @@ import { Navbar } from './components/Navbar'
 
 
 function App() {
-  return <div className="portfolio-app">
-
+  return (
     <>
-      <Navbar />
+    <div>
+    <Navbar />
+    </div>
+  <div className="portfolio-app">
+
+    
+   
       <div>
         <Outlet />
       </div>
-      <img className="rick" src={penguin} alt="Rick and Morty" />
       <Footer />
-    </>
-  </div>
-
+      </div>
+  </>
+ 
+  );
 }
 
 export default App;

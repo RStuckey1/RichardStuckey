@@ -10,6 +10,7 @@ import Contact from './Pages/Contact.jsx'
 import Portfolio from './Pages/Portfolio.jsx'
 import Resume from './Pages/Resume.jsx'
 import ErrorPage from './Pages/ErrorPage.jsx'
+import Home from './Pages/Home.jsx'
 import './index.css'
 
 
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   errorElement: <ErrorPage />,
   children: [
    
+    {
+      path: '/Home',
+      element: <Home />,
+    },
     {
       path: '/About',
       element: <About />,

@@ -1,10 +1,15 @@
+
+
+
+
+
 *{
   box-sizing:border-box;
+
 }
 
 :root {
-  background-image: linear-gradient(to top, #b3cbe0, #0e454e );
-  min-width:100%;
+  background: url("./assets/background.jpg");
   min-height: 100vh;
   /* font-synthesis: none;
   text-rendering: optimizeLegibility; */
@@ -21,19 +26,25 @@
   display: flex;
   justify-content: top;
   align-items: center;
+  box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.1);
   flex-grow: 1;
   min-width: 100%;
   border: 15px solid black;
   padding: 2%
 }
 
+.portfolio-app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50px;
+  padding: 10%;
+  margin: 10px;
+  min-width: 80%;
+  min-height: 80%;
+}
 
-
-
-
-/* ul{
-  list-style-type: none;
-} */
 
 li{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -94,7 +105,7 @@ a:active{ color: #fe6a86; }
 }
 
 p{
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-display: block;
   font-size: 25px;
   color: #fffdf7;
@@ -103,30 +114,55 @@ p{
 h1{
   font-family: Arial, sans-serif;
   font-display: block;
-  font-size: 60px;
+  font-size: 100px;
   color: #fcefb4;
 }
 
 h2{
   font-family: Arial, sans-serif;
   font-display: block;
+  font-size: 65px;
+  color: #000000;
+}
+
+h3{
+  font-family: Arial, sans-serif;
+  font-display: block;
+  font-size: 50px;
+  color: #000000;
+}
+
+h4{
+  font-family: Arial, sans-serif;
+  font-display: block;
   font-size: 40px;
   color: #000000;
 }
 
+h1.resume{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
 contactForm{
 
-  background-image: linear-gradient(to bottom right, #a4d1ed, white );
   display: flex;
-  align-self: center;
+  justify-content: space-between;
+  min-width: 100vh;
+  min-height: 100vh;
   align-items: center;
-  border-radius: 50px;
-  padding: 20px;
-  margin: 10px;
-  min-width: 80%;
-  min-height: 40%;
-  justify-self: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(50px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: sticky;
+  top: 0;
 }
 
+img.github{
+border-radius: 50px;
 
+}
 
+img.linkedinIcon{
+  border-radius: 50px;
+}
