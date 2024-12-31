@@ -1,4 +1,4 @@
-import carpalapp from '../assets/carpalapp.jpg'
+import carpalapp from '../assets/carpalapp.png'
 import { Link } from 'react-router-dom';
 
 

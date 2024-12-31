@@ -33,8 +33,8 @@ function Portfolio() {
 
             </div>
             <ImageList sx={{ 
-                width:1200, 
-                height: 1000, 
+                width:1700, 
+                height: 1400, 
                 ml: 10
                 }} cols={2} rowHeight={250} gap={50}
                 padding={10}

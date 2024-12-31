@@ -1,5 +1,5 @@
-import RickBees from '../assets/RickBees.jpg'
-import Penguin from '../assets/penguin.jpg'
+import RickBees from '../assets/RickBees.png'
+import Penguin from '../assets/penguin.png'
 import BW from '../assets/BW.png'
 import './About.css'
 
@@ -13,7 +13,6 @@ function About() {
       <h2>My life is a gift that I am thankful for and will never waste.</h2>
       <h2>The forgotten lesson is to have fun, you only have one go at life.</h2>
     </div>
-  <div className="aboutList">
   <div className="aboutPics">
     <img class="pic" src={RickBees} alt="Rick Bees"></img>
     <p>Studying Apiculture(Bees)</p>
@@ -24,9 +23,9 @@ function About() {
   </div>
   <div class="aboutPics">
     <img class="pic" src={BW} alt="Black and White"></img>
-    <p>Black and White</p>
+    <p>Boundary Waters, USA/Canada 2024</p>
   </div>
-  </div>
+  
 
 
 

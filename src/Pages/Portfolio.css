@@ -1,15 +1,16 @@
 .card2 {
     justify-content: center;
     border-style: outset;
-
+    object-fit: contain;
     border-radius: 20px;
     align-items: center;
+    justify-items: center;
     background-color: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(50px);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-    width: 250px;
-    height: 500px;
+    width: 400px;
+    height: 700px;
     display: grid;
     transition: color 500ms linear;
 }
@@ -19,7 +20,9 @@
 }
 
 .card2 .card-image2 {
-    max-width: 90%;
+    max-width: 70%;
+    min-width: 50%;
+    max-height: 70%;
     min-height: 50%;
     display: flex;
     align-items: center;
@@ -37,7 +40,7 @@
 
 .card-text3 {
     font-family: Arial, sans-serif;
-    font-size: medium;
+    font-size: 25px;
     color: #eeb3ae;
 }
 

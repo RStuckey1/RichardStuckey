@@ -1,4 +1,4 @@
-import getitdone from '../assets/getitdone.jpg'
+import getitdone from '../assets/getitdone.png'
 import { Link } from 'react-router-dom';
 
 

@@ -5,16 +5,17 @@
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 10%;
     backdrop-filter: blur(50px);
+    object-fit: scale-down;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
   }
 .aboutPics {
-    display: flex;
     align-items: center;
     text-align: center;
+    justify-items: center;
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 10%;
     padding: 20px;
-    object-fit: contain;
+    object-fit: scale-down;
     margin-Bottom: 30px;
     backdrop-filter: blur(50px);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
@@ -24,6 +25,9 @@
     display: flex;
     align-self: center;   
     align-items: center;
+    object-fit: contain;
+    border-radius: 10%;
+    margin: 10%;
     padding: 10%;
     
     
