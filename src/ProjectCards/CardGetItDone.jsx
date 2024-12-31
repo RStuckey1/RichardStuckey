@@ -1,5 +1,6 @@
 import getitdone from '../assets/getitdone.png'
 import { Link } from 'react-router-dom';
+import '../Pages/Portfolio.css';
 
 
 function CardGetItDone(){
