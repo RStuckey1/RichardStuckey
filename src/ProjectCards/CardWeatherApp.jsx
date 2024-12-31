@@ -1,5 +1,6 @@
 import weatherapp from '../assets/weatherapp.jpg'
 import { Link } from 'react-router-dom';
+import '../Pages/Portfolio.css';
 
 
 function CardWeatherApp() {

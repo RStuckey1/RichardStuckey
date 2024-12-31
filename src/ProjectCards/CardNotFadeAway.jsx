@@ -1,5 +1,6 @@
-import notfadeaway from '../assets/notfadeaway.jpg'
+import notfadeaway from '../assets/notfadeaway.png'
 import { Link } from 'react-router-dom';
+import '../Pages/Portfolio.css'
 
 
 function CardNotFadeAway(){
