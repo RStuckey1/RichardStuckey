@@ -1,7 +1,7 @@
 .aboutList {
     display: grid;
-    padding: 20px;
-    margin: 20px;
+    padding: 5%;
+    margin: 5%;
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 10%;
     backdrop-filter: blur(50px);
@@ -14,8 +14,8 @@
     justify-items: center;
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 10%;
-    padding: 20px;
-    object-fit: scale-down;
+    padding: 10%;
+    object-fit: fill;
     margin-Bottom: 30px;
     backdrop-filter: blur(50px);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
@@ -25,10 +25,14 @@
     display: flex;
     align-self: center;   
     align-items: center;
-    object-fit: contain;
-    border-radius: 10%;
-    margin: 10%;
-    padding: 10%;
+    object-fit: fill;
+    /* border-radius: 10%; */
+  
     
-    
+  }
+
+  h2.about{
+    font-family: monospace;
+    font-size: 30px;
+
   }

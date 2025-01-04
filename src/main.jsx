@@ -11,6 +11,7 @@ import Portfolio from './Pages/Portfolio.jsx'
 import Resume from './Pages/Resume.jsx'
 import ErrorPage from './Pages/ErrorPage.jsx'
 import Home from './Pages/Home.jsx'
+import List from './Pages/List.jsx'
 import './index.css'
 
 
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
     {
       path: '/Portfolio',
       element: <Portfolio />,
+    },
+    {
+      path: '/List',
+      element: <List />,
     },
     {
       path: '/Resume',

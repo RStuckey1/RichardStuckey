@@ -7,11 +7,12 @@ function About() {
   return (
     <>
     <div className="about">
-      <h1>About Rick Stuckey</h1>
-      <h2>I have a diverse background with a unique skillset. I am a mechanically inclined, yet creative person. </h2>
-      <h2>A musician, mechanic, eagle scout, artist, father, and active community member. </h2>
-      <h2>My life is a gift that I am thankful for and will never waste.</h2>
-      <h2>The forgotten lesson is to have fun, you only have one go at life.</h2>
+      <h1>About Richard Stuckey</h1>
+      <h2 class="about">Richard "Rick" Stuckey is mechanically inclined, yet uniquely creative and practical with solutions. </h2>
+      <h2 class="about">Technology is a conduit for these soluitions to generate efficent and sustainable remedies for any problem. </h2>
+      <h2 class="about"></h2>
+      <h2 class="about">My life is a gift that I am thankful for and will never waste.</h2>
+      <h2 class="about">The forgotten lesson is to have fun, you only have one go at life.</h2>
     </div>
   <div className="aboutPics">
     <img class="pic" src={RickBees} alt="Rick Bees"></img>
