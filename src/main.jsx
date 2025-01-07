@@ -4,10 +4,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import Navbar from './components/Navbar.jsx'
 import Footer from './Footer.jsx'
-import Card from './ProjectCards/Card.jsx'
 import About from './Pages/About.jsx'
 import Contact from './Pages/Contact.jsx'
-import Portfolio from './Pages/Portfolio.jsx'
 import Resume from './Pages/Resume.jsx'
 import ErrorPage from './Pages/ErrorPage.jsx'
 import Home from './Pages/Home.jsx'
@@ -45,14 +43,6 @@ const router = createBrowserRouter([
     {
       path: '/Footer',
       element: <Footer />,
-    },
-    {
-      path: '/Card',
-      element: <Card />,
-    },
-    {
-      path: '/Portfolio',
-      element: <Portfolio />,
     },
     {
       path: '/List',

@@ -1,0 +1,19 @@
+.home{
+    display:inline-block;
+    width: 100vh;
+    height: 100vh;
+
+    font-family: monospace;
+    font-size: 30px;
+
+}
+
+p6{
+    font-family: monospace;
+    font-size: xx-large;
+    text-align: center;
+    padding: 10%;
+    margin: 10%;
+    color: yellow;
+    
+}
