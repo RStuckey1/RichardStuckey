@@ -1,0 +1,13 @@
+#root > div.portfolio-app > div:nth-child(1) > div > ul{
+    object-fit: contain;
+    
+}
+
+#root > div.portfolio-app > div:nth-child(1) > div > ul > li{
+    display: flex;
+    object-fit: contain;
+    Object-position: center;
+
+
+
+}
