@@ -4,7 +4,7 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import booksearch from '../assets/booksearchIcon.png'
-import carpalapp from '../assets/carpalIcon.png'
+import carpalapp from '../assets/CarPalIcon.png'
 import gastroBook from '../assets/gastroIcon.png'
 import getitdone from '../assets/kanban.png'
 import notfadeaway from '../assets/notfadeIcon.png'
