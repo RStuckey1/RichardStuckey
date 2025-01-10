@@ -1,14 +1,13 @@
 .home{
     display:inline-block;
-    width: 100vh;
-    height: 100vh;
-
+    width: 100%;
+    height: auto;
     font-family: monospace;
     font-size: 30px;
 
 }
 
-p6{
+.p6{
     font-family: monospace;
     font-size: xx-large;
     text-align: center;
@@ -17,3 +16,41 @@ p6{
     color: yellow;
     
 }
+
+.quote::first-letter{
+    initial-letter: 2;
+    
+}
+
+.strobe {
+    display: flex;
+    max-width: 50%;
+    height: 60%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10%;
+    padding: 2%;
+    object-fit: contain;
+    margin-Bottom: 30%;
+    backdrop-filter: blur(50px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.strobePic {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    align-self: center;   
+    align-items: center;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+h7{
+    font-family: Arial, sans-serif;
+    font-display: block;
+    font-size: 50px;
+    color: #000000;
+  }
