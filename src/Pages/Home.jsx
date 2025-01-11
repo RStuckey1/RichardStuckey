@@ -6,8 +6,13 @@ import './Home.css';
 
 function Home() {
   return (
-    <>
+    
     <div className="home">
+      <p class="intro">Welcome, I am glad you found your way here. There are many things to see here. 
+        What you see below are my inspirations, accomplishments, and dreams. Above you 
+        can click any of the links to see more about me, my experience, and projects of mine. 
+        On my contact page you can send me a messae, which I always enjoy and will respond. 
+        Thank you for being here, and I hope you enjoy your visit. </p>
       <p class="quote">Experiment   Fail     Learn    Repeat</p>
       <br></br>
       <br></br>
@@ -16,12 +21,18 @@ function Home() {
       so throw off the bowlines, sail away from safe harbor,
       catch the trade winds in your sails. Explore. Dream. Discover."
       ~Mark Twain</h7>
-      
+      <br></br>
+      <br></br>
+      <br></br>
+    
     <div className="strobe">
         <img class="strobePic" src={strobe} alt="Jellyfish Strobulation in Captivity"></img>
+        <p>Jellyfish during strobulation. The pulsating tree looking polyp is a 
+          stack of several jellyfish about to break off and grown as individual jellyfish.</p>
+        
     </div>
     </div>
-    </>
+    
   );
 }   
 export default Home;

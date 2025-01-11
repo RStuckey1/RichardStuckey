@@ -65,26 +65,23 @@ export const Contact = () => {
                     sx={{ flexwrap: 'wrap', width: '80%', justifyContent: 'center' }}
                 >
                     <form ref={form} onSubmit={sendEmail}>
-                        <div>
                             <Item>
                                 <TextField
                                     required
-                                    id="Name"
-                                    label="Name"
+                                    input type='text'
+                                    name='name'
+                                    label="name"
                                     margin="dense"
                                     sx={{ width: '100%', borderRadius: '20px' }}
                                     InputColor="rgba(255, 255, 255, 0.05);"
-
-
-
-
                                 />
                             </Item>
                             <Item>
                                 <TextField
                                     required
-                                    id="Email"
-                                    label="Email"
+                                    input type='email'
+                                    name='email'
+                                    label="email"
                                     margin="dense"
                                     sx={{ width: '100%', borderRadius: '20px' }}
                                 />
@@ -92,8 +89,9 @@ export const Contact = () => {
                             <Item>
                                 <TextField
                                     required
-                                    id="Message"
-                                    label="Message"
+                                    input type='submit'
+                                    name='message'
+                                    label="message"
                                     multiline
                                     minRows={2}
                                     margin="dense"
@@ -110,7 +108,7 @@ export const Contact = () => {
                             </Item>
 
 
-                        </div>
+                        
                     </form>
                 </Stack>
             </Box>

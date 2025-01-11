@@ -1,29 +1,34 @@
 .home{
-    display:inline-block;
     width: 100%;
     height: auto;
     font-family: monospace;
     font-size: 30px;
-
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
 }
 
-.p6{
-    font-family: monospace;
-    font-size: xx-large;
-    text-align: center;
-    padding: 10%;
-    margin: 10%;
-    color: yellow;
-    
+.intro{
+
+    font-family: Arial, sans-serif;
+    font-display: block;
+    font-size: 65px;
+    color: #000000;
 }
 
+.quote{
+    font-family: Arial, sans-serif;
+    font-display: block;
+    font-size: 50px;
+    color: #000000;
+}
 .quote::first-letter{
     initial-letter: 2;
     
 }
 
 .strobe {
-    display: flex;
+    display: grid;
     max-width: 50%;
     height: 60%;
     align-items: center;
@@ -31,9 +36,9 @@
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 10%;
-    padding: 2%;
-    object-fit: contain;
-    margin-Bottom: 30%;
+    margin-bottom: 5%;
+    padding: 5%;
+    object-fit: fill;
     backdrop-filter: blur(50px);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
@@ -44,13 +49,13 @@
     display: flex;
     align-self: center;   
     align-items: center;
-    object-fit: cover;
+    object-fit: fill;
     border-radius: 20px;
 }
 
 h7{
     font-family: Arial, sans-serif;
     font-display: block;
-    font-size: 50px;
+    font-size: 65px;
     color: #000000;
   }
