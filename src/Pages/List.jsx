@@ -3,13 +3,14 @@ import { Link } from 'react-router-dom';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
-import booksearch from '../assets/booksearchIcon.png'
-import carpalapp from '../assets/CarPalIcon.png'
-import gastroBook from '../assets/gastroIcon.png'
-import getitdone from '../assets/kanban.png'
-import notfadeaway from '../assets/notfadeIcon.png'
-import D20 from '../assets/D20Icon.png'
-import weatherapp from '../assets/weatherIcon.png'
+import booksearch from '../assets/projects/booksearchIcon.png'
+import carpalapp from '../assets/projects/CarPalIcon.png'
+import gastroBook from '../assets/projects/gastroIcon.png'
+import getitdone from '../assets/projects/kanban.png'
+import notfadeaway from '../assets/projects/notfadeIcon.png'
+import D20 from '../assets/projects/D20Icon.png'
+import weatherapp from '../assets/projects/weatherIcon.png'
+import penguinFlow from '../assets/projects/penguinFlow.png'
 import './List.css';
 
 
@@ -97,6 +98,12 @@ const itemData = [
         title: "5-day Weather Forecast Dashboard",
         description: "HTML, CSS, BootStrap, TypeScript, Wait-ON, Concurrently",
         link: "https://github.com/RStuckey1/weather",
+    },
+    {
+        img: penguinFlow,
+        title: "Penguin Instrument upgrade",
+        description: "Flow Meter Data sent to single display and data logged",
+        link: "/FlowMeters",
     },
 ];
 

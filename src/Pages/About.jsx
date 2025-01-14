@@ -1,6 +1,6 @@
-import RickBees from '../assets/RickBees.png'
-import Penguin from '../assets/penguin.png'
-import BW from '../assets/BW.png'
+import RickBees from '../assets/me/RickBees.png'
+import Penguin from '../assets/me/penguin.png'
+import BW from '../assets/me/BW.png'
 import './About.css'
 
 function About() {
@@ -25,11 +25,11 @@ function About() {
     <p>A quick pic with King Penguin "Buddy Love"</p>
     <p>On the way to my office (2019)</p>
   </div>
-  <div class="aboutPics">
-    <img class="pic" src={BW} alt="Black and White"></img>
-    <p>Boundary Waters, USA/Canada 2024</p>
-  </div>
+
+  <div className="aboutPics">
+    <img class="pic" src={BW} alt="Black and White"></img> 
   
+  </div>
 
 
 

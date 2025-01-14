@@ -1,0 +1,7 @@
+
+.codingSkills{  
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}

@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     font-family: monospace;
-    font-size: 30px;
+    font-size: 40px;
     justify-content: center;
     align-items: center;
     text-align: center;  
@@ -12,18 +12,23 @@
 
     font-family: Arial, sans-serif;
     font-display: block;
-    font-size: 65px;
+    font-size: 55px;
+    text-align: justify;
+    margin: 2%;
+    
     color: #000000;
 }
 
-.quote{
+p{
     font-family: Arial, sans-serif;
     font-display: block;
+    text-transform: capitalize;
     font-size: 50px;
     color: #000000;
 }
-.quote::first-letter{
+.p span::first-letter{
     initial-letter: 2;
+    font-size: 60px;
     
 }
 

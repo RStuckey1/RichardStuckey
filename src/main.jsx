@@ -10,6 +10,7 @@ import Resume from './Pages/Resume.jsx'
 import ErrorPage from './Pages/ErrorPage.jsx'
 import Home from './Pages/Home.jsx'
 import List from './Pages/List.jsx'
+import FlowMeters from './Pages/FlowMeters.jsx'
 import './index.css'
 
 
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
     {
       path: '/Resume',
       element: <Resume />,
+    },
+    {
+      path: '/FlowMeters',
+      element: <FlowMeters />,
     },
   ]
 }

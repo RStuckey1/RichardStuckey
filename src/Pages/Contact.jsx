@@ -5,6 +5,7 @@ import Paper from '@mui/material/Paper';
 import Stack from '@mui/material/Stack';
 import { styled } from '@mui/material/styles';
 import React, { useRef, useState } from 'react';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 import emailjs from '@emailjs/browser';
 import '../index.css';
 
@@ -19,6 +20,17 @@ const Item = styled(Paper)(({ theme }) => ({
     textAlign: 'center',
 }),
 );
+
+const theme = createTheme({
+    palette: {
+        primary: {
+            main: "#83cbc7"
+        },
+        secondary: {
+            main: "#FDFA36"
+        },
+    }
+});
 
 export const Contact = () => {
     const form = useRef();
@@ -54,22 +66,23 @@ export const Contact = () => {
                 alignItems="center"
                 noValidate
                 autocomplete="off"
-               
+
             >
-            
+
                 {/* <Box sx={{ width: 200 }}> */}
-                <Stack
-                    spacing={{ xs: 1, md: 2 }}
-                    directions="row"
-                    useFlexGap
-                    sx={{ flexwrap: 'wrap', width: '80%', justifyContent: 'center' }}
-                >
-                    <form ref={form} onSubmit={sendEmail}>
+                <ThemeProvider theme={theme}>
+                    <Stack
+                        spacing={{ xs: 1, md: 2 }}
+                        directions="row"
+                        useFlexGap
+                        sx={{ flexwrap: 'wrap', width: '80%', justifyContent: 'center' }}
+                    >
+                        <form ref={form} onSubmit={sendEmail}>
                             <Item>
                                 <TextField
                                     required
-                                    input type='text'
-                                    name='name'
+                                    input type='name'
+                                    name='from_name'
                                     label="name"
                                     margin="dense"
                                     sx={{ width: '100%', borderRadius: '20px' }}
@@ -80,7 +93,7 @@ export const Contact = () => {
                                 <TextField
                                     required
                                     input type='email'
-                                    name='email'
+                                    name='email_from'
                                     label="email"
                                     margin="dense"
                                     sx={{ width: '100%', borderRadius: '20px' }}
@@ -89,11 +102,11 @@ export const Contact = () => {
                             <Item>
                                 <TextField
                                     required
-                                    input type='submit'
+                                    input type='message'
                                     name='message'
                                     label="message"
                                     multiline
-                                    minRows={2}
+                                    minRows={8}
                                     margin="dense"
                                     sx={{ width: '100%', borderRadius: '20px' }}
                                 />
@@ -102,15 +115,16 @@ export const Contact = () => {
                                 <Button
                                     variant="contained"
                                     size="medium"
-                                    color="black"
+                                    color="secondary"
                                     type="submit"
                                 >Send Rick Your Message</Button>
                             </Item>
 
 
-                        
-                    </form>
-                </Stack>
+
+                        </form>
+                    </Stack>
+                </ThemeProvider>
             </Box>
             {/* </Box> */}
         </>
