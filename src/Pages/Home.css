@@ -13,6 +13,7 @@
     font-family: Arial, sans-serif;
     font-display: block;
     font-size: 55px;
+    letter-spacing: 1px;
     text-align: justify;
     margin: 2%;
     
@@ -26,11 +27,11 @@ p{
     font-size: 50px;
     color: #000000;
 }
-.p span::first-letter{
-    initial-letter: 2;
-    font-size: 60px;
-    
+
+span#Ex::first-letter {
+    font-size:1.5em;
 }
+
 
 .strobe {
     display: grid;
@@ -58,9 +59,3 @@ p{
     border-radius: 20px;
 }
 
-h7{
-    font-family: Arial, sans-serif;
-    font-display: block;
-    font-size: 65px;
-    color: #000000;
-  }

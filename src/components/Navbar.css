@@ -28,10 +28,12 @@ nav .title {
 
 nav ul {
     display: flex;
+    
 }
 
 nav ul li {
-    list-style: none;
+    list-style: inline;
+    list-style-type: none;
     margin: 1rem;
 }
 

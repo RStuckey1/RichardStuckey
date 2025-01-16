@@ -1,10 +1,14 @@
 * {
+  min-width: auto;
+  min-height:auto;
   box-sizing: border-box;
 
 }
 
 :root {
   background: url("./assets/background.png");
+  background-repeat: none;
+  background-size: cover;
   min-height: auto;
   min-width: auto;
   /* font-synthesis: none;
@@ -42,7 +46,6 @@
 li {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 50px;
-  display: inline;
   margin: 10px;
 }
 

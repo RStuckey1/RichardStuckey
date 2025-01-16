@@ -1,7 +1,55 @@
 
-.codingSkills{  
-    display: grid;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
+body{
+  display:block;
+  }
+
+
+.resumePage{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
 }
+
+
+.codingSkills{  
+    position: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    place-self: center;
+    justify-items: center;
+    max-width: fit-content;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10%;
+    padding: 5%;
+    object-fit: fill;
+    margin-Bottom: 30px;
+    backdrop-filter: blur(50px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  }
+
+.css {
+  position: relative;
+  display: inline-block;
+  }
+
+.csstext {
+  /* visibility: hidden; */
+  font-size: 200px;
+  width: 120px;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.css:hover .csstext {
+  visibility: visible;
+}
+
