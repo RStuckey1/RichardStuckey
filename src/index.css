@@ -21,6 +21,7 @@
 .content {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 60px;
+  color:#FCEFB4
 }
 
 .headerbox {
@@ -47,6 +48,7 @@ li {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 50px;
   margin: 10px;
+  color:#FCEFB4;
 }
 
 #contactInfo {
@@ -97,21 +99,21 @@ h2 {
   font-family: Arial, sans-serif;
   font-display: block;
   font-size: 65px;
-  color: #000000;
+  color:#FCEFB4;
 }
 
 h3 {
   font-family: Arial, sans-serif;
   font-display: block;
   font-size: 50px;
-  color: #000000;
+  color: #FCEFB4;
 }
 
 h4 {
   font-family: Arial, sans-serif;
   font-display: block;
   font-size: 40px;
-  color: #000000;
+  color: #FCEFB4;
 }
 
 h1.resume {

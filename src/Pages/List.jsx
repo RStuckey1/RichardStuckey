@@ -11,7 +11,6 @@ import notfadeaway from '../assets/projects/notfadeIcon.png'
 import D20 from '../assets/projects/D20Icon.png'
 import weatherapp from '../assets/projects/weatherIcon.png'
 import penguinFlow from '../assets/projects/penguinFlow.png'
-import Flowmeters from '/FlowMeters'
 import './List.css';
 
 
@@ -104,7 +103,7 @@ const itemData = [
         img: penguinFlow,
         title: "Penguin Instrument upgrade",
         description: "Flow Meter Data sent to single display and data logged",
-        link: Flowmeters,
+        link: "/FlowMeters",
     },
 ];
 

@@ -17,7 +17,7 @@
     text-align: justify;
     margin: 2%;
     
-    color: #000000;
+    color: #FCEFB4;
 }
 
 p{
@@ -25,7 +25,7 @@ p{
     font-display: block;
     text-transform: capitalize;
     font-size: 50px;
-    color: #000000;
+    color: #FCEFB4;
 }
 
 span#Ex::first-letter {
@@ -62,7 +62,7 @@ p.strobe {
     font-family: sans-serif;
     font-display: block;
     font-size: 30px;
-    color: #000000;
+    color: #FCEFB4;
     text-align: center;
     margin-top: 5%;
 }

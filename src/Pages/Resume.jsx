@@ -39,7 +39,7 @@ const Item = styled(Box)(({ theme }) => ({
 
 function Resume() {
     return (
-        <body>
+       <div>
             <h1 className="resume">coding skills</h1>
 
             <div className="codingSkills" id="codebox" >
@@ -47,7 +47,8 @@ function Resume() {
                 <Stack direction="row" spacing={6}
                     sx={{
                         width: '100%',
-                        height: '100%'
+                        height: '100%',
+                        alignItems: 'center',
                     }}>
 
                     <Item><img className="res" src={css} alt="css" />
@@ -194,7 +195,7 @@ function Resume() {
 
             </div>
 
-        </body>
+        </div>
     );
 }
 
