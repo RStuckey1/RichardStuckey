@@ -22,19 +22,19 @@ export function FlowMeters() {
                     the system.
                 </p>
                 <div className="flowPicBox">
-                <img class="flowPics" src={flow1} alt="Flowmeter display"></img>
-                <img class="flowPics" src={flow2} alt="Flowmeter display"></img>
+                    <img className="flowPics" src={flow1} alt="Flowmeter display"></img>
+                    <img className="flowPics" src={flow2} alt="Flowmeter display"></img>
                 </div>
 
                 <p>
                     For both the safety of the operator and system, I built a remote display box.
-                    The flow for all six filters could be viewed/recorded simultaneously. The flowmeters sent signal to transmitters which did two 
-                    things. First, the transmitter showed the flows of all six filters and was mounted next to the backwash throttle valve. 
-                    Second, the transmitter box has the ability to send the data to the SCADA system, which could be viewed anywhere on zoo grounds 
+                    The flow for all six filters could be viewed/recorded simultaneously. The flowmeters sent signal to transmitters which did two
+                    things. First, the transmitter showed the flows of all six filters and was mounted next to the backwash throttle valve.
+                    Second, the transmitter box has the ability to send the data to the SCADA system, which could be viewed anywhere on zoo grounds
                     Here is a picture of the remote display box.
                 </p>
-            <div className="flowPicBox">
-                <img class="flowPics" src={flowBox} alt="Box holding remote displays of flowmeters"></img>
+                <div className="flowPicBox">
+                    <img className="flowPics" src={flowBox} alt="Box holding remote displays of flowmeters"></img>
                 </div>
                 <p>This display box was built with a very low budget(one of the common obstacles for a non-profit organization)
                     However, I was able to build this box with enough money to also build a second box for the warm penguin exhibit that

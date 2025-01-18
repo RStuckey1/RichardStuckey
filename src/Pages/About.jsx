@@ -13,7 +13,7 @@ function About() {
         <h2 class="about">Being tenacious and curious has been the driving force in my life, with many unique chapters. I have learned to solve unique problems with a multidisciplinary approach
           using technology, sustaionability, creativity, and teamwork. In every chapter, the people I have met have been the greatest resource because every person you meet knows something you don't.
         </h2>
-        <p>I have always been facinated with the relationship between technology and nature.</p>
+        <p>I have always been facinated by the relationship between technology and nature.</p>
       </div>
       <div className="aboutPics">
         <img class="pic" src={RickBees} alt="Rick Bees" ></img>
