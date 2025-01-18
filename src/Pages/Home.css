@@ -33,10 +33,10 @@ span#Ex::first-letter {
 }
 
 
-.strobe {
-    display: grid;
-    max-width: 50%;
-    height: 60%;
+div.strobe {
+    display: inline-block;
+    max-width: 80%;
+    max-height: 80%;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -50,12 +50,20 @@ span#Ex::first-letter {
 }
 
 .strobePic {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
-    display: flex;
     align-self: center;   
     align-items: center;
     object-fit: fill;
     border-radius: 20px;
+}
+
+p.strobe {
+    font-family: sans-serif;
+    font-display: block;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    margin-top: 5%;
 }
 

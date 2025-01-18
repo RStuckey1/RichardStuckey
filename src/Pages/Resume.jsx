@@ -40,65 +40,126 @@ const Item = styled(Box)(({ theme }) => ({
 function Resume() {
     return (
         <body>
-        <h1>coding skills</h1>
-     
+            <h1 className="resume">coding skills</h1>
+
             <div className="codingSkills" id="codebox" >
-                
+
                 <Stack direction="row" spacing={6}
                     sx={{
                         width: '100%',
                         height: '100%'
                     }}>
-                    
-                    <Item><img src={css} alt="css" /></Item>
-                    <Item><img src={html} alt="html" /></Item>
-                    <Item><img src={js} alt="js" /></Item>
-                    <Item><img src={ts} alt="ts" /></Item>
+
+                    <Item><img className="res" src={css} alt="css" />
+                        <div className="overlay">
+                            <div className="text">CSS</div>
+                        </div>
+                    </Item>
+                    <Item><img className="res" src={html} alt="html" />
+                        <div className="overlay">
+                            <div className="text">HTML</div>
+                        </div></Item>
+                    <Item><img className="res" src={js} alt="javascript" />
+                        <div className="overlay">
+                            <div className="text">JavaScript</div>
+                        </div></Item>
+                    <Item><img className="res" src={ts} alt="typescript" />
+                        <div className="overlay">
+                            <div className="text">TypeScript</div>
+                        </div></Item>
                 </Stack>
                 <Stack direction="row" spacing={6}
                     sx={{
                         width: '100%',
                         height: '100%'
                     }}>
-                    <Item><img src={github} alt="github" /></Item>
-                    <Item><img src={reactpic} alt="reactpic" /></Item>
-                    <Item><img src={node} alt="node" /></Item>
-                    <Item><img src={mongo} alt="mongo" /></Item>
+                    <Item><img className="res" src={github} alt="github" />
+                        <div className="overlay">
+                            <div className="text">GitHub</div>
+                        </div></Item>
+                    <Item><img className="res" src={reactpic} alt="react"/>
+                        <div className="overlay">
+                            <div className="text">React</div>
+                        </div></Item>
+                    <Item><img className="res" src={node} alt="JSnode" />
+                        <div className="overlay">
+                            <div className="text">Node</div>
+                        </div></Item>
+                    <Item><img className="res" src={mongo} alt="mongoDB" />
+                        <div className="overlay">
+                            <div className="text">MongoDB</div>
+                        </div></Item>
                 </Stack>
                 <Stack direction="row" spacing={6}
                     sx={{
                         width: '100%',
                         height: '100%'
                     }}>
-                    <Item><img src={sql} alt="sql" /></Item>
-                    <Item><img src={python} alt="python" /></Item>
-                    <Item><img src={git} alt="git" /></Item>
-                    <Item><img src={arduino} alt="arduino" /></Item>
+                    <Item><img className="res" src={sql} alt="SQL" />
+                        <div className="overlay">
+                            <div className="text">SQL</div>
+                        </div></Item>
+                    <Item><img className="res" src={python} alt="python" />
+                        <div className="overlay">
+                            <div className="text">Python</div>
+                        </div></Item>
+                    <Item><img className="res" src={git} alt="gitBash" />
+                        <div className="overlay">
+                            <div className="text">Git</div>
+                        </div></Item>
+                    <Item><img className="res" src={arduino} alt="arduino" />
+                        <div className="overlay">
+                            <div className="text">Arduino</div>
+                        </div></Item>
                 </Stack>
                 <Stack direction={"row"} spacing={6}
                     sx={{
                         width: '100%',
                         height: '100%'
                     }}>
-                    <Item><img src={graphql} alt="graphql" /></Item>
-                    <Item><img src={jsonwebtoken} alt="jsonwebtoken" /></Item>
-                    <Item><img src={excel} alt="excel" /></Item>
-                    <Item><img src={word} alt="word" /></Item>
+                    <Item><img className="res" src={graphql} alt="graphql" />
+                        <div className="overlay">
+                            <div className="text">Graphql</div>
+                        </div></Item>
+                    <Item><img className="res" src={jsonwebtoken} alt="jsonwebtoken" />
+                        <div className="overlay">
+                            <div className="text">JsonWebToken</div>
+                        </div></Item>
+                    <Item><img className="res" src={excel} alt="microsoft excel" />
+                        <div className="overlay">
+                            <div className="text">Excel</div>
+                        </div></Item>
+                    <Item><img className="res" src={word} alt="microsoft word" />
+                        <div className="overlay">
+                            <div className="text">Word</div>
+                        </div></Item>
                 </Stack>
                 <Stack direction={"row"} spacing={6}
                     sx={{
                         width: '100%',
                         height: '100%'
                     }}>
-                    <Item><img src={npm} alt="npm" /></Item>
-                    <Item><img src={postgresql} alt="postgresql" /></Item>
-                    <Item><img src={raspberrypi} alt="raspberrypi" /></Item>
-                    <Item><img src={materialui} alt="materialui" /></Item>
+                    <Item><img className="res" src={npm} alt="npm" />
+                        <div className="overlay">
+                            <div className="text">NPM</div>
+                        </div></Item>
+                    <Item><img className="res" src={postgresql} alt="postgresql" />
+                        <div className="overlay">
+                            <div className="text">Postgresql</div>
+                        </div></Item>
+                    <Item><img className="res" src={raspberrypi} alt="RaspberryPi" />
+                        <div className="overlay">
+                            <div className="text">Raspberry pi</div>
+                        </div></Item>
+                    <Item><img className="res" src={materialui} alt="Materialui" />
+                        <div className="overlay">
+                            <div className="text">Materialui</div>
+                        </div></Item>
                 </Stack>
             </div>
             <div className="resume">
                 <h1 className="resume">Resume</h1>
-                <h2>Coding Knowledge</h2>
+                
 
                 <h2>Experience Highlights</h2>
                 <h3>Kansas City Zoo & Aquarium (Life Support Systems Manager)</h3>
@@ -132,8 +193,8 @@ function Resume() {
 
 
             </div>
-   
-    </body>
+
+        </body>
     );
 }
 

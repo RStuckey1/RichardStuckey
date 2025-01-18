@@ -1,5 +1,8 @@
 #root > div.portfolio-app > div:nth-child(1) > div > ul{
     object-fit: contain;
+    object-position: center;
+    place-self: center;
+
     
 }
 
@@ -7,6 +10,8 @@
     display: flex;
     object-fit: contain;
     Object-position: center;
+    place-self: center;
+    
 
 
 
