@@ -28,7 +28,7 @@ export function List() {
                 </ImageListItem>
                 {itemData.map((item) => (
                     <ImageListItem key={item.img}>
-                        <Link to={item.link} target="_blank">
+                        <Link to={item.link} target="_self">
                         <img
                             srcSet={`${item.img}?w=400&fit=crop&auto=format&dpr=2 2x`}
                             src={`${item.img}?w=400&fit=crop&auto=format`}
@@ -103,7 +103,7 @@ const itemData = [
         img: penguinFlow,
         title: "Penguin Instrument upgrade",
         description: "Flow Meter Data sent to single display and data logged",
-        link: '/FlowMeters',
+        link: '../FlowMeters',
     },
 ];
 

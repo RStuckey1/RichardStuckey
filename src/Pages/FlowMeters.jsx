@@ -4,7 +4,7 @@ import flowBox from '../assets/flow/flowBox.png'
 import './FlowMeter.css'
 
 
-export function FlowMeters() {
+function FlowMeters() {
     return (
         <>
             <div className="flowMeters">
