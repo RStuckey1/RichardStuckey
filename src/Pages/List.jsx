@@ -11,6 +11,7 @@ import notfadeaway from '../assets/projects/notfadeIcon.png'
 import D20 from '../assets/projects/D20Icon.png'
 import weatherapp from '../assets/projects/weatherIcon.png'
 import penguinFlow from '../assets/projects/penguinFlow.png'
+import sealions from '../assets/projects/Sealions.png'
 import './List.css';
 
 
@@ -104,6 +105,12 @@ const itemData = [
         title: "Penguin Instrument upgrade",
         description: "Flow Meter Data sent to single display and data logged",
         link: '../FlowMeters',
+    },
+    {
+        img: sealions,
+        title: "Sea Lion Holding System",
+        description: "pump/filtration/automated chemical system",
+        link: '../SeaLion',
     },
 ];
 
