@@ -68,3 +68,76 @@ body{
   padding: 5px ;
   border-radius: 20px;
 }
+
+#EH {
+  color: #FCEFB4;
+  text-align: center;
+}
+
+#EH1 {
+  color: #FCEFB4;
+  text-align: center;
+  font-size: 7em;
+}
+
+#EH2 {
+  color:#FCEFB4;
+  text-align: center;
+  font-size: 5em;
+}
+
+#EH3 {
+  color:#FCEFB4;
+  text-align: center;
+  font-size: 3em
+}
+
+#EH4 {
+  color: #FCEFB4;
+  text-align: center;
+}
+
+div.objective > p {
+  color: #FCEFB4;
+  font-size: 35px;
+  margin:1%;
+  padding:1%;
+  line-height: 1.5;
+}
+
+div.WorkHighlights > p {
+  color: #FCEFB4;
+  font-size: 35px;
+  margin:1%;
+  padding:1%;
+  line-height: 1.5;
+}
+
+div.WorkHighlights > li {
+  color:#FCEFB4;
+  font-size: 35px;
+  font-family: sans-serif;
+  margin-left: 5%;
+}
+
+div.education > p {
+  color: #FCEFB4;
+  font-size: 35px;
+}
+
+div.workHistory > p {
+  color: #FCEFB4;
+  font-size: 35px;
+}
+
+div.education > p {
+  color: #FCEFB4;
+  font-size: 45px;
+  text-align: center;
+}
+
+div.workHistory > p {
+  color: #FCEFB4;
+  font-size: 35px;
+  text-align: center;
+}

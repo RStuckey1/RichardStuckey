@@ -58,6 +58,9 @@ export const Contact = () => {
         <>
             <h1>To get in touch, send me a message...</h1>
             <h2>...or find me on LinkedIn or GitHub(click the icons below)</h2>
+           
+
+
             <Box
                 component="contactForm"
                 sx={{ '& .MultiTextField-root': { m: 2, width: '50ch' } }}
@@ -126,7 +129,7 @@ export const Contact = () => {
                     </Stack>
                 </ThemeProvider>
             </Box>
-            {/* </Box> */}
+           
         </>
     );
 };

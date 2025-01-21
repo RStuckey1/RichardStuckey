@@ -12,6 +12,7 @@ import D20 from '../assets/projects/D20Icon.png'
 import weatherapp from '../assets/projects/weatherIcon.png'
 import penguinFlow from '../assets/projects/penguinFlow.png'
 import sealions from '../assets/projects/Sealions.png'
+import sharktank from '../assets/projects/sharktank.png'
 import './List.css';
 
 
@@ -31,10 +32,11 @@ export function List() {
                     <ImageListItem key={item.img}>
                         <Link to={item.link} target="_self">
                         <img
-                            srcSet={`${item.img}?w=400&fit=crop&auto=format&dpr=2 2x`}
-                            src={`${item.img}?w=400&fit=crop&auto=format`}
+                            srcSet={`${item.img}?w=400&h=250&fit=crop&auto=format&dpr=2 2x`}
+                            src={`${item.img}?w=400&h=250&fit=crop&auto=format&dpr=2 2x`}
                             alt={item.title}
                             loading="lazy"
+                            
                         />
                         <ImageListItemBar
                             title={item.title}
@@ -76,23 +78,20 @@ const itemData = [
         title: "Food Recipe Social Platform",
         description: "GraphQL, React, Node, Express, TypeScript",
         link: "https://github.com/RStuckey1/Gastro-Book",
-        cols: 2,
+       
     },
     {
         img: notfadeaway,
         title: "Musical Equipment Business Website",
         description: "React, JavaScript, MUI",
         link: "https://github.com/RStuckey1/NotFadeAway",
-        cols: 2,
+     
     },
     {
         img: booksearch,
         title: "Book Search App",
         description: "MongoDB, Express, React, Node",
         link: "https://github.com/RStuckey1/BookSearchMERN",
-        rows: 2,
-        cols: 2,
-        featured: true,
     },
     {
         img: weatherapp,
@@ -111,6 +110,12 @@ const itemData = [
         title: "Sea Lion Holding System",
         description: "pump/filtration/automated chemical system",
         link: '../SeaLion',
+    },
+    {
+        img: sharktank,
+        title: "Solving a Fluke Problem",
+        description: "Flukes in a Shark Tank",
+        link: '../QT',
     },
 ];
 
