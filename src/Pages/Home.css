@@ -1,39 +1,39 @@
-.home{
+.home {
     width: 100%;
     height: auto;
     font-family: monospace;
-    font-size: 40px;
+    font-size: 35px;
     justify-content: center;
     align-items: center;
-    text-align: center;  
+    text-align: center;
 }
 
-.intro{
+.intro {
 
     font-family: Arial, sans-serif;
     font-display: block;
-    font-size: 55px;
+    font-size: 35px;
     letter-spacing: 1px;
     text-align: justify;
     margin: 2%;
-    
+
     color: #FCEFB4;
 }
 
-p{
+p {
     font-family: Arial, sans-serif;
     font-display: block;
     text-transform: capitalize;
-    font-size: 50px;
+    font-size: 35px;
     color: #FCEFB4;
 }
 
 span#Ex::first-letter {
-    font-size:1.5em;
+    font-size: 1.5em;
 }
 
 
-div.strobe { 
+div.strobe {
     display: table;
     min-width: 70%;
     max-height: 100%;
@@ -41,22 +41,22 @@ div.strobe {
     text-align: center;
     align-self: center;
     align-items: center;
+    object-fit: contain;
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 10%;
     margin-bottom: 5%;
-    padding: 2%;
-    object-fit: fill;
     backdrop-filter: blur(50px);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
-.strobePic {
-    min-width: 80%;
-    height: auto;
-  
+img.strobePic {
+    border-radius: 50px;
+    object-fit: contain;
+    max-width: 90%;
+    min-width: 70%;
+    max-height: 70%;
     align-items: center;
-    object-fit: fill;
-    border-radius: 20px;
+    padding: 2%;
 }
 
 p.strobecontent {
@@ -70,17 +70,17 @@ p.strobe {
     font-size: 30px;
     color: #FCEFB4;
     text-align: center;
-    
+
     margin-top: 5%;
 }
 
-div.quote > p {
-    font-size: 1.5em;
+div.quote>p {
+    font-size: 1em;
     color: #FCEFB4;
 }
 
-div.quote > p > span {
-    font-size: 1.5em;
+div.quote>p>span {
+    font-size: 1em;
     font-style: italic;
     color: #FCEFB4;
 }

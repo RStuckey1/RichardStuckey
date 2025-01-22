@@ -22,6 +22,10 @@ import npm from '../assets/icons/npm.png';
 import postgresql from '../assets/icons/postgresql.png';
 import raspberrypi from '../assets/icons/raspberrypi.png';
 import materialui from '../assets/icons/materialui.png';
+import vscode from '../assets/icons/vscode.png';
+import MD from '../assets/icons/markdown.png';
+import cypress from '../assets/icons/cypress.png';
+import boot from '../assets/icons/bootstrap.png';
 import './Resume.css';
 
 
@@ -106,7 +110,7 @@ function Resume() {
                         </div></Item>
                     <Item><img className="res" src={git} alt="gitBash" />
                         <div className="overlay">
-                            <div className="text">Git</div>
+                            <div className="text">GitBash</div>
                         </div></Item>
                     <Item><img className="res" src={arduino} alt="arduino" />
                         <div className="overlay">
@@ -155,6 +159,28 @@ function Resume() {
                     <Item><img className="res" src={materialui} alt="Materialui" />
                         <div className="overlay">
                             <div className="text">Materialui</div>
+                        </div></Item>
+                </Stack>
+                <Stack direction={"row"} spacing={6}
+                    sx={{
+                        width: '100%',
+                        height: '100%'
+                    }}>
+                    <Item><img className="res" src={vscode} alt="vscode" />
+                        <div className="overlay">
+                            <div className="text">VSCode</div>
+                        </div></Item>
+                    <Item><img className="res" src={MD} alt="MarkDown" />
+                        <div className="overlay">
+                            <div className="text">MarkDown</div>
+                        </div></Item>
+                    <Item><img className="res" src={cypress} alt="cypress" />
+                        <div className="overlay">
+                            <div className="text">Cypress</div>
+                        </div></Item>
+                    <Item><img className="res" src={boot} alt="Bootstrap" />
+                        <div className="overlay">
+                            <div className="text">Bootstrap</div>
                         </div></Item>
                 </Stack>
             </div>

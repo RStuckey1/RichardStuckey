@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import strobe from '../assets/me/strobulation.gif'
 import BW from '../assets/me/BW.png'
 import MGA from '../assets/me/MGA.png'
+import jelly from '../assets/me/jelly.gif'
 
 
 import './Home.css';
@@ -45,6 +46,11 @@ function Home() {
         <div className="strobe">
           <img className="strobePic" src={strobe} alt="Jellyfish Strobulation in Captivity"></img>
           <p className="strobe">Jellyfish during strobulation</p>
+          <p className="strobecontent">-pictures taken by Rick Stuckey</p>
+        </div>
+        <div className="strobe">
+          <img className="strobePic" src={jelly} alt="Jellyfish Strobulation in Captivity"></img>
+          <p className="strobe">more strobulation</p>
           <p className="strobecontent">-pictures taken by Rick Stuckey</p>
         </div>
         <div className="strobe">
