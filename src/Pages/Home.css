@@ -1,21 +1,24 @@
 .home {
-    width: 100%;
+    display:block;
+    width: 100;
     height: auto;
     font-family: monospace;
     font-size: 35px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 5%
 }
 
 .intro {
 
     font-family: Arial, sans-serif;
     font-display: block;
-    font-size: 35px;
+    font-size: 25px;
     letter-spacing: 1px;
     text-align: justify;
-    margin: 2%;
+    margin: 4%;
+    padding:3%;
 
     color: #FCEFB4;
 }
@@ -23,13 +26,9 @@
 p {
     font-family: Arial, sans-serif;
     font-display: block;
-    text-transform: capitalize;
-    font-size: 35px;
+    text-transform:none;
+    font-size: 25px;
     color: #FCEFB4;
-}
-
-span#Ex::first-letter {
-    font-size: 1.5em;
 }
 
 
@@ -37,7 +36,7 @@ div.strobe {
     display: table;
     min-width: 70%;
     max-height: 100%;
-    margin-left: 10%;
+    margin:auto;
     text-align: center;
     align-self: center;
     align-items: center;
@@ -50,13 +49,13 @@ div.strobe {
 }
 
 img.strobePic {
-    border-radius: 50px;
     object-fit: contain;
     max-width: 90%;
     min-width: 70%;
     max-height: 70%;
     align-items: center;
-    padding: 2%;
+    border-radius: 10%;
+    margin: 5%;
 }
 
 p.strobecontent {
@@ -67,7 +66,7 @@ p.strobecontent {
 p.strobe {
     font-family: sans-serif;
     font-display: block;
-    font-size: 30px;
+    font-size: 20px;
     color: #FCEFB4;
     text-align: center;
 
@@ -77,6 +76,8 @@ p.strobe {
 div.quote>p {
     font-size: 1em;
     color: #FCEFB4;
+    padding:2%;
+    margin:2%;
 }
 
 div.quote>p>span {
@@ -91,4 +92,5 @@ div.backtotop {
     align-items: center;
     font-size: 4em;
     margin-top: 5%;
+    padding:2%;
 }
