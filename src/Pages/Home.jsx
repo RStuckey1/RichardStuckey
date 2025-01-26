@@ -6,8 +6,6 @@ import MGA from '../assets/me/MGA.png'
 import jelly from '../assets/me/jelly.gif'
 
 
-import './Home.css';
-
 
 
 function Home() {

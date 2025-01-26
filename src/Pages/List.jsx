@@ -24,6 +24,7 @@ import './List.css';
 export function List() {
     return (
         <div>
+            <h2>Below is a compailation of different projects from my life. Click on any of the items below to see more...</h2>
             <ImageList sx={{ width: 900, height: 950 }}>
                 <ImageListItem key="Subheader" cols={2}>
 

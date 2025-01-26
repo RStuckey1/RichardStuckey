@@ -69,41 +69,6 @@ body{
   border-radius: 20px;
 }
 
-#EH {
-  color: #FCEFB4;
-  text-align: center;
-}
-
-#EH1 {
-  color: #FCEFB4;
-  text-align: center;
-  font-size: 5em;
-  margin-left:2%;
-  margin-right: 2%;
-  padding: 2%;
-}
-
-#EH2 {
-  color:#FCEFB4;
-  text-align: center;
-  font-size: 4em;
-  margin:10%;
-}
-
-#EH3 {
-  color:#FCEFB4;
-  text-align: center;
-  font-size: 3em;
-  margin:10%;
-}
-
-#EH4 {
-  color: #FCEFB4;
-  text-align: center;
-  font-size:2em;
-  margin:10%;
-}
-
 div.objective > p {
   color: #FCEFB4;
   font-size: 25px;
