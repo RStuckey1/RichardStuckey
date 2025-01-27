@@ -69,60 +69,19 @@ body{
   border-radius: 20px;
 }
 
-#EH {
-  color: #FCEFB4;
-  text-align: center;
-}
-
-#EH1 {
-  color: #FCEFB4;
-  text-align: center;
-  font-size: 5em;
-  margin-left:2%;
-  margin-right: 2%;
-  padding: 2%;
-}
-
-#EH2 {
-  color:#FCEFB4;
-  text-align: center;
-  font-size: 4em;
-  margin:10%;
-}
-
-#EH3 {
-  color:#FCEFB4;
-  text-align: center;
-  font-size: 3em;
-  margin:10%;
-}
-
-#EH4 {
-  color: #FCEFB4;
-  text-align: center;
-  font-size:2em;
-  margin:10%;
-}
-
 div.objective > p {
-  color: #FCEFB4;
-  font-size: 25px;
   margin:10%;
   padding:1%;
   line-height: 1.5;
 }
 
 div.WorkHighlights > p {
-  color: #FCEFB4;
-  font-size: 25px;
   margin:10%;
   padding:1%;
   line-height: 1.5;
 }
 
 div.WorkHighlights > li {
-  color:#FCEFB4;
-  font-size: 25px;
   font-family: sans-serif;
   margin-left: 20%;
   margin-right: 10%;
@@ -130,30 +89,22 @@ div.WorkHighlights > li {
 }
 
 div.education > p {
-  color: #FCEFB4;
-  font-size: 25px;
   margin-left:10%;
   margin-right:10%;
 }
 
 div.workHistory > p {
-  color: #FCEFB4;
-  font-size: 25px;
   margin-left:10%;
   margin-right:10%;
 }
 
 div.education > p {
-  color: #FCEFB4;
-  font-size: 25px;
   text-align: center;
   margin-left:10%;
   margin-right:10%;
 }
 
 div.workHistory > p {
-  color: #FCEFB4;
-  font-size: 25px;
   text-align: center;
   margin-right:10%;
   margin-left:10%;

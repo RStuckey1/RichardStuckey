@@ -1,7 +1,5 @@
 :root {
-  background: url("./assets/background.png");
-  background-repeat: none;
-  background-size: cover;
+  background-color: black;
   min-height: auto;
   min-width: auto;
   /* font-synthesis: none;
@@ -13,7 +11,6 @@
 
 .content {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 60px;
   color: #FCEFB4
 }
 
@@ -24,7 +21,7 @@
   box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.1);
   flex-grow: 1;
   min-width: 100%;
-  border: 15px solid black;
+  border: 15px solid white;
   padding: 2%
 }
 
@@ -40,7 +37,6 @@
 li {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 35px;
-  margin: 10px;
   color: #FCEFB4;
 }
 
@@ -51,13 +47,13 @@ li {
 }
 
 a:link {
-  color: #080808;
+  color: white;
   text-decoration: none;
 }
 
 
 a:visited {
-  color: #070606;
+  color: white;
 }
 
 a:hover {
@@ -70,42 +66,27 @@ a:active {
 
 p {
   font-family: Helvetica, sans-serif;
-  font-display: block;
   font-size: 25px;
-  padding:1%;
   color: #fffdf7;
 }
 
 h1 {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
   letter-spacing: 0.4px;
   word-spacing: -0.6px;
   color: #FCEFB4;
-  font-weight: 700;
-  text-decoration: none;
-  font-style: normal;
-  font-variant: small-caps;
-  text-transform: capitalize;
+ 
 }
 
 h2 {
   font-family: Arial, sans-serif;
-  font-display: block;
-  font-size: 4rem;
+  font-size: 3rem;
   color: #FCEFB4;
 }
 
 h3 {
   font-family: Arial, sans-serif;
-  font-display: block;
-  font-size: 3rem;
-  color: #FCEFB4;
-}
-
-h4 {
-  font-family: Arial, sans-serif;
-  font-display: block;
   font-size: 2rem;
   color: #FCEFB4;
 }

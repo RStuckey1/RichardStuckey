@@ -12,23 +12,11 @@
 
 .intro {
 
-    font-family: Arial, sans-serif;
     font-display: block;
-    font-size: 25px;
     letter-spacing: 1px;
     text-align: justify;
     margin: 4%;
     padding:3%;
-
-    color: #FCEFB4;
-}
-
-p {
-    font-family: Arial, sans-serif;
-    font-display: block;
-    text-transform:none;
-    font-size: 25px;
-    color: #FCEFB4;
 }
 
 
@@ -58,32 +46,15 @@ img.strobePic {
     margin: 5%;
 }
 
-p.strobecontent {
-    font-size: 0.5em;
-    color: black;
-}
-
 p.strobe {
-    font-family: sans-serif;
     font-display: block;
-    font-size: 20px;
-    color: #FCEFB4;
     text-align: center;
 
     margin-top: 5%;
 }
 
-div.quote>p {
-    font-size: 1em;
-    color: #FCEFB4;
-    padding:2%;
-    margin:2%;
-}
-
 div.quote>p>span {
-    font-size: 1em;
     font-style: italic;
-    color: #FCEFB4;
 }
 
 div.backtotop {
