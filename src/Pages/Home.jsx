@@ -1,23 +1,32 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import strobe from '../assets/me/strobulation.gif'
 import BW from '../assets/me/BW.png'
 import MGA from '../assets/me/MGA.png'
 import jelly from '../assets/me/jelly.gif'
-
-
+import strobulation from '../assets/me/strobulation.gif'
+import { Carousel } from '../components/Carousel';
 import './Home.css';
 
 
-
-function Home() {
+const Home = () => {
+  const itemData = [
+      {
+          img: jelly,
+          alt: "Jellyfish Strobulation",
+          page: "1"
+      },
+      {
+          img: strobulation,
+          alt: "Jellyfish Strobulation",
+          page: "2"
+      },
+  ];
 
   return (
     <>
       <div className="home">
         <h1>Welcome!</h1>
-        <p className="intro">I am glad you found your way here to my Website. Please explore and learn about who I am, where I
-          have been, and where I want to go. To navigate your way around, click any of the following words at the top:</p>
+        <p className="intro">I am glad you found your way here to my Website. Please explore and learn about who I am, where I have been, and where I want to go. To navigate your way around, click any of the following words at the top:</p>
 
         <ul>
           <li><Link to="/About">About - Get to know Rick Stuckey</Link></li>
@@ -44,16 +53,14 @@ function Home() {
         <br></br>
 
         <div className="strobe">
-          <img className="strobePic" src={strobe} alt="Jellyfish Strobulation in Captivity"></img>
-          <p className="strobe">Jellyfish during strobulation</p>
-          <p className="strobecontent">-pictures taken by Rick Stuckey</p>
+          <Carousel itemData={itemData} />
         </div>
-        <div className="strobe">
+        <div className="strobe1">
           <img className="strobePic" src={jelly} alt="Jellyfish Strobulation in Captivity"></img>
           <p className="strobe">more strobulation</p>
           <p className="strobecontent">-pictures taken by Rick Stuckey</p>
         </div>
-        <div className="strobe">
+        <div className="strobe2">
           <img className="strobePic" src={BW} alt="Black and White"></img>
           <p className="strobe">Boundary Waters, USA/Canada 2024</p>
         </div>

@@ -8,11 +8,10 @@ function About() {
     <>
       <div className="about">
         <h1>About Richard Stuckey</h1>
-        <h2 class="about"></h2>
-        <h2 class="about">My life, so far, is an amazing story. If it were a book, readers would be on the edge of their seat, unable to put it down.</h2>
-        <h2 class="about">Being tenacious and curious has been the driving force in my life, with many unique chapters. I have learned to solve unique problems with a multidisciplinary approach
+        <p>My life, so far, is an amazing story. If it were a book, readers would be on the edge of their seat, unable to put it down.</p>
+        <p>Being tenacious and curious has been the driving force in my life, with many unique chapters. I have learned to solve unique problems with a multidisciplinary approach
           using technology, sustaionability, creativity, and teamwork. In every chapter, the people I have met have been the greatest resource because every person you meet knows something you don't.
-        </h2>
+        </p>
         <p>I have always been facinated by the relationship between technology and nature.</p>
       </div>
       <div className="aboutPics">
