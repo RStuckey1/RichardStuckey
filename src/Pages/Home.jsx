@@ -5,6 +5,7 @@ import MGA from '../assets/me/MGA.png'
 import jelly from '../assets/me/jelly.gif'
 import strobulation from '../assets/me/strobulation.gif'
 import { Carousel } from '../components/Carousel';
+import { Carousel2 } from '../components/Carousel2';
 import './Home.css';
 
 
@@ -56,9 +57,7 @@ const Home = () => {
           <Carousel itemData={itemData} />
         </div>
         <div className="strobe1">
-          <img className="strobePic" src={jelly} alt="Jellyfish Strobulation in Captivity"></img>
-          <p className="strobe">more strobulation</p>
-          <p className="strobecontent">-pictures taken by Rick Stuckey</p>
+         <Carousel2 itemData={itemData} />
         </div>
         <div className="strobe2">
           <img className="strobePic" src={BW} alt="Black and White"></img>

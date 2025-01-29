@@ -33,17 +33,17 @@
 }   
 
 .arrow-left {
-    left: 1rem;
+    align-self: center;
+    left: 2;
 }
-
 .arrow-right {
-    right: 1rem;
+    align-self: center;
+    right: 2;
 }
 
 .indicators {
     display: flex;
-    position: absolute;
-    bottom: 1rem;
+    align-self: center;
 }
 
 .indicator {
@@ -58,4 +58,8 @@
     cursor: pointer;
 }
 
+#root > div.portfolio-app > div:nth-child(1) > div > div:nth-child(12) > div > span {
+    
+    justify-content: center;
+}
 

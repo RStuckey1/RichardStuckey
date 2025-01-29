@@ -36,6 +36,8 @@ div.strobe {
     background-color: rgb(72, 13, 105);
     animation-name: changing;
     animation-duration: 3s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
     border-radius: 20%;
     margin-bottom: 5%;
@@ -54,6 +56,8 @@ div.strobe1 {
     animation-name: changing;
     animation-duration: 3s;
     animation-delay: 1s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
     border-radius: 20%;
     margin-bottom: 5%;
@@ -72,6 +76,8 @@ div.strobe2 {
     animation-name: changing;
     animation-duration: 3s;
     animation-delay: 2s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
     border-radius: 20%;
     margin-bottom: 5%;
@@ -112,19 +118,6 @@ div.strobe2 {
     100% {
         background-color: #464573;
     }
-}
-
-
-
-
-img.strobePic {
-    object-fit: contain;
-    max-width: 90%;
-    min-width: 80%;
-    max-height: 70%;
-    align-items: center;
-    border-radius: 20%;
-    margin: 5%;
 }
 
 p.strobe {
