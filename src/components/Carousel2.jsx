@@ -28,8 +28,8 @@ export const Carousel2 = ({ itemData }) => {
             <BsArrowLeftCircleFill className="arrow arrow-left" onClick={handlePrevClick} />
             {itemData2.map((item2, idx) => (
                 <img
-                    src={item2.img}
-                    alt={item2.alt}
+                    srcSet={`${item2.img}?w=400&h=400&fit=crop&auto=format&dpr=2 2x`}
+                    src={`${item2.img}?w=400&h=400&fit=crop&auto=format&dpr=2 2x`}
                     key={idx}
                     className={slide === idx ? "slide" : "slide slide-hidden"}
                 />

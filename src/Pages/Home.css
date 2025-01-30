@@ -25,15 +25,12 @@
 }
 
 div.strobe {
-    display: table;
-    min-width: 70%;
-    max-height: 100%;
-    margin:auto;
+    display: block;
+    float: left;
+    width: 25%;
     text-align: center;
-    align-self: center;
-    align-items: center;
-    object-fit: contain;
-    background-color: rgb(72, 13, 105);
+    align-content: center;
+    background-color: #4d194d;
     animation-name: changing;
     animation-duration: 3s;
     animation-direction: alternate;
@@ -45,14 +42,11 @@ div.strobe {
 }
 
 div.strobe1 {
-    display: table;
-    min-width: 70%;
-    max-height: 100%;
-    margin:auto;
+    display: block;
+    float:right;   
+    width: 25%;
     text-align: center;
     align-self: center;
-    align-items: center;
-    object-fit: contain;
     animation-name: changing;
     animation-duration: 3s;
     animation-delay: 1s;
@@ -65,14 +59,12 @@ div.strobe1 {
 }
 
 div.strobe2 {
-    display: table;
-    min-width: 70%;
-    max-height: 100%;
+    display: block;
+    float:none;
+    width: 25%;
     margin:auto;
     text-align: center;
     align-self: center;
-    align-items: center;
-    object-fit: contain;
     animation-name: changing;
     animation-duration: 3s;
     animation-delay: 2s;
@@ -116,17 +108,16 @@ div.strobe2 {
         background-color: #4D194D;
     }
     100% {
-        background-color: #464573;
+        background-color: #4D194D;
     }
 }
 
-p.strobe {
-    font-display: block;
-    text-align: center;
-
-    margin-top: 5%;
+p.strobeText {
+    font-family:monospace;
+    font-size: 18px;
+    margin:5%;
+    padding:2%;
 }
-
 div.quote>p>span {
     font-style: italic;
 }

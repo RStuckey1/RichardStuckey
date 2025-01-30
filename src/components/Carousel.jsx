@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import jelly from '../assets/me/jelly.gif';
+import jelly2 from '../assets/me/jelly2.gif';
 import strobulation from '../assets/me/strobulation.gif';
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from 'react-icons/bs';
 import "./Carousel.css";
@@ -24,7 +25,8 @@ export const Carousel = ({ itemData }) => {
             <BsArrowLeftCircleFill className="arrow arrow-left" onClick={handlePrevClick} />
             {itemData.map((item, idx) => (
                 <img
-                    src={item.img}
+                    srcSet={`${item.img}?w=400&h=250&fit=crop&auto=format&dpr=2 2x`}
+                    src={`${item.img}?w=500&h=400fit=crop&auto=format&dpr=2 2x`}
                     alt={item.alt}
                     key={idx}
                     className={slide === idx ? "slide" : "slide slide-hidden"}
@@ -34,7 +36,7 @@ export const Carousel = ({ itemData }) => {
             <span className="indicators">
                 {itemData.map((item, idx) => (
                     <button
-                        key={idx}
+                        key={item.idx}
                         onClick={() => handleIndicatorClick(idx)}
                         className={`indicator ${slide === idx ? "active" : ""}`}
                     ></button>
@@ -52,6 +54,11 @@ const itemData = [
     },
     {
         img: strobulation,
+        alt: "Jellyfish Strobulation",
+        page: "2"
+    },
+    {
+        img: jelly2,
         alt: "Jellyfish Strobulation",
         page: "2"
     },

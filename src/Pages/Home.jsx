@@ -1,26 +1,31 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import BW from '../assets/me/BW.png'
-import MGA from '../assets/me/MGA.png'
 import jelly from '../assets/me/jelly.gif'
+import jelly2 from '../assets/me/jelly2.gif'
 import strobulation from '../assets/me/strobulation.gif'
 import { Carousel } from '../components/Carousel';
 import { Carousel2 } from '../components/Carousel2';
+import { Carousel3 } from '../components/Carousel3';
 import './Home.css';
 
 
 const Home = () => {
   const itemData = [
-      {
-          img: jelly,
-          alt: "Jellyfish Strobulation",
-          page: "1"
-      },
-      {
-          img: strobulation,
-          alt: "Jellyfish Strobulation",
-          page: "2"
-      },
+    {
+      img: jelly,
+      alt: "Jellyfish Strobulation",
+      page: "1"
+    },
+    {
+      img: strobulation,
+      alt: "Jellyfish Strobulation",
+      page: "2"
+    },
+    {
+      img: jelly2,
+      alt: "Jellyfish Strobulation",
+      page: "3"
+    },
   ];
 
   return (
@@ -55,19 +60,14 @@ const Home = () => {
 
         <div className="strobe">
           <Carousel itemData={itemData} />
+         <p className="strobeText">These images show Jellyfish transforming from stationary polyps, to free swimming ephyra</p>
         </div>
         <div className="strobe1">
-         <Carousel2 itemData={itemData} />
+          <Carousel2 itemData={itemData} />
         </div>
         <div className="strobe2">
-          <img className="strobePic" src={BW} alt="Black and White"></img>
-          <p className="strobe">Boundary Waters, USA/Canada 2024</p>
+          <Carousel3 itemData={itemData} />
         </div>
-        <div className="strobe">
-          <img className="strobePic" src={MGA} alt="1956 MGA"></img>
-          <p className="strobe">1956 MGA Roadster</p>
-        </div>
-
       </div>
 
     </>

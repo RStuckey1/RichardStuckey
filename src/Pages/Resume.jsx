@@ -44,7 +44,7 @@ const Item = styled(Box)(({ theme }) => ({
 function Resume() {
     return (
         <div>
-            <h1 className="resume">coding skills</h1>
+            <h1 className="resume">Coding Skills</h1>
 
             <div className="codingSkills" id="codebox" >
 
@@ -187,7 +187,7 @@ function Resume() {
             <div className="resume">
                 <div className="objective">
                 <h1 id="EH1">Objective</h1>
-                <p> In 2023, I realized that I was truely "burned out". So I made the jump to change career paths. Computer Sciences has been a serious hobby of mine since highschool. So I went back to school at the University of Kansas and earned a certificate in Software Development. I feel like my spark has been revived and I am hungry to learn more and to show my tenacity once again</p>
+                <p> In 2023, I realized that I was truely "burned out". It was time for me to follow my dreams, So I made the choice to pursue software/web development. Aquatic Animal Life support consists of environmental controls. These systems had   So I went back to school at the University of Kansas and earned a certificate in Software Development. I feel like my spark has been revived and I am hungry to learn more and to show my tenacity once again</p>
                 </div>
                 <h1 id="EH1">Resume</h1>
                 <h2 id="EH2">Experience Highlights</h2>
