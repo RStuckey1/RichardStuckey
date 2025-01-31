@@ -103,19 +103,19 @@ const itemData = [
         img: penguinFlow,
         title: "Penguin Instrument upgrade",
         description: "Flow Meter Data sent to single display and data logged",
-        link: '../FlowMeters',
+        link: './FlowMeters',
     },
     {
         img: sealions,
         title: "Sea Lion Holding System",
         description: "pump/filtration/automated chemical system",
-        link: '../SeaLion',
+        link: './SeaLion',
     },
     {
         img: sharktank,
         title: "Solving a Fluke Problem",
         description: "Flukes in a Shark Tank",
-        link: '../QT',
+        link: './QT',
     },
 ];
 
