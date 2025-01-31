@@ -124,12 +124,13 @@ img.linkedinIcon {
 }
 
 #root>div.portfolio-app>button {
-  display: flex;
+  display: block;
+  margin-left: 39%;
   min-width: 10%;
   min-height: 10%;
   font-size: 2em;
   justify-content: center;
-  align-items: center;
+  align-items: center;;
   border-radius: 10%;
 
 }

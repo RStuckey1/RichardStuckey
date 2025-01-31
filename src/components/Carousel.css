@@ -21,7 +21,7 @@
 }
 
 .arrow {
-    position: absolute;
+    position: relative;
     width: 2rem;
     height: 2rem;
     color: white;
@@ -33,10 +33,13 @@
 }   
 
 .arrow-left {
-    align-self: center;
+    display: flex;
+    Object-fit: none;
+    object-position: 0px 50% ;
+    
 }
 .arrow-right {
-    align-self: center;
+    float: right;
 }
 
 .indicators {

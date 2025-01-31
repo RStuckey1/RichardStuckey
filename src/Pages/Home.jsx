@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import jelly from '../assets/me/jelly.gif'
 import jelly2 from '../assets/me/jelly2.gif'
+import NameWave from '../components/NameWave';
 import strobulation from '../assets/me/strobulation.gif'
 import { Carousel } from '../components/Carousel';
 import { Carousel2 } from '../components/Carousel2';
@@ -31,15 +32,22 @@ const Home = () => {
   return (
     <>
       <div className="home">
-        <h1>Welcome!</h1>
+        <div className="wave">
+        <NameWave />
+        </div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <p className="intro">I am glad you found your way here to my Website. Please explore and learn about who I am, where I have been, and where I want to go. To navigate your way around, click any of the following words at the top:</p>
 
         <ul>
-          <li><Link to="/About">About - Get to know Rick Stuckey</Link></li>
           <li><Link to="/Resume">Resume - How Rick look's on paper</Link></li>
           <li><Link to="/List">Portfolio - Projects and other Fun</Link></li>
           <li><Link to="/Contact">Contact - How to reach me. I would love to hear from you!</Link></li>
-          <li><Link to="/">Rick Stuckey - Brings you back to here</Link></li>
+          <li><Link to="/">Home - Brings you back to here</Link></li>
         </ul>
 
         <br></br>
@@ -60,13 +68,16 @@ const Home = () => {
         <div className="flare">
           <div className="strobe">
             <Carousel itemData={itemData} />
-            <p className="strobeText">These images show Jellyfish transforming from stationary polyps, to free swimming ephyra</p>
+            <p className="strobeText">These images show Jellyfish transforming from stationary polyps, to free swimming ephyra.</p>
           </div>
           <div className="strobe1">
             <Carousel2 itemData={itemData} />
+            <p className="strobeText">Boundary Waters 2024 Minnesota, USA/Canada Border</p>
           </div>
           <div className="strobe2">
             <Carousel3 itemData={itemData} />
+            <p className="strobeText">Some Adventures That Have Amazing Stories (Ask Me About Them)</p>
+
           </div>
         </div>
       </div>

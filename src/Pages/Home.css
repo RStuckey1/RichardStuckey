@@ -18,6 +18,7 @@
 .flare {
     display: flex;
     flex-direction: row;
+    
 }
 
 
@@ -34,11 +35,12 @@ div.strobe {
     width: 30%;
     background-color: #4d194d;
     animation-name: changing;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-direction: alternate;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     border-radius: 20%;
+    margin:2%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
@@ -46,24 +48,26 @@ div.strobe1 {
     width: 30%;
     background-color: #4d194d;
     animation-name: changing;
-    animation-duration: 3s;
-    animation-delay: 1s;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
     animation-direction: alternate;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     border-radius: 20%;
+    margin:2%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 div.strobe2 {
     width: 30%;
     animation-name: changing;
-    animation-duration: 3s;
-    animation-delay: 2s;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
     animation-direction: alternate;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     border-radius: 20%;
+    margin:2%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
@@ -113,12 +117,32 @@ div.quote>p>span {
     font-style: italic;
 }
 
+#root > div.portfolio-app > div:nth-child(1) > div > div.flare > div.strobe1 > div > span {
+    justify-self: center;
+}
+
+#root > div.portfolio-app > div:nth-child(1) > div > div.flare > div.strobe2 > div > span {
+    justify-self: center;
+}
+
+#root > div.portfolio-app > div:nth-child(1) > div > div.flare > div.strobe > div > span {
+    justify-self: center;
+}
+
 div.backtotop {
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     font-size: 4em;
     color: #FCEFB4;
     margin-top: 5%;
     padding:2%;
+}
+
+.wave {
+    display: block;
+    margin: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
