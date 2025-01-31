@@ -57,16 +57,17 @@ const Home = () => {
         <br></br>
         <br></br>
         <br></br>
-
-        <div className="strobe">
-          <Carousel itemData={itemData} />
-         <p className="strobeText">These images show Jellyfish transforming from stationary polyps, to free swimming ephyra</p>
-        </div>
-        <div className="strobe1">
-          <Carousel2 itemData={itemData} />
-        </div>
-        <div className="strobe2">
-          <Carousel3 itemData={itemData} />
+        <div className="flare">
+          <div className="strobe">
+            <Carousel itemData={itemData} />
+            <p className="strobeText">These images show Jellyfish transforming from stationary polyps, to free swimming ephyra</p>
+          </div>
+          <div className="strobe1">
+            <Carousel2 itemData={itemData} />
+          </div>
+          <div className="strobe2">
+            <Carousel3 itemData={itemData} />
+          </div>
         </div>
       </div>
 

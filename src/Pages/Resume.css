@@ -70,10 +70,16 @@ body{
   border-radius: 20px;
 }
 
-div.objective > p {
+div.objective {
   margin:10%;
   padding:1%;
   line-height: 1.5;
+  justify-items: center;
+}
+div.objective > p {
+  margin:10%;
+  line-height: 1.5;
+ 
 }
 
 div.WorkHighlights > p {

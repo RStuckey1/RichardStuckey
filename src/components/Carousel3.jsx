@@ -10,11 +10,11 @@ export const Carousel3 = ({ itemData }) => {
     const [slide, setSlide] = useState(0);
 
     const handlePrevClick = () => {
-        setSlide((prevSlide) => (prevSlide === 0 ? itemData2.length - 1 : prevSlide - 1));
+        setSlide((prevSlide) => (prevSlide === 0 ? itemData3.length - 1 : prevSlide - 1));
     };
 
     const handleNextClick = () => {
-        setSlide((prevSlide) => (prevSlide === itemData2.length - 1 ? 0 : prevSlide + 1));
+        setSlide((prevSlide) => (prevSlide === itemData3.length - 1 ? 0 : prevSlide + 1));
     };
 
     const handleIndicatorClick = (idx) => {
@@ -24,17 +24,17 @@ export const Carousel3 = ({ itemData }) => {
     return (
         <div className="carousel">
             <BsArrowLeftCircleFill className="arrow arrow-left" onClick={handlePrevClick} />
-            {itemData2.map((item2, idx) => (
+            {itemData3.map((item, idx) => (
                 <img
-                    srcSet={`${item2.img}?w=400&h=400&fit=crop&auto=format&dpr=2 2x`}
-                    src={`${item2.img}?w=400&h=400fit=crop&auto=format&dpr=2 2x`}
+                    srcSet={`${item.img}?w=400&h=400&fit=crop&auto=format&dpr=2 2x`}
+                    src={`${item.img}?w=400&h=400&fit=crop&auto=format&dpr=2 2x`}
                     key={idx}
                     className={slide === idx ? "slide" : "slide slide-hidden"}
                 />
             ))}
             <BsArrowRightCircleFill className="arrow arrow-right" onClick={handleNextClick} />
             <span className="indicators">
-                {itemData2.map((item, idx) => (
+                {itemData3.map((item, idx) => (
                     <button
                         key={idx}
                         onClick={() => handleIndicatorClick(idx)}
@@ -46,7 +46,7 @@ export const Carousel3 = ({ itemData }) => {
     );
 };
 
-const itemData2 = [
+const itemData3 = [
     {
         img: penguin,
         alt: "Jellyfish Strobulation",

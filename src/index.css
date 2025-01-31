@@ -107,7 +107,8 @@ contactForm {
   min-width: 100vh;
   min-height: 100vh;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.05);
+  color: #FCEFB4;
+  background-color: rgba(0, 0, 0, 0);
   backdrop-filter: blur(50px);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: sticky;
@@ -116,7 +117,6 @@ contactForm {
 
 img.github {
   border-radius: 50px;
-
 }
 
 img.linkedinIcon {
@@ -133,3 +133,33 @@ img.linkedinIcon {
   border-radius: 10%;
 
 }
+
+#\:r1\:-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FCEFB4;
+}
+
+#\:r5\:-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FCEFB4;
+}
+
+#\:r3\:-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FCEFB4;
+}
+
+#root > div.portfolio-app > div:nth-child(1) > contactform > div > form > div:nth-child(1) > div > div {
+  color:aliceblue
+}
+
+#root > div.portfolio-app > div:nth-child(1) > contactform > div > form > div:nth-child(1) > div {
+  color:aliceblue
+}
+

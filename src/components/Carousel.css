@@ -1,6 +1,7 @@
 .carousel {
-    width: 80%;
+ 
     align-items: center;
+    display:inline-block;
     border-radius: 20%;
     margin: 5%;
 }
@@ -9,13 +10,14 @@
     border-radius: 20%;
     box-shadow: 0px 0px 7px #666;
     width: 80%;
-    height: auto;
     margin: 8%;
 
 }
 
 .slide-hidden {
     display: none;
+    width: 80%;
+    margin: 8%;
 }
 
 .arrow {
@@ -32,13 +34,9 @@
 
 .arrow-left {
     align-self: center;
-    justify-self: center;
-    left: 4;
-    
 }
 .arrow-right {
     align-self: center;
-    right: 2;
 }
 
 .indicators {
@@ -62,10 +60,4 @@
 #root > div.portfolio-app > div:nth-child(1) > div > div:nth-child(12) > div > span {
     
     justify-content: center;
-}
-
-#root > div.portfolio-app > div:nth-child(1) > div > div.strobe > div > img:nth-child(2) {
-    align-self: center;
-    justify-self: center;
-    margin: 2%;
 }

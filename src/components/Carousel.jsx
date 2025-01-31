@@ -26,7 +26,7 @@ export const Carousel = ({ itemData }) => {
             {itemData.map((item, idx) => (
                 <img
                     srcSet={`${item.img}?w=400&h=250&fit=crop&auto=format&dpr=2 2x`}
-                    src={`${item.img}?w=500&h=400fit=crop&auto=format&dpr=2 2x`}
+                    src={`${item.img}?w=500&h=400&fit=crop&auto=format&dpr=2 2x`}
                     alt={item.alt}
                     key={idx}
                     className={slide === idx ? "slide" : "slide slide-hidden"}
