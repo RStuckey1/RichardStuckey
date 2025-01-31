@@ -44,10 +44,10 @@ const Home = () => {
         <p className="intro">I am glad you found your way here to my Website. Please explore and learn about who I am, where I have been, and where I want to go. To navigate your way around, click any of the following words at the top:</p>
 
         <ul>
-          <li><Link to="/Resume">Resume - How Rick look's on paper</Link></li>
+          <li><Link to="/Resume">Resume - How Rick looks on paper</Link></li>
           <li><Link to="/List">Portfolio - Projects and other Fun</Link></li>
           <li><Link to="/Contact">Contact - How to reach me. I would love to hear from you!</Link></li>
-          <li><Link to="/">Home - Brings you back to here</Link></li>
+          <li><Link to="/">Home - Brings you back here</Link></li>
         </ul>
 
         <br></br>
