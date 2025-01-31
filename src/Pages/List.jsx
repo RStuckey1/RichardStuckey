@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Router } from 'react-router-dom';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
@@ -13,6 +13,7 @@ import weatherapp from '../assets/projects/weatherIcon.png'
 import penguinFlow from '../assets/projects/penguinFlow.png'
 import sealions from '../assets/projects/Sealions.png'
 import sharktank from '../assets/projects/sharktank.png'
+import { QT } from './QT';
 import './List.css';
 
 
@@ -115,7 +116,7 @@ const itemData = [
         img: sharktank,
         title: "Solving a Fluke Problem",
         description: "Flukes in a Shark Tank",
-        link: '/QT',
+        link: <QT />,
     },
 ];
 
