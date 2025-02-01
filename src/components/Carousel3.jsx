@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import penguin from '../assets/me/penguin.png'
 import TREX from '../assets/me/TREX.png'
 import RickBees from '../assets/me/RickBees.png'
+import AQme from '../assets/me/AQme.png'
+import MGAme from '../assets/me/MGAme.png'
+import KC from '../assets/me/KC.png'
 
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from 'react-icons/bs';
 import "./Carousel.css";
@@ -61,6 +64,21 @@ const itemData3 = [
         img: RickBees,
         alt: "Jellyfish Strobulation",
         page: "3"
+    },
+    {
+        img: AQme,
+        alt: "Jellyfish Strobulation",
+        page: "4"
+    },
+    {
+        img: MGAme,
+        alt: "Jellyfish Strobulation",
+        page: "5"
+    },
+    {
+        img: KC,
+        alt: "Jellyfish Strobulation",
+        page: "6"
     },
 ];
 
