@@ -1,3 +1,4 @@
+import React from 'react';
 import sharktank from '../assets/QT/sharktank.png'
 import fluke from '../assets/QT/fluke.png'
 import fluke1 from '../assets/QT/fluke1.png'

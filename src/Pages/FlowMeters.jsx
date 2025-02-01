@@ -1,3 +1,4 @@
+import React from 'react'
 import flow1 from '../assets/flow/flow1.png'
 import flow2 from '../assets/flow/flow2.png'
 import flowBox from '../assets/flow/flowBox.png'
