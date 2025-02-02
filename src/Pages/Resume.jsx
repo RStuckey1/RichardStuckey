@@ -186,34 +186,42 @@ function Resume() {
             </div>
             <div className="resume">
                 <div className="objective">
-                <h1 id="EH1">Objective</h1>
-                <p> In 2023, I realized that I was truely "burned out". It was time for me to follow my dreams, So I made the choice to pursue software/web development. Aquatic Animal Life support consists of environmental controls. These systems had   So I went back to school at the University of Kansas and earned a certificate in Software Development. I feel like my spark has been revived and I am hungry to learn more and to show my tenacity once again</p>
+                    <h1 id="EH1">Objective</h1>
+                    <p> In 2023, I realized that I was truely "burned out". It was time for me to follow my dreams, So I made the choice to pursue software/web development. Aquatic Animal Life support consists of environmental controls. These systems had   So I went back to school at the University of Kansas and earned a certificate in Software Development. I feel like my spark has been revived and I am hungry to learn more and to show my tenacity once again</p>
                 </div>
-                <h1 id="EH1">Resume</h1>
-                <h2 id="EH2">Experience Highlights</h2>
-                <h3 id="EH3">Kansas City Zoo & Aquarium (Life Support Systems Manager)</h3>
-                <h4 id="EH4">SOBELLA Oceanarium</h4>
+                <h1>Resume</h1>
+                <br></br>
+                <h2>Experience Highlights</h2>
+                <br></br>
+                <h3>Kansas City Zoo & Aquarium (Life Support Systems Manager)</h3>
+                <br></br>
+                <h3>SOBELLA Oceanarium</h3>
+                <br></br>
                 <div className="WorkHighlights">
-                <p>From conceptual meetings to opening, I contributed to the design and commissioning of the Life Support Systems and the building management controls systems. After construction of a building this size, there were many changes that had to be made to be successful with animals. There many examples, but these are the highlights:</p>
-                <li>commissioning of reverse osmosis system and controls for invertebrate systems</li>
-                <li>Shark Tank: Repairing the main filtration from inproper commissioning.</li>
-                <li>Mantis Shrimp: Taking this exhibit off a chain of exhibits and making its own filtration system for the species.</li>
-                <li>Water storage: Installing biological filtration to mitigate ammonia in the water</li>
-                <li>Quarantine: installation and commissioning in house quarantine systems</li>
-               
-                <h4 id="EH2">Stingray Bay</h4>
-                <p>This was my first ground-up touch tank exhibit. I contributed to the design, installation, and commissioning of the exhibit.
-                    I managed the Life Support Systems, and the building automation systems. All of the sensors and controllers utilized remote monitoring via a web applicaion interface<br></br>
-                    This building had a very unique automation system. The water loop for heating and cooling were one system and would switch between heating via a boiler and cooling, through a water chiller. I was able to program the automation to handle the changing seasons.</p>
-
-                <h4 id="EH2">Helzberg Penguin Plaza</h4>
-                <p>This building had many manual procedures that I upgraded to remote monitoring/controls. This included the ozone system for three large aquariums, flowmeters for both a cold penguin(120k gallons) and warm pengiun(30k gallons) exhibits. During this time I identified many processes and procedures that could be improved.</p>
-                <p>Examples:</p>
+                    <p>From conceptual meetings to opening, I contributed to the design and commissioning of the Life Support Systems and the building management controls systems. After construction of a building this size, there were many changes that had to be made to be successful with animals. There many examples, but these are the highlights:</p>
+                    <br></br>
+                    <li>Commissioning of the building's reverse osmosis system</li>
+                    <li>Shark Tank: Repairing the biofilters due to inproper commissioning.</li>
+                    <li>Mantis Shrimp: Taking this exhibit off a chain of exhibits and making its own filtration system for the species.</li>
+                    <li>Water storage: Installing biological filtration to mitigate ammonia in the water</li>
+                    <li>Quarantine: installation and commissioning in house quarantine systems</li>
+                    <br></br>
+                    <h3>Stingray Bay</h3>
+                    <br></br>
+                    <p>This was my first ground-up touch tank exhibit. I contributed to the design, installation, and commissioning of the exhibit.
+                        I managed the Life Support Systems, and the building automation systems. All of the sensors and controllers utilized remote monitoring via a web applicaion interface<br></br>
+                        This building had a very unique automation system. The water loop for heating and cooling were one system and would switch between heating via a boiler and cooling, through a water chiller. I was able to program the automation to handle the changing seasons.</p>
+                    <br></br>
+                    <h3>Helzberg Penguin Plaza</h3>
+                    <br></br>
+                    <p>This building had many manual procedures that I upgraded to remote monitoring/controls. This included the ozone system for three large aquariums, flowmeters for both a cold penguin(120k gallons) and warm pengiun(30k gallons) exhibits. During this time I identified many processes and procedures that could be improved.</p>
+                    <p>Examples:</p>
+                    <br></br>
                     <li>Changing exhibit salt suppliers for sea lion and penguin exhibits, saving $65,000 per year</li>
                     <li>Cutting out middleman supply houses, buying parts from manufacture for pumps, ozone equipment, etc. saving over $30,000 per year.</li>
                     <li>Minimized outside contractors, learning many specialized skills in the process. Including maintenance/repairs for: Rotary-screw compressors, DBD ozone generators, Oxygen Concentrators, Programable logic controllers & HMIs, Long-coupled pumps, Building hyrdonic systems and process controls(Building automation)</li>
                 </div>
-                <h2 id="EH2">Education</h2>
+                <h2>Education</h2>
                 <div className="education">
                     <p>University of Kansas - Software Development Certificate </p>
                     <p>University of Kansas(Lawrence, KS) </p>
@@ -221,14 +229,16 @@ function Resume() {
                     <p>Bachelor's of Science - Microbiology</p>
                     <p>Minor - Biological Anthropology</p>
                 </div>
-                <h2 id="EH">Work History</h2>
+                <h2>Work History</h2>
                 <div className="workHistory">
                     <p>Commercial Water(Lead service Technician)2024</p>
                     <p>Cogent(Field service controls technician)2024</p>
                     <p>Kansas City Zoo and Aquarium (Life Support Systems/ Water Quality Manager)2015-2023</p>
                     <p>Landry's T-REX Cafe (Curator/ Aqusition&Quarantine Manager)2008-2015</p>
                     <p>Environmental Science Coporation (Field Technician)2007-2008</p>
+                    <br></br>
                 </div>
+        
 
 
             </div>

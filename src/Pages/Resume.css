@@ -70,28 +70,35 @@ body{
   border-radius: 20px;
 }
 
-div.objective {
+.resume {
+  text-align: center;
+}
+.objective {
   margin:10%;
   padding:1%;
+  text-align: center;
+
   line-height: 1.5;
   justify-items: center;
 }
-div.objective > p {
+.objective > p {
   margin:10%;
   line-height: 1.5;
  
 }
 
-div.WorkHighlights > p {
-  margin:10%;
+div.WorkHighlights{
+  margin-left:10%;
+  margin-right:10%;
   padding:1%;
   line-height: 1.5;
 }
 
 div.WorkHighlights > li {
   font-family: sans-serif;
-  margin-left: 20%;
+  margin-left: 10%;
   margin-right: 10%;
+  text-align: left;
   
 }
 
@@ -107,12 +114,14 @@ div.workHistory > p {
 
 div.education > p {
   text-align: center;
+  margin:10px;
   margin-left:10%;
   margin-right:10%;
 }
 
 div.workHistory > p {
   text-align: center;
+  margin:10px;
   margin-right:10%;
   margin-left:10%;
 }

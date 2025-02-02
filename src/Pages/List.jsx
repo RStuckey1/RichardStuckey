@@ -24,6 +24,8 @@ import './List.css';
 export function List() {
     return (
         <div>
+            <br></br>
+            <br></br>
             <ImageList sx={{ width: 900, height: 950 }}>
                 <ImageListItem key="Subheader" cols={2}>
 

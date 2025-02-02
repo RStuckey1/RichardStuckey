@@ -4,9 +4,12 @@ import Button from '@mui/material/Button';
 import Paper from '@mui/material/Paper';
 import Stack from '@mui/material/Stack';
 import { styled } from '@mui/material/styles';
-import React, { useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
+import React, { useRef } from 'react';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import emailjs from '@emailjs/browser';
+import linkedin from '../assets/linkedin.png';
+import github from '../assets/githubCat.png';
 import '../index.css';
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -59,7 +62,16 @@ export const Contact = () => {
         <>
             <h1>To get in touch, send me a message...</h1>
             <h2>...or find me on LinkedIn or GitHub(click the icons below)</h2>
-           
+            <br></br>
+            <br></br>
+            <div className="information">
+                <Link to="https://www.linkedin.com/in/richard-stuckey-9b2910234/" target="_blank">
+                    <img className="linkedinIcon" src={linkedin} alt="linkedinicon"></img>
+                </Link>
+                <Link to="https://www.github.com/RStuckey1" target="_blank">
+                    <img className="github" src={github} alt="github"></img>
+                </Link>
+            </div>
 
 
             <Box
@@ -130,7 +142,7 @@ export const Contact = () => {
                     </Stack>
                 </ThemeProvider>
             </Box>
-           
+
         </>
     );
 };

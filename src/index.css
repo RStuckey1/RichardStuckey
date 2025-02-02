@@ -39,7 +39,7 @@
 
 li {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 35px;
+  font-size: 25px;
   color: #FCEFB4;
 }
 
@@ -117,6 +117,7 @@ contactForm {
 
 img.github {
   border-radius: 50px;
+
 }
 
 img.linkedinIcon {
@@ -164,3 +165,12 @@ img.linkedinIcon {
   color:aliceblue
 }
 
+.information {
+  display: flex;
+  flex-direction: row;
+  margin-left:auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  color: #FCEFB4;
+}
