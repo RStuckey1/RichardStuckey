@@ -58,7 +58,7 @@ const itemData = [
         img: D20,
         title: "Rolling D20 App",
         description: "HTML, CSS, JavaScript",
-        link: "https://github.com/RStuckey1/Dice-Rolling-D20",
+        link: "https://rstuckey1.github.io/Dice-Rolling-D20/",
         rows: 2,
         cols: 2,
         featured: true,
