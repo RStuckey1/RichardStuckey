@@ -52,33 +52,33 @@ export const Carousel3 = ({ itemData }) => {
 const itemData3 = [
     {
         img: penguin,
-        alt: "Jellyfish Strobulation",
+        alt: "Rick with King Penguin Buddy",
         page: "1"
     },
     {
         img: TREX,
-        alt: "Jellyfish Strobulation",
+        alt: "Rick diving to feed sharks",
         page: "2"
     },
     {
         img: RickBees,
-        alt: "Jellyfish Strobulation",
+        alt: "Harvesting Honey",
         page: "3"
     },
     {
         img: AQme,
-        alt: "Jellyfish Strobulation",
-        page: "4"
+        alt: "J",
+        page: "In the Aquarium SharkTank before filling with water"
     },
     {
         img: MGAme,
         alt: "Jellyfish Strobulation",
-        page: "5"
+        page: "Rick's 1956 MGA"
     },
     {
         img: KC,
         alt: "Jellyfish Strobulation",
-        page: "6"
+        page: "Rick at the hot air balloon festival"
     },
 ];
 

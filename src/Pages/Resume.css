@@ -11,13 +11,18 @@ body{
 
 } */
 
+#root > div.portfolio-app > div:nth-child(1) > div > h1 {
+  margin:3%;
+
+}
+
 .codingSkills{  
     position: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     place-self: center;
     justify-items: center;
     max-width: fit-content;
-    background-color: rgba(245, 10, 253, 0.404);
+    background-color: #4D194D;
     border-radius: 10%;
     padding: 5%;
     object-fit: fill;
@@ -64,8 +69,8 @@ body{
   position: absolute;
   font-family: monospace;
   background-color: #000000;
-  color: #FCEFB4;
-  font-size: 50px;
+  color: #ffffff;
+  font-size: 35px;
   padding: 5px ;
   border-radius: 20px;
 }
@@ -74,7 +79,6 @@ body{
   text-align: center;
 }
 .objective {
-  margin:10%;
   padding:1%;
   text-align: center;
 
@@ -82,7 +86,9 @@ body{
   justify-items: center;
 }
 .objective > p {
-  margin:10%;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:5%;
   line-height: 1.5;
  
 }
@@ -94,10 +100,32 @@ div.WorkHighlights{
   line-height: 1.5;
 }
 
+.WorkHighlights > h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.WorkHighlights > h2 {
+  font-family: 'Courier New', Courier, monospace;
+  margin-top:2%;
+}
+
+.WorkHighlights > h3 {
+  font-family: sans-serif;
+  margin-top:2%;
+  margin-bottom: 2%;
+}
+
+.WorkHighlights > p {
+  text-align: left;
+  margin-top:2%;
+  margin-bottom: 2%;
+}
+
 div.WorkHighlights > li {
   font-family: sans-serif;
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 1%;
   text-align: left;
   
 }
@@ -107,16 +135,24 @@ div.education > p {
   margin-right:10%;
 }
 
-div.workHistory > p {
-  margin-left:10%;
-  margin-right:10%;
+.education > h2 {
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 div.education > p {
   text-align: center;
-  margin:10px;
   margin-left:10%;
   margin-right:10%;
+  margin-top: 2%;;
+}
+
+.workHistory > h1 {
+  margin:2%;
+}
+
+.workHistory > h2 {
+  margin:2%;
 }
 
 div.workHistory > p {

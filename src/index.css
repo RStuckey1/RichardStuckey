@@ -40,7 +40,7 @@
 li {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 25px;
-  color: #FCEFB4;
+  color: white;
 }
 
 #contactInfo {
@@ -50,7 +50,7 @@ li {
 }
 
 a:link {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -78,20 +78,20 @@ h1 {
   font-size: 4rem;
   letter-spacing: 0.4px;
   word-spacing: -0.6px;
-  color: #FCEFB4;
+  color: #ffffff;
  
 }
 
 h2 {
   font-family: Arial, sans-serif;
   font-size: 3rem;
-  color: #FCEFB4;
+  color: #ffffff;
 }
 
 h3 {
   font-family: Arial, sans-serif;
   font-size: 2rem;
-  color: #FCEFB4;
+  color: #ffffff;
 }
 
 h1.resume {
@@ -107,7 +107,7 @@ contactForm {
   min-width: 100vh;
   min-height: 100vh;
   align-items: center;
-  color: #FCEFB4;
+  color: #ffffff;
   background-color: rgba(0, 0, 0, 0);
   backdrop-filter: blur(50px);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -117,11 +117,15 @@ contactForm {
 
 img.github {
   border-radius: 50px;
+  margin-left:20px;
+  margin-right:20px;
 
 }
 
 img.linkedinIcon {
   border-radius: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #root>div.portfolio-app>button {
@@ -140,21 +144,21 @@ img.linkedinIcon {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FCEFB4;
+  color: #ffffff;
 }
 
 #\:r5\:-label {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FCEFB4;
+  color: #ffffff;
 }
 
 #\:r3\:-label {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FCEFB4;
+  color: #ffffff;
 }
 
 #root > div.portfolio-app > div:nth-child(1) > contactform > div > form > div:nth-child(1) > div > div {
@@ -172,5 +176,10 @@ img.linkedinIcon {
   margin-right: auto;
   justify-content: center;
   align-items: center;
-  color: #FCEFB4;
+  color: #ffffff;
+}
+
+.contact {
+  margin-left: 10%;
+  margin-right:10%;
 }

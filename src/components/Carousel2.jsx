@@ -51,32 +51,32 @@ export const Carousel2 = ({ itemData }) => {
 const itemData2 = [
     {
         img: BW,
-        alt: "Jellyfish Strobulation",
+        alt: "Rick resting on a rock",
         page: "1"
     },
     {
         img: BW1,
-        alt: "Jellyfish Strobulation",
+        alt: "Sunset in Canada",
         page: "2"
     },
     {
         img: BW2,
-        alt: "Jellyfish Strobulation",
+        alt: "indian pictographs",
         page: "3"
     },
     {
         img: BW3,
-        alt: "Jellyfish Strobulation",
+        alt: "sunrise in Canada",
         page: "4"
     },
     {
         img: BW4,
-        alt: "Jellyfish Strobulation",
+        alt: "Rick paddling",
         page: "5"
     },
     {
         img: BW5,
-        alt: "Jellyfish Strobulation",
+        alt: "Campsite at boundary waters",
         page: "6"
     },
 ];

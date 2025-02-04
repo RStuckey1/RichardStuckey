@@ -44,7 +44,7 @@ const Item = styled(Box)(({ theme }) => ({
 function Resume() {
     return (
         <div>
-            <h1 className="resume">Coding Skills</h1>
+            <h1 className="resume">Coding Knowledge </h1>
 
             <div className="codingSkills" id="codebox" >
 
@@ -186,9 +186,10 @@ function Resume() {
             </div>
             <div className="resume">
                 <div className="objective">
-                    <h1 id="EH1">Objective</h1>
+                    <h1>Objective</h1>
                     <p> In 2023, I realized that I was truely "burned out". It was time for me to follow my dreams, So I made the choice to pursue software/web development. Aquatic Animal Life support consists of environmental controls. These systems had   So I went back to school at the University of Kansas and earned a certificate in Software Development. I feel like my spark has been revived and I am hungry to learn more and to show my tenacity once again</p>
                 </div>
+                <div className="WorkHighlights">
                 <h1>Resume</h1>
                 <br></br>
                 <h2>Experience Highlights</h2>
@@ -197,7 +198,7 @@ function Resume() {
                 <br></br>
                 <h3>SOBELLA Oceanarium</h3>
                 <br></br>
-                <div className="WorkHighlights">
+                
                     <p>From conceptual meetings to opening, I contributed to the design and commissioning of the Life Support Systems and the building management controls systems. After construction of a building this size, there were many changes that had to be made to be successful with animals. There many examples, but these are the highlights:</p>
                     <br></br>
                     <li>Commissioning of the building's reverse osmosis system</li>
@@ -221,21 +222,26 @@ function Resume() {
                     <li>Cutting out middleman supply houses, buying parts from manufacture for pumps, ozone equipment, etc. saving over $30,000 per year.</li>
                     <li>Minimized outside contractors, learning many specialized skills in the process. Including maintenance/repairs for: Rotary-screw compressors, DBD ozone generators, Oxygen Concentrators, Programable logic controllers & HMIs, Long-coupled pumps, Building hyrdonic systems and process controls(Building automation)</li>
                 </div>
-                <h2>Education</h2>
+             
                 <div className="education">
+                <h2>Education</h2>
                     <p>University of Kansas - Software Development Certificate </p>
                     <p>University of Kansas(Lawrence, KS) </p>
                     <p>Bachelor's of Science - Environmental Science</p>
                     <p>Bachelor's of Science - Microbiology</p>
                     <p>Minor - Biological Anthropology</p>
                 </div>
-                <h2>Work History</h2>
+               
                 <div className="workHistory">
-                    <p>Commercial Water(Lead service Technician)2024</p>
-                    <p>Cogent(Field service controls technician)2024</p>
-                    <p>Kansas City Zoo and Aquarium (Life Support Systems/ Water Quality Manager)2015-2023</p>
-                    <p>Landry's T-REX Cafe (Curator/ Aqusition&Quarantine Manager)2008-2015</p>
-                    <p>Environmental Science Coporation (Field Technician)2007-2008</p>
+                <h1>Work History</h1>
+                    <h2>Commercial Water(Lead service Technician)2024</h2>
+                    <p>Pure water applications for Industrial, Medical, and Laboratory industries. Diagnosed and repaired automated water systems and CIP(Clean in Place) technologies</p>
+                    <h2>Cogent(Field service controls technician)2024</h2>
+                    <p>Automated controls for Industrial and Municipal Wastewater systems. Repaired/commissioned systems including rotating equipment. </p>
+                    <h2>Kansas City Zoo and Aquarium (Life Support Systems/ Water Quality Manager)2015-2023</h2>
+                    <p>Managed all life support systems and staff. This included Polar Bear, Otter, Sea Lion, Stingray Bay, Elephant, MDC aquarium, SOBELLA aquarium, Penguin and many behind the scenes conservation efforts. I specialized in Ozone filtration design and repair, Rotary screw air compressors, long-couples pumps, biofilters, sand filter, foam fractioners, chillers, and process automation</p>
+                    <h2>Landry's T-REX Cafe (Curator/ Aqusition&Quarantine Manager)2008-2015</h2>
+                    <h2>Environmental Science Coporation (Field Technician)2007-2008</h2>
                     <br></br>
                 </div>
         
