@@ -64,36 +64,10 @@ const itemData = [
         featured: true,
     },
     {
-        img: getitdone,
-        title: "Get It Done",
-        description: "Sequel, Express, TypeScript",
-        link: "https://github.com/RStuckey1/Get-It-Done",
-    },
-    {
-        img: carpalapp,
-        title: "Car Maintenance Tracker",
-        description: "React, PostgreSQL, Express, Node, TypeScript",
-        link: "https://github.com/RStuckey1/Car-Pal-",
-    },
-    {
-        img: gastroBook,
-        title: "Food Recipe Social Platform",
-        description: "GraphQL, React, Node, Express, TypeScript",
-        link: "https://github.com/RStuckey1/Gastro-Book",
-       
-    },
-    {
-        img: notfadeaway,
-        title: "Musical Equipment Business Website",
-        description: "React, JavaScript, MUI",
-        link: "https://github.com/RStuckey1/NotFadeAway",
-     
-    },
-    {
         img: booksearch,
         title: "Book Search App",
         description: "MongoDB, Express, React, Node",
-        link: "https://github.com/RStuckey1/BookSearchMERN",
+        link: "https://booksearchmern-lsoz.onrender.com/",
     },
     {
         img: weatherapp,
@@ -118,6 +92,32 @@ const itemData = [
         title: "Solving a Fluke Problem",
         description: "Flukes in a Shark Tank",
         link: "/QT",
+    },
+    {
+        img: getitdone,
+        title: "Get It Done",
+        description: "Sequel, Express, TypeScript",
+        link: "https://github.com/RStuckey1/Get-It-Done",
+    },
+    {
+        img: carpalapp,
+        title: "Car Maintenance Tracker",
+        description: "React, PostgreSQL, Express, Node, TypeScript",
+        link: "https://github.com/RStuckey1/Car-Pal-",
+    },
+    {
+        img: gastroBook,
+        title: "Food Recipe Social Platform",
+        description: "GraphQL, React, Node, Express, TypeScript",
+        link: "https://github.com/RStuckey1/Gastro-Book",
+       
+    },
+    {
+        img: notfadeaway,
+        title: "Musical Equipment Business Website",
+        description: "React, JavaScript, MUI",
+        link: "https://github.com/RStuckey1/NotFadeAway",
+     
     },
 ];
 
