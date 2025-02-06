@@ -40,7 +40,7 @@ div.strobe {
     animation-direction: alternate;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    border-radius: 20%;
+    border-radius: 5%;
     margin:2%;
     box-shadow: -8px 12px 15px 0 rgba(190, 189, 189, 0.685), 0 6px 20px 0 rgba(247, 247, 247, 0.575)
 }
@@ -54,7 +54,7 @@ div.strobe1 {
     animation-direction: alternate;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    border-radius: 20%;
+    border-radius: 5%;
     margin:2%;
     box-shadow: 0 12px 15px 0 rgba(190, 189, 189, 0.685), 0 6px 20px 0 rgba(247, 247, 247, 0.575)
 }
@@ -67,7 +67,7 @@ div.strobe2 {
     animation-direction: alternate;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    border-radius: 20%;
+    border-radius: 5%;
     margin:2%;
     box-shadow: 8px 12px 15px 0 rgba(190, 189, 189, 0.685), 0 6px 20px 0 rgba(247, 247, 247, 0.575)
 }

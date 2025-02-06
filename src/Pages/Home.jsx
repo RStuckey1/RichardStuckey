@@ -61,6 +61,10 @@ const Home = () => {
             so throw off the bowlines, sail away from safe harbor,
             catch the trade winds in your sails. Explore. Dream. Discover."
             <span>~Mark Twain</span></p>
+            <br></br>
+          <p>"The ones who are crazy enough to think that they can change the world are the ones who do."
+            <span>~Steve Jobs</span>
+          </p>
         </div>
         <br></br>
         <br></br>
