@@ -26,6 +26,7 @@ import vscode from '../assets/icons/vscode.png';
 import MD from '../assets/icons/markdown.png';
 import cypress from '../assets/icons/cypress.png';
 import boot from '../assets/icons/bootstrap.png';
+import { Link } from 'react-router-dom';
 import './Resume.css';
 
 
@@ -35,9 +36,6 @@ const Item = styled(Box)(({ theme }) => ({
     padding: theme.spacing(2),
     textAlign: 'center',
     color: theme.palette.text.secondary,
-    ...theme.applyStyles('darkj', {
-        backgroundColor: '#000000',
-    }),
 }));
 
 
@@ -187,25 +185,20 @@ function Resume() {
             <div className="resume">
                 <div className="objective">
                     <h1>Objective</h1>
-                    <p> In 2023, I realized that I was truely "burned out". It was time for me to follow my dreams, So I made the choice to pursue software/web development. Aquatic Animal Life support consists of environmental controls. These systems had   So I went back to school at the University of Kansas and earned a certificate in Software Development. I feel like my spark has been revived and I am hungry to learn more and to show my tenacity once again</p>
+                    <p> In 2023, I realized that I was truely "burned out". It was time for me to follow my dreams. Since I was a child, I was facinated with computers and how they are parts of our everyday life. So I went back to school at the University of Kansas and earned a certificate in Software Development. I feel like my spark has been revived and I am hungry to learn more and to show my tenacity once again.</p>
                 </div>
                 <div className="WorkHighlights">
                 <h1>Resume</h1>
+                <h3><Link to="/List" target="_blank">Click to see Rick's Portfolio</Link></h3>
                 <br></br>
-                <h2>Experience Highlights</h2>
+                <h2>Work Experience Highlights</h2>
                 <br></br>
-                <h3>Kansas City Zoo & Aquarium (Life Support Systems Manager)</h3>
+                <h2>Kansas City Zoo & Aquarium (Life Support Systems Manager)</h2>
                 <br></br>
                 <h3>SOBELLA Oceanarium</h3>
                 <br></br>
                 
-                    <p>From conceptual meetings to opening, I contributed to the design and commissioning of the Life Support Systems and the building management controls systems. After construction of a building this size, there were many changes that had to be made to be successful with animals. There many examples, but these are the highlights:</p>
-                    <br></br>
-                    <li>Commissioning of the building's reverse osmosis system</li>
-                    <li>Shark Tank: Repairing the biofilters due to inproper commissioning.</li>
-                    <li>Mantis Shrimp: Taking this exhibit off a chain of exhibits and making its own filtration system for the species.</li>
-                    <li>Water storage: Installing biological filtration to mitigate ammonia in the water</li>
-                    <li>Quarantine: installation and commissioning in house quarantine systems</li>
+                    <p>From conceptual meetings to opening, I contributed to the design and commissioning of the Life Support Systems and the building management controls systems. After construction of a building this size, there were many changes that had to be made to be successful with animals.</p>
                     <br></br>
                     <h3>Stingray Bay</h3>
                     <br></br>
@@ -231,7 +224,17 @@ function Resume() {
                     <p>Bachelor's of Science - Microbiology</p>
                     <p>Minor - Biological Anthropology</p>
                 </div>
-               
+               <div className="certifications">
+                <h2>Certifications</h2>
+                <ul className="certs">
+                    <li>Software Development Certificate</li>
+                    <li>Aquatic Animal Life Support Operator(level 1&2)</li>
+                    <li>Certified Water Quality Laboratory Technician(level 1&2)</li>
+                    <li>OSHA 10 certification</li>
+                    <li>Certified Pool Operator</li>
+                    <li>Eagle Scout - Boy Scouts of America</li>
+                </ul>
+                </div>
                 <div className="workHistory">
                 <h1>Work History</h1>
                     <h2>Commercial Water(Lead service Technician)2024</h2>

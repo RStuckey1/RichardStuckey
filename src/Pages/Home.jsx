@@ -35,12 +35,7 @@ const Home = () => {
         <div className="wave">
         <NameWave />
         </div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+        
         <p className="intro">I am glad you found my Website.To navigate your way around, click any of the following words below or at the top:</p>
 
         <ul>

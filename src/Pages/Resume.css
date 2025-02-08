@@ -147,6 +147,29 @@ div.education > p {
   margin-top: 2%;;
 }
 
+.certifications {
+  margin-top:4%;
+  margin-bottom:4%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+  line-height: 1.6;
+}
+
+div.certifications > ul {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 15%;
+  font-family: monospace;
+}
+
+.certifications > h2 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+
 .workHistory > h1 {
   margin:2%;
 }

@@ -23,16 +23,18 @@ import './List.css';
 
 export function List() {
     return (
-        <div>
+        <div className="portfolio">
+            <h1>Rick's Portfolio</h1>
+            <p>All of the images below are projects of mine. Some are web applications I have created and others are projects that I am very proud of working in Zoo's and Aquariums</p>
             <br></br>
             <br></br>
-            <ImageList sx={{ width: 900, height: 950 }}>
+            <ImageList sx={{ width: 900, height: 500 }}>
                 <ImageListItem key="Subheader" cols={2}>
 
                 </ImageListItem>
                 {itemData.map((item) => (
                     <ImageListItem key={item.img}>
-                        <Link to={item.link}>
+                        <Link to={item.link} target='_blank'>
                         <img
                             srcSet={`${item.img}?w=400&h=250&fit=crop&auto=format&dpr=2 2x`}
                             src={`${item.img}?w=400&h=250&fit=crop&auto=format&dpr=2 2x`}
@@ -73,12 +75,12 @@ const itemData = [
         img: weatherapp,
         title: "5-day Weather Forecast Dashboard",
         description: "HTML, CSS, BootStrap, TypeScript, Wait-ON, Concurrently",
-        link: "https://github.com/RStuckey1/weather",
+        link: "https://weather-95ia.onrender.com/",
     },
     {
         img: penguinFlow,
-        title: "Penguin Instrument upgrade",
-        description: "Flow Meter Data sent to single display and data logged",
+        title: "Penguin Exhibit Filtration Upgrade",
+        description: "Safety improvements to a penguin exhibit filtration system",
         link: "/FlowMeters",
     },
     {

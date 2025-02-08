@@ -12,14 +12,18 @@
     text-align: justify;
     margin-left: 15%;
     margin-right: 15%;
+    padding-top:9%;
+    padding-bottom: 2%;
 
 }
 
 .flare {
     display: flex;
     flex-direction: row;
+}
 
-    
+.wave {
+    margin: 2%;
 }
 
 
