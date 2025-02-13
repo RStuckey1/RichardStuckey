@@ -1,0 +1,65 @@
+.carousel {
+ 
+    align-items: center;
+    align-content: center;;
+    justify-content: center;
+    border-radius: 5%;
+    margin: 5%;
+}
+
+.slide {
+    border-radius: 5%;
+    box-shadow: 0px 0px 7px #666;
+    height: 70%;
+    width: 85%;
+    margin: 1%;
+
+}
+
+.slide-hidden {
+    display: none;
+    width: 70%;
+    margin: 8%;
+}
+
+.arrow {
+    position:static;
+    height: 2rem;
+    color: white;
+    filter: drop-shadow(0px 0px 5px #555);
+}
+
+.arrow:hover {
+    cursor: pointer;
+}   
+
+.arrow-left {
+    left: 1rem;
+    
+}
+.arrow-right {
+    right: 1rem;
+}
+
+.indicators {
+    display: flex;
+    align-self: center;
+    ;
+}
+
+.indicator {
+    background-color: white;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px #555;
+    margin: 0 0.2rem;
+    cursor: pointer;
+}
+
+#root > div.portfolio-app > div:nth-child(1) > div > div:nth-child(12) > div > span {
+    
+    justify-content: center;
+}

@@ -26,6 +26,7 @@ import vscode from '../assets/icons/vscode.png';
 import MD from '../assets/icons/markdown.png';
 import cypress from '../assets/icons/cypress.png';
 import boot from '../assets/icons/bootstrap.png';
+import { Link } from 'react-router-dom';
 import './Resume.css';
 
 
@@ -35,16 +36,13 @@ const Item = styled(Box)(({ theme }) => ({
     padding: theme.spacing(2),
     textAlign: 'center',
     color: theme.palette.text.secondary,
-    ...theme.applyStyles('darkj', {
-        backgroundColor: '#000000',
-    }),
 }));
 
 
 function Resume() {
     return (
         <div>
-            <h1 className="resume">coding skills</h1>
+            <h1 className="resume">Coding Knowledge </h1>
 
             <div className="codingSkills" id="codebox" >
 
@@ -186,49 +184,72 @@ function Resume() {
             </div>
             <div className="resume">
                 <div className="objective">
-                <h1 id="EH1">Objective</h1>
-                <p> In 2023, I realized that I was truely "burned out". So I made the jump to change career paths. Computer Sciences has been a serious hobby of mine since highschool. So I went back to school at the University of Kansas and earned a certificate in Software Development. I feel like my spark has been revived and I am hungry to learn more and to show my tenacity once again</p>
+                    <h1>Objective</h1>
+                    <p> In 2023, I realized that I was truely "burned out". It was time for me to follow my dreams. Since I was a child, I was facinated with computers and how they are parts of our everyday life. So I went back to school at the University of Kansas and earned a certificate in Software Development. I feel like my spark has been revived and I am hungry to learn more and to show my tenacity once again.</p>
                 </div>
-                <h1 id="EH1">Resume</h1>
-                <h2 id="EH2">Experience Highlights</h2>
-                <h3 id="EH3">Kansas City Zoo & Aquarium (Life Support Systems Manager)</h3>
-                <h4 id="EH4">SOBELLA Oceanarium</h4>
                 <div className="WorkHighlights">
-                <p>From conceptual meetings to opening, I contributed to the design and commissioning of the Life Support Systems and the building management controls systems. After construction of a building this size, there were many changes that had to be made to be successful with animals. There many examples, but these are the highlights:</p>
-                <li>commissioning of reverse osmosis system and controls for invertebrate systems</li>
-                <li>Shark Tank: Repairing the main filtration from inproper commissioning.</li>
-                <li>Mantis Shrimp: Taking this exhibit off a chain of exhibits and making its own filtration system for the species.</li>
-                <li>Water storage: Installing biological filtration to mitigate ammonia in the water</li>
-                <li>Quarantine: installation and commissioning in house quarantine systems</li>
-               
-                <h4 id="EH2">Stingray Bay</h4>
-                <p>This was my first ground-up touch tank exhibit. I contributed to the design, installation, and commissioning of the exhibit.
-                    I managed the Life Support Systems, and the building automation systems. All of the sensors and controllers utilized remote monitoring via a web applicaion interface<br></br>
-                    This building had a very unique automation system. The water loop for heating and cooling were one system and would switch between heating via a boiler and cooling, through a water chiller. I was able to program the automation to handle the changing seasons.</p>
-
-                <h4 id="EH2">Helzberg Penguin Plaza</h4>
-                <p>This building had many manual procedures that I upgraded to remote monitoring/controls. This included the ozone system for three large aquariums, flowmeters for both a cold penguin(120k gallons) and warm pengiun(30k gallons) exhibits. During this time I identified many processes and procedures that could be improved.</p>
-                <p>Examples:</p>
+                <h1>Resume</h1>
+                <h3>
+                <Link to="/List" target="_blank">Click to see Rick's Portfolio</Link>
+                </h3>
+                <br></br>
+                <h2>Work Experience Highlights</h2>
+                <br></br>
+                <h2>Kansas City Zoo & Aquarium (Life Support Systems Manager)</h2>
+                <br></br>
+                <h3>SOBELLA Oceanarium</h3>
+                <br></br>
+                
+                    <p>From conceptual meetings to opening, I contributed to the design and commissioning of the Life Support Systems and the building management controls systems. After construction of a building this size, there were many changes that had to be made to be successful with animals.</p>
+                    <br></br>
+                    <h3>Stingray Bay</h3>
+                    <br></br>
+                    <p>This was my first ground-up touch tank exhibit. I contributed to the design, installation, and commissioning of the exhibit.
+                        I managed the Life Support Systems, and the building automation systems. All of the sensors and controllers utilized remote monitoring via a web applicaion interface<br></br>
+                        This building had a very unique automation system. The water loop for heating and cooling were one system and would switch between heating via a boiler and cooling, through a water chiller. I was able to program the automation to handle the changing seasons.</p>
+                    <br></br>
+                    <h3>Helzberg Penguin Plaza</h3>
+                    <br></br>
+                    <p>This building had many manual procedures that I upgraded to remote monitoring/controls. This included the ozone system for three large aquariums, flowmeters for both a cold penguin(120k gallons) and warm pengiun(30k gallons) exhibits. During this time I identified many processes and procedures that could be improved.</p>
+                    <p>Examples:</p>
+                    <br></br>
                     <li>Changing exhibit salt suppliers for sea lion and penguin exhibits, saving $65,000 per year</li>
                     <li>Cutting out middleman supply houses, buying parts from manufacture for pumps, ozone equipment, etc. saving over $30,000 per year.</li>
                     <li>Minimized outside contractors, learning many specialized skills in the process. Including maintenance/repairs for: Rotary-screw compressors, DBD ozone generators, Oxygen Concentrators, Programable logic controllers & HMIs, Long-coupled pumps, Building hyrdonic systems and process controls(Building automation)</li>
                 </div>
-                <h2 id="EH2">Education</h2>
+             
                 <div className="education">
+                <h2>Education</h2>
                     <p>University of Kansas - Software Development Certificate </p>
                     <p>University of Kansas(Lawrence, KS) </p>
                     <p>Bachelor's of Science - Environmental Science</p>
                     <p>Bachelor's of Science - Microbiology</p>
                     <p>Minor - Biological Anthropology</p>
                 </div>
-                <h2 id="EH">Work History</h2>
-                <div className="workHistory">
-                    <p>Commercial Water(Lead service Technician)2024</p>
-                    <p>Cogent(Field service controls technician)2024</p>
-                    <p>Kansas City Zoo and Aquarium (Life Support Systems/ Water Quality Manager)2015-2023</p>
-                    <p>Landry's T-REX Cafe (Curator/ Aqusition&Quarantine Manager)2008-2015</p>
-                    <p>Environmental Science Coporation (Field Technician)2007-2008</p>
+               <div className="certifications">
+                <h2>Certifications</h2>
+                <ul className="certs">
+                    <li>Software Development Certificate</li>
+                    <li>Aquatic Animal Life Support Operator(level 1&2)</li>
+                    <li>Certified Water Quality Laboratory Technician(level 1&2)</li>
+                    <li>OSHA 10 certification</li>
+                    <li>Certified Pool Operator</li>
+                    <li>Eagle Scout - Boy Scouts of America</li>
+                </ul>
                 </div>
+                <div className="workHistory">
+                <h1>Work History</h1>
+                    <h2>Commercial Water(Lead service Technician)2024</h2>
+                    <p>Pure water applications for Industrial, Medical, and Laboratory industries. Diagnosed and repaired automated water systems and CIP(Clean in Place) technologies</p>
+                    <h2>Cogent(Field service controls technician)2024</h2>
+                    <p>Automated controls for Industrial and Municipal Wastewater systems. Repaired/commissioned systems including rotating equipment. </p>
+                    <h2>Kansas City Zoo and Aquarium (Life Support Systems/ Water Quality Manager)2015-2023</h2>
+                    <p>Managed all life support systems and staff. This included Polar Bear, Otter, Sea Lion, Stingray Bay, Elephant, MDC aquarium, SOBELLA aquarium, Penguin and many behind the scenes conservation efforts. I specialized in Ozone filtration design and repair, Rotary screw air compressors, long-couples pumps, biofilters, sand filter, foam fractioners, chillers, and process automation</p>
+                    <h2>Landry's T-REX Cafe (Curator/ Aqusition&Quarantine Manager)2008-2015</h2>
+                    <h2>Environmental Science Coporation (Field Technician)2007-2008</h2>
+                    <br></br>
+                </div>
+        
 
 
             </div>

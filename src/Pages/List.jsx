@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
@@ -23,15 +23,18 @@ import './List.css';
 
 export function List() {
     return (
-        <div>
-            <h2>Below is a compailation of different projects from my life. Click on any of the items below to see more...</h2>
-            <ImageList sx={{ width: 900, height: 950 }}>
+        <div className="portfolio">
+            <h1>Rick's Portfolio</h1>
+            <p>All of the images below are projects of mine. Some are web applications I have created and others are projects that I am very proud of working in Zoo's and Aquariums</p>
+            <br></br>
+            <br></br>
+            <ImageList sx={{ width: 900, height: 500 }}>
                 <ImageListItem key="Subheader" cols={2}>
 
                 </ImageListItem>
                 {itemData.map((item) => (
                     <ImageListItem key={item.img}>
-                        <Link to={item.link} target="_self">
+                        <Link to={item.link} target='_blank'>
                         <img
                             srcSet={`${item.img}?w=400&h=250&fit=crop&auto=format&dpr=2 2x`}
                             src={`${item.img}?w=400&h=250&fit=crop&auto=format&dpr=2 2x`}
@@ -57,10 +60,40 @@ const itemData = [
         img: D20,
         title: "Rolling D20 App",
         description: "HTML, CSS, JavaScript",
-        link: "https://github.com/RStuckey1/Dice-Rolling-D20",
+        link: "https://rstuckey1.github.io/Dice-Rolling-D20/",
         rows: 2,
         cols: 2,
         featured: true,
+    },
+    {
+        img: booksearch,
+        title: "Book Search App",
+        description: "MongoDB, Express, React, Node",
+        link: "https://booksearchmern-lsoz.onrender.com/",
+    },
+    {
+        img: weatherapp,
+        title: "5-day Weather Forecast Dashboard",
+        description: "HTML, CSS, BootStrap, TypeScript, Wait-ON, Concurrently",
+        link: "https://weather-95ia.onrender.com/",
+    },
+    {
+        img: penguinFlow,
+        title: "Penguin Exhibit Filtration Upgrade",
+        description: "Safety improvements to a penguin exhibit filtration system",
+        link: "/FlowMeters",
+    },
+    {
+        img: sealions,
+        title: "Sea Lion Holding System",
+        description: "pump/filtration/automated chemical system",
+        link: "/SeaLion",
+    },
+    {
+        img: sharktank,
+        title: "Solving a Fluke Problem",
+        description: "Flukes in a Shark Tank",
+        link: "/QT",
     },
     {
         img: getitdone,
@@ -87,36 +120,6 @@ const itemData = [
         description: "React, JavaScript, MUI",
         link: "https://github.com/RStuckey1/NotFadeAway",
      
-    },
-    {
-        img: booksearch,
-        title: "Book Search App",
-        description: "MongoDB, Express, React, Node",
-        link: "https://github.com/RStuckey1/BookSearchMERN",
-    },
-    {
-        img: weatherapp,
-        title: "5-day Weather Forecast Dashboard",
-        description: "HTML, CSS, BootStrap, TypeScript, Wait-ON, Concurrently",
-        link: "https://github.com/RStuckey1/weather",
-    },
-    {
-        img: penguinFlow,
-        title: "Penguin Instrument upgrade",
-        description: "Flow Meter Data sent to single display and data logged",
-        link: '../FlowMeters',
-    },
-    {
-        img: sealions,
-        title: "Sea Lion Holding System",
-        description: "pump/filtration/automated chemical system",
-        link: '../SeaLion',
-    },
-    {
-        img: sharktank,
-        title: "Solving a Fluke Problem",
-        description: "Flukes in a Shark Tank",
-        link: '../QT',
     },
 ];
 

@@ -1,25 +1,45 @@
-#root {
+:root {
+  box-sizing: border-box;
+  background-color: black;
   min-height: 100vh;
   min-width: 100vh;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  /* font-synthesis: none;
+  text-rendering: optimizeLegibility; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-  background-color: black;
+
+.content {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #FCEFB4
 }
 
-ul{
-  list-style-position: outside;
+.headerbox {
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.1);
+  flex-grow: 1;
+  min-width: 100%;
+  border: 15px solid white;
+  padding: 2%
+}
+
+.portfolio-app {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  min-height: auto;
 }
 
 li {
-  font-family: sans-serif;
-  font-size: 1em;
-  line-height: 1.5;
-  color: #FCEFB4;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  color: white;
 }
 
 #contactInfo {
@@ -29,13 +49,13 @@ li {
 }
 
 a:link {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
 }
 
 
 a:visited {
-  color: #33FCFF;
+  color: white;
 }
 
 a:hover {
@@ -47,24 +67,36 @@ a:active {
 }
 
 p {
-  color: #FCEFB4;
-  font-size: 1.5em;
- 
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  color: #fffdf7;
 }
 
 h1 {
-  color: #FCEFB4;
-  font-size: 5em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 4rem;
+  letter-spacing: 0.4px;
+  word-spacing: -0.6px;
+  color: #ffffff;
+ 
 }
 
 h2 {
-  color:#FCEFB4;
-  font-size: 3em;
+  font-family: Arial, sans-serif;
+  font-size: 3rem;
+  color: #ffffff;
 }
 
 h3 {
-  color:#FCEFB4;
-  font-size: 2em;
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+h1.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 contactForm {
@@ -76,7 +108,8 @@ contactForm {
   margin:10%;
   border-radius: 30px;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
   backdrop-filter: blur(50px);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: sticky;
@@ -98,29 +131,69 @@ contactForm {
 
 img.github {
   border-radius: 50px;
+  margin-left:20px;
+  margin-right:20px;
 
 }
 
 img.linkedinIcon {
   border-radius: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #root>div.portfolio-app>button {
-  display: flex;
+  display: block;
+  margin-left: 39%;
   min-width: 10%;
   min-height: 10%;
   font-size: 2em;
   justify-content: center;
-  align-items: center;
+  align-items: center;;
   border-radius: 10%;
 
 }
 
-div.flowMeters {
-  text-align: center;
-  align-content: center;
-  margin-left: 15%;
-  margin-right: 15%;  
+#\:r1\:-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
 }
 
+#\:r5\:-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
 
+#\:r3\:-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+#root > div.portfolio-app > div:nth-child(1) > contactform > div > form > div:nth-child(1) > div > div {
+  color:aliceblue
+}
+
+#root > div.portfolio-app > div:nth-child(1) > contactform > div > form > div:nth-child(1) > div {
+  color:aliceblue
+}
+
+.information {
+  display: flex;
+  flex-direction: row;
+  margin-left:auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.contact {
+  margin-left: 10%;
+  margin-right:10%;
+}
