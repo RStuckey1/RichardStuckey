@@ -10,7 +10,7 @@ import ErrorPage from './Pages/ErrorPage.jsx'
 import Home from './Pages/Home.jsx'
 import List from './Pages/List.jsx'
 import FlowMeters from './Pages/FlowMeters.jsx'
-import SeaLion from './Pages/SeaLion.jsx'
+import SeaLion from './Pages/Sealion.jsx'
 import QT from './Pages/QT.jsx'
 import './index.css'
 
