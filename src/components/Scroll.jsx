@@ -21,9 +21,9 @@ function Scroll() {
   };
 
   return (
-    <button 
-      className="scroll-to-top" 
-      style={{ display: showButton ? 'block' : 'none' }} 
+    <button
+      className="scroll-to-top"
+      style={{ display: showButton ? 'block' : 'none' }}
       onClick={scrollToTop}
     >
       Click to scroll to top

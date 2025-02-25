@@ -1,5 +1,5 @@
 .home {
-    display:block;
+    display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -12,7 +12,7 @@
     text-align: justify;
     margin-left: 15%;
     margin-right: 15%;
-    padding-top:9%;
+    padding-top: 9%;
     padding-bottom: 2%;
 
 }
@@ -30,7 +30,7 @@
 
 
 
-#root > div.portfolio-app > div:nth-child(1) > div > ul {
+#root>div.portfolio-app>div:nth-child(1)>div>ul {
     margin-left: 10%;
     margin-right: 10%;
     padding: 2%;
@@ -45,7 +45,7 @@ div.strobe {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     border-radius: 5%;
-    margin:2%;
+    margin: 2%;
     box-shadow: -8px 12px 15px 0 rgba(190, 189, 189, 0.685), 0 6px 20px 0 rgba(247, 247, 247, 0.575)
 }
 
@@ -59,7 +59,7 @@ div.strobe1 {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     border-radius: 5%;
-    margin:2%;
+    margin: 2%;
     box-shadow: 0 12px 15px 0 rgba(190, 189, 189, 0.685), 0 6px 20px 0 rgba(247, 247, 247, 0.575)
 }
 
@@ -72,7 +72,7 @@ div.strobe2 {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     border-radius: 5%;
-    margin:2%;
+    margin: 2%;
     box-shadow: 8px 12px 15px 0 rgba(190, 189, 189, 0.685), 0 6px 20px 0 rgba(247, 247, 247, 0.575)
 }
 
@@ -80,33 +80,43 @@ div.strobe2 {
     0% {
         background-color: #006466;
     }
+
     10% {
         background-color: #065A60
     }
+
     20% {
         background-color: #0B525B;
     }
+
     30% {
-        background-color:#144552;
+        background-color: #144552;
     }
+
     40% {
         background-color: #1B3A4B;
     }
+
     50% {
-        background-color:#212F45;
+        background-color: #212F45;
     }
+
     60% {
         background-color: #272640;
     }
+
     70% {
         background-color: #312244;
     }
+
     80% {
         background-color: #3E1F47;
     }
+
     90% {
         background-color: #4D194D;
     }
+
     100% {
         background-color: #4D194D;
     }
@@ -118,36 +128,37 @@ div.strobe2 {
 }
 
 p.strobeText {
-    font-family:monospace;
+    font-family: monospace;
     font-size: 18px;
-    margin:5%;
-    padding:2%;
+    margin: 5%;
+    padding: 2%;
 }
+
 div.quote>p>span {
     font-style: italic;
     font-size: 20px;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > div.flare > div.strobe1 > div > span {
+#root>div.portfolio-app>div:nth-child(1)>div>div.flare>div.strobe1>div>span {
     justify-self: center;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > div.flare > div.strobe2 > div > span {
+#root>div.portfolio-app>div:nth-child(1)>div>div.flare>div.strobe2>div>span {
     justify-self: center;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > div.flare > div.strobe > div > span {
+#root>div.portfolio-app>div:nth-child(1)>div>div.flare>div.strobe>div>span {
     justify-self: center;
 }
 
 div.backtotop {
-    
+
     justify-content: center;
     align-items: center;
     font-size: 4em;
     color: #ffffff;
     margin-top: 5%;
-    padding:2%;
+    padding: 2%;
 }
 
 .wave {

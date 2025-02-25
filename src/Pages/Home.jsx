@@ -33,9 +33,9 @@ const Home = () => {
     <>
       <div className="home">
         <div className="wave">
-        <NameWave />
+          <NameWave />
         </div>
-        
+
         <p className="intro">I am glad you found my Website.To navigate your way around, click any of the following words below or at the top:</p>
 
         <ul>
@@ -56,7 +56,7 @@ const Home = () => {
             so throw off the bowlines, sail away from safe harbor,
             catch the trade winds in your sails. Explore. Dream. Discover."
             <span>~Mark Twain</span></p>
-            <br></br>
+          <br></br>
           <p>"The ones who are crazy enough to think that they can change the world are the ones who do."
             <span>~Steve Jobs</span>
           </p>

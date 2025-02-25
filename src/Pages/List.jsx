@@ -35,19 +35,19 @@ export function List() {
                 {itemData.map((item) => (
                     <ImageListItem key={item.img}>
                         <Link to={item.link} target='_blank'>
-                        <img
-                            srcSet={`${item.img}?w=400&h=250&fit=crop&auto=format&dpr=2 2x`}
-                            src={`${item.img}?w=400&h=250&fit=crop&auto=format&dpr=2 2x`}
-                            alt={item.title}
-                            loading="lazy"
-                            
-                        />
-                        <ImageListItemBar
-                            title={item.title}
-                            subtitle={item.description}
-                            position="top"
-                        />
-                    </Link>
+                            <img
+                                srcSet={`${item.img}?w=400&h=250&fit=crop&auto=format&dpr=2 2x`}
+                                src={`${item.img}?w=400&h=250&fit=crop&auto=format&dpr=2 2x`}
+                                alt={item.title}
+                                loading="lazy"
+
+                            />
+                            <ImageListItemBar
+                                title={item.title}
+                                subtitle={item.description}
+                                position="top"
+                            />
+                        </Link>
                     </ImageListItem>
                 ))}
             </ImageList>
@@ -112,14 +112,14 @@ const itemData = [
         title: "Food Recipe Social Platform",
         description: "GraphQL, React, Node, Express, TypeScript",
         link: "https://github.com/RStuckey1/Gastro-Book",
-       
+
     },
     {
         img: notfadeaway,
         title: "Musical Equipment Business Website",
         description: "React, JavaScript, MUI",
         link: "https://github.com/RStuckey1/NotFadeAway",
-     
+
     },
 ];
 

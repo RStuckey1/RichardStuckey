@@ -1,7 +1,8 @@
 .carousel {
- 
+
     align-items: center;
-    align-content: center;;
+    align-content: center;
+    ;
     justify-content: center;
     border-radius: 5%;
     margin: 5%;
@@ -23,7 +24,7 @@
 }
 
 .arrow {
-    position:static;
+    position: static;
     height: 2rem;
     color: white;
     filter: drop-shadow(0px 0px 5px #555);
@@ -31,12 +32,13 @@
 
 .arrow:hover {
     cursor: pointer;
-}   
+}
 
 .arrow-left {
     left: 1rem;
-    
+
 }
+
 .arrow-right {
     right: 1rem;
 }
@@ -59,7 +61,7 @@
     cursor: pointer;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > div:nth-child(12) > div > span {
-    
+#root>div.portfolio-app>div:nth-child(1)>div>div:nth-child(12)>div>span {
+
     justify-content: center;
 }

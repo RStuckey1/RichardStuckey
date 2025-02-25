@@ -1,6 +1,6 @@
 .portfolio {
     display: block;
-    text-align:  center;
+    text-align: center;
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -9,20 +9,20 @@
 
 
 
-#root > div.portfolio-app > div:nth-child(1) > div > ul{
+#root>div.portfolio-app>div:nth-child(1)>div>ul {
     object-fit: contain;
     object-position: center;
     place-self: center;
 
-    
+
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > ul > li{
+#root>div.portfolio-app>div:nth-child(1)>div>ul>li {
     display: flex;
     object-fit: contain;
     Object-position: center;
     place-self: center;
-    
+
 
 
 
