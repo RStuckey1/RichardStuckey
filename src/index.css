@@ -70,7 +70,7 @@ a:active {
 p {
   font-family: Helvetica, sans-serif;
   font-size: 25px;
-  color: #fffdf7;
+  color: #3AAFCF;
 }
 
 h1 {
@@ -78,20 +78,20 @@ h1 {
   font-size: 4rem;
   letter-spacing: 0.4px;
   word-spacing: -0.6px;
-  color: #ffffff;
+  color: #06E8C6;
  
 }
 
 h2 {
   font-family: Arial, sans-serif;
   font-size: 3rem;
-  color: #ffffff;
+  color: #06E8C6;
 }
 
 h3 {
   font-family: Arial, sans-serif;
   font-size: 2rem;
-  color: #ffffff;
+  color: #06E8C6;
 }
 
 h1.resume {

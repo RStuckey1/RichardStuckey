@@ -93,6 +93,16 @@ body {
 
 }
 
+#root > div.portfolio-app > div:nth-child(1) > div > div.resume > div.WorkHighlights > h3:nth-child(2) > a {
+  color: #4d194d;
+  text-shadow: 2px 2px #FF17E4;
+}
+
+#root > div.portfolio-app > div:nth-child(1) > div > div.resume > div.WorkHighlights > h3:nth-child(2) > a:hover{
+  color: hsl(0, 0%, 100%);
+  text-shadow: 2px 2px #FF17E4;
+}
+
 div.WorkHighlights {
   margin-left: 10%;
   margin-right: 10%;
