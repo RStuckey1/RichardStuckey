@@ -21,7 +21,7 @@ export const Carousel = ({ itemData }) => {
     };
 
     return (
-        <div className="carousel">
+        <div className="carouselbox">
             <BsArrowLeftCircleFill className="arrow arrow-left" onClick={handlePrevClick} />
             {itemData.map((item, idx) => (
                 <img

@@ -61,20 +61,20 @@ export const Contact = () => {
     return (
         <>
             <div className="contact">
-            <h1>To get in touch, send me a message...</h1>
-            <h2>...or find me on LinkedIn or GitHub(click the icons below)</h2>
-            <br></br>
-            <br></br>
-            <div className="information">
-                <Link to="https://www.linkedin.com/in/richard-stuckey-9b2910234/" target="_blank">
-                    <img className="linkedinIcon" src={linkedin} alt="linkedinicon"></img>
-                </Link>
+                <h1>To get in touch, send me a message...</h1>
+                <h2>...or find me on LinkedIn or GitHub(click the icons below)</h2>
                 <br></br>
                 <br></br>
-                <Link to="https://www.github.com/RStuckey1" target="_blank">
-                    <img className="github" src={github} alt="github"></img>
-                </Link>
-            </div>
+                <div className="information">
+                    <Link to="https://www.linkedin.com/in/richard-stuckey-9b2910234/" target="_blank">
+                        <img className="linkedinIcon" src={linkedin} alt="linkedinicon"></img>
+                    </Link>
+                    <br></br>
+                    <br></br>
+                    <Link to="https://www.github.com/RStuckey1" target="_blank">
+                        <img className="github" src={github} alt="github"></img>
+                    </Link>
+                </div>
 
             </div>
             <Box

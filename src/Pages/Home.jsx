@@ -33,16 +33,15 @@ const Home = () => {
     <>
       <div className="home">
         <div className="wave">
-        <NameWave />
+          <NameWave />
         </div>
-        
-        <p className="intro">I am glad you found my Website.To navigate your way around, click any of the following words below or at the top:</p>
 
-        <ul>
-          <li><Link to="/Resume">Resume - How Rick looks on paper</Link></li>
-          <li><Link to="/List">Portfolio - Some of my work</Link></li>
-          <li><Link to="/Contact">Contact - How to reach me. I would love to hear from you!</Link></li>
-          <li><Link to="/">Home - Brings you back here</Link></li>
+        <p className="intro">I'm happy you found my Website. To navigate your way around, click any of the following words below or at the top:</p>
+
+        <ul className="introLinks">
+          <li><Link to="/Resume">Resume</Link></li>
+          <li><Link to="/List">Portfolio</Link></li>
+          <li><Link to="/Contact">Contact Rick</Link></li>
         </ul>
 
         <br></br>
@@ -56,7 +55,7 @@ const Home = () => {
             so throw off the bowlines, sail away from safe harbor,
             catch the trade winds in your sails. Explore. Dream. Discover."
             <span>~Mark Twain</span></p>
-            <br></br>
+          <br></br>
           <p>"The ones who are crazy enough to think that they can change the world are the ones who do."
             <span>~Steve Jobs</span>
           </p>

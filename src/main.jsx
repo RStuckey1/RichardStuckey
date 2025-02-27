@@ -17,59 +17,54 @@ import QT from './Pages/QT.jsx'
 
 
 const router = createBrowserRouter([
- 
-{
-  path: '/',
-  element: <App/>,
-  errorElement: <ErrorPage />,
-  children: [
-   
-    {
-      index: true,
-      element: <Home/>,
-    },
-    {
-      path: '/Landing',
-      element: <Landing />,
-    },
-    {
-      path: '/Home',
-      element: <Home />,
-    },
-    {
-      path: '/Contact',
-      element: <Contact />,
-    },
-    {
-      path: '/Navbar',
-      element: <Navbar />,
-    },
-    {
-      path: '/Footer',
-      element: <Footer />,
-    },
-    {
-      path: '/List',
-      element: <List />,
-    },
-    {
-      path: '/Resume',
-      element: <Resume />,
-    },
-    {
-      path: '/FlowMeters',
-      element: <FlowMeters />,
-    },
-    {
-      path: '/SeaLion',
-      element: <SeaLion />,
-    },
-    {
-      path: '/QT',
-      element: <QT />,
-    },
-  ]
-}
+  {
+    path: '/',
+    element: <App />,
+    errorElement: <ErrorPage />,
+    children: [
+
+      {
+        index: true,
+        element: <Home />,
+      },
+      {
+        path: '/Home',
+        element: <Home />,
+      },
+      {
+        path: '/Contact',
+        element: <Contact />,
+      },
+      {
+        path: '/Navbar',
+        element: <Navbar />,
+      },
+      {
+        path: '/Footer',
+        element: <Footer />,
+      },
+      {
+        path: '/List',
+        element: <List />,
+      },
+      {
+        path: '/Resume',
+        element: <Resume />,
+      },
+      {
+        path: '/FlowMeters',
+        element: <FlowMeters />,
+      },
+      {
+        path: '/SeaLion',
+        element: <SeaLion />,
+      },
+      {
+        path: '/QT',
+        element: <QT />,
+      },
+    ]
+  }
 ]);
 
 createRoot(document.getElementById('root')).render(

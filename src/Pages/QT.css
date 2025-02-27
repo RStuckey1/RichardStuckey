@@ -27,9 +27,8 @@
     max-width: 70%;
     min-height: 50%;
     max-height: 70%;
-    align-self: center;   
+    align-self: center;
     align-items: center;
     object-fit: contain;
     border-radius: 10px;
 }
-

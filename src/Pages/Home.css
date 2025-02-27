@@ -1,5 +1,5 @@
 .home {
-    display:block;
+    display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -12,25 +12,58 @@
     text-align: justify;
     margin-left: 15%;
     margin-right: 15%;
-    padding-top:9%;
+    padding-top: 9%;
     padding-bottom: 2%;
 
 }
+
+.introLinks>li {
+    font-size: 50px;
+    color: #4d194d;
+    text-shadow: 2px 2px #FF17E4;
+}
+
+#root > div.portfolio-app > div:nth-child(1) > div > ul > li:nth-child(1) > a {
+    color: #4d194d;
+    text-shadow: 2px 2px #FF17E4;
+}
+
+#root > div.portfolio-app > div:nth-child(1) > div > ul > li:nth-child(1) > a:hover {
+    color: #FF17E4;
+    text-shadow: 2px 2px white;
+}
+
+#root > div.portfolio-app > div:nth-child(1) > div > ul > li:nth-child(2) > a {
+    color: #4d194d;
+    text-shadow: 2px 2px #FF17E4;
+}
+
+#root > div.portfolio-app > div:nth-child(1) > div > ul > li:nth-child(2) > a:hover {
+    color: #FF17E4;
+    text-shadow: 2px 2px white;
+}
+
+#root > div.portfolio-app > div:nth-child(1) > div > ul > li:nth-child(3) > a {
+    color: #4d194d;
+    text-shadow: 2px 2px #FF17E4;
+}
+
+#root > div.portfolio-app > div:nth-child(1) > div > ul > li:nth-child(3) > a:hover {
+    color: #FF17E4;
+    text-shadow: 2px 2px white;
+}
+
 
 .flare {
     display: flex;
     flex-direction: row;
 }
 
-.wave {
-    margin: 2%;
-}
 
 
 
 
-
-#root > div.portfolio-app > div:nth-child(1) > div > ul {
+#root>div.portfolio-app>div:nth-child(1)>div>ul {
     margin-left: 10%;
     margin-right: 10%;
     padding: 2%;
@@ -40,12 +73,12 @@ div.strobe {
     width: 30%;
     background-color: #4d194d;
     animation-name: changing;
-    animation-duration: 1.5s;
+    animation-duration: 6s;
     animation-direction: alternate;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     border-radius: 5%;
-    margin:2%;
+    margin: 2%;
     box-shadow: -8px 12px 15px 0 rgba(190, 189, 189, 0.685), 0 6px 20px 0 rgba(247, 247, 247, 0.575)
 }
 
@@ -53,62 +86,72 @@ div.strobe1 {
     width: 30%;
     background-color: #4d194d;
     animation-name: changing;
-    animation-duration: 1.5s;
-    animation-delay: 0.5s;
+    animation-duration: 6s;
+    animation-delay: 2s;
     animation-direction: alternate;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     border-radius: 5%;
-    margin:2%;
+    margin: 2%;
     box-shadow: 0 12px 15px 0 rgba(190, 189, 189, 0.685), 0 6px 20px 0 rgba(247, 247, 247, 0.575)
 }
 
 div.strobe2 {
     width: 30%;
     animation-name: changing;
-    animation-duration: 1.5s;
-    animation-delay: 1s;
+    animation-duration: 6s;
+    animation-delay: 4s;
     animation-direction: alternate;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     border-radius: 5%;
-    margin:2%;
+    margin: 2%;
     box-shadow: 8px 12px 15px 0 rgba(190, 189, 189, 0.685), 0 6px 20px 0 rgba(247, 247, 247, 0.575)
 }
 
 @keyframes changing {
     0% {
-        background-color: #006466;
+        background-color: #00EAC7;
     }
+
     10% {
-        background-color: #065A60
+        background-color: #00FBFF
     }
+
     20% {
-        background-color: #0B525B;
+        background-color: #3BF5FF;
     }
+
     30% {
-        background-color:#144552;
+        background-color: #32B1F6;
     }
+
     40% {
-        background-color: #1B3A4B;
+        background-color: #262288;
     }
+
     50% {
-        background-color:#212F45;
+        background-color: #4A237E;
     }
+
     60% {
-        background-color: #272640;
+        background-color: #9B28BB;
     }
+
     70% {
         background-color: #312244;
     }
+
     80% {
-        background-color: #3E1F47;
+        background-color: #E32DE3;
     }
+
     90% {
-        background-color: #4D194D;
+        background-color: #FF17E4;
     }
+
     100% {
-        background-color: #4D194D;
+        background-color: #FC0ED1;
     }
 }
 
@@ -118,36 +161,38 @@ div.strobe2 {
 }
 
 p.strobeText {
-    font-family:monospace;
+    font-family: monospace;
     font-size: 18px;
-    margin:5%;
-    padding:2%;
+    margin: 5%;
+    padding: 2%;
+    color: white;
 }
+
 div.quote>p>span {
     font-style: italic;
     font-size: 20px;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > div.flare > div.strobe1 > div > span {
+#root>div.portfolio-app>div:nth-child(1)>div>div.flare>div.strobe1>div>span {
     justify-self: center;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > div.flare > div.strobe2 > div > span {
+#root>div.portfolio-app>div:nth-child(1)>div>div.flare>div.strobe2>div>span {
     justify-self: center;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > div.flare > div.strobe > div > span {
+#root>div.portfolio-app>div:nth-child(1)>div>div.flare>div.strobe>div>span {
     justify-self: center;
 }
 
 div.backtotop {
-    
+
     justify-content: center;
     align-items: center;
     font-size: 4em;
     color: #ffffff;
     margin-top: 5%;
-    padding:2%;
+    padding: 2%;
 }
 
 .wave {

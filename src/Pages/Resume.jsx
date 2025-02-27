@@ -188,18 +188,18 @@ function Resume() {
                     <p> In 2023, I realized that I was truely "burned out". It was time for me to follow my dreams. Since I was a child, I was facinated with computers and how they are parts of our everyday life. So I went back to school at the University of Kansas and earned a certificate in Software Development. I feel like my spark has been revived and I am hungry to learn more and to show my tenacity once again.</p>
                 </div>
                 <div className="WorkHighlights">
-                <h1>Resume</h1>
-                <h3>
-                <Link to="/List" target="_blank">Click to see Rick's Portfolio</Link>
-                </h3>
-                <br></br>
-                <h2>Work Experience Highlights</h2>
-                <br></br>
-                <h2>Kansas City Zoo & Aquarium (Life Support Systems Manager)</h2>
-                <br></br>
-                <h3>SOBELLA Oceanarium</h3>
-                <br></br>
-                
+                    <h1>Resume</h1>
+                    <h3>
+                        <Link to="/List" target="_blank">Click to see Rick's Portfolio</Link>
+                    </h3>
+                    <br></br>
+                    <h2>Work Experience Highlights</h2>
+                    <br></br>
+                    <h2>Kansas City Zoo & Aquarium (Life Support Systems Manager)</h2>
+                    <br></br>
+                    <h3>SOBELLA Oceanarium</h3>
+                    <br></br>
+
                     <p>From conceptual meetings to opening, I contributed to the design and commissioning of the Life Support Systems and the building management controls systems. After construction of a building this size, there were many changes that had to be made to be successful with animals.</p>
                     <br></br>
                     <h3>Stingray Bay</h3>
@@ -217,28 +217,28 @@ function Resume() {
                     <li>Cutting out middleman supply houses, buying parts from manufacture for pumps, ozone equipment, etc. saving over $30,000 per year.</li>
                     <li>Minimized outside contractors, learning many specialized skills in the process. Including maintenance/repairs for: Rotary-screw compressors, DBD ozone generators, Oxygen Concentrators, Programable logic controllers & HMIs, Long-coupled pumps, Building hyrdonic systems and process controls(Building automation)</li>
                 </div>
-             
+
                 <div className="education">
-                <h2>Education</h2>
+                    <h2>Education</h2>
                     <p>University of Kansas - Software Development Certificate </p>
                     <p>University of Kansas(Lawrence, KS) </p>
                     <p>Bachelor's of Science - Environmental Science</p>
                     <p>Bachelor's of Science - Microbiology</p>
                     <p>Minor - Biological Anthropology</p>
                 </div>
-               <div className="certifications">
-                <h2>Certifications</h2>
-                <ul className="certs">
-                    <li>Software Development Certificate</li>
-                    <li>Aquatic Animal Life Support Operator(level 1&2)</li>
-                    <li>Certified Water Quality Laboratory Technician(level 1&2)</li>
-                    <li>OSHA 10 certification</li>
-                    <li>Certified Pool Operator</li>
-                    <li>Eagle Scout - Boy Scouts of America</li>
-                </ul>
+                <div className="certifications">
+                    <h2>Certifications</h2>
+                    <ul className="certs">
+                        <li>Software Development Certificate</li>
+                        <li>Aquatic Animal Life Support Operator(level 1&2)</li>
+                        <li>Certified Water Quality Laboratory Technician(level 1&2)</li>
+                        <li>OSHA 10 certification</li>
+                        <li>Certified Pool Operator</li>
+                        <li>Eagle Scout - Boy Scouts of America</li>
+                    </ul>
                 </div>
                 <div className="workHistory">
-                <h1>Work History</h1>
+                    <h1>Work History</h1>
                     <h2>Commercial Water(Lead service Technician)2024</h2>
                     <p>Pure water applications for Industrial, Medical, and Laboratory industries. Diagnosed and repaired automated water systems and CIP(Clean in Place) technologies</p>
                     <h2>Cogent(Field service controls technician)2024</h2>
@@ -249,7 +249,7 @@ function Resume() {
                     <h2>Environmental Science Coporation (Field Technician)2007-2008</h2>
                     <br></br>
                 </div>
-        
+
 
 
             </div>
