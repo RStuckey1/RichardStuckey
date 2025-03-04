@@ -13,7 +13,6 @@ import weatherapp from '../assets/projects/weatherIcon.png'
 import penguinFlow from '../assets/projects/penguinFlow.png'
 import sealions from '../assets/projects/Sealions.png'
 import sharktank from '../assets/projects/sharktank.png'
-import Sealion from './Sealion.jsx';
 import './List.css';
 
 
