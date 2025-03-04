@@ -17,38 +17,38 @@
 
 }
 
-.introLinks>li {
+ul.b>li {
     font-size: 50px;
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > ul > li:nth-child(1) > a {
+#root > div.portfolio-app > div:nth-child(1) > div > ul.b > li:nth-child(1) > a {
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > ul > li:nth-child(1) > a:hover {
+#root > div.portfolio-app > div:nth-child(1) > div > ul.b > li:nth-child(1) > a:hover {
     color: #FF17E4;
     text-shadow: 2px 2px white;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > ul > li:nth-child(2) > a {
+#root > div.portfolio-app > div:nth-child(1) > div > ul.b > li:nth-child(2) > a {
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > ul > li:nth-child(2) > a:hover {
+#root > div.portfolio-app > div:nth-child(1) > div > ul.b > li:nth-child(2) > a:hover {
     color: #FF17E4;
     text-shadow: 2px 2px white;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > ul > li:nth-child(3) > a {
+#root > div.portfolio-app > div:nth-child(1) > div > ul.b > li:nth-child(3) > a {
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > ul > li:nth-child(3) > a:hover {
+#root > div.portfolio-app > div:nth-child(1) > div > ul.b > li:nth-child(3) > a:hover {
     color: #FF17E4;
     text-shadow: 2px 2px white;
 }
@@ -98,6 +98,7 @@ div.strobe1 {
 
 div.strobe2 {
     width: 30%;
+    background-color: #4d194d;
     animation-name: changing;
     animation-duration: 6s;
     animation-delay: 4s;
@@ -111,47 +112,11 @@ div.strobe2 {
 
 @keyframes changing {
     0% {
-        background-color: #00EAC7;
-    }
-
-    10% {
-        background-color: #00FBFF
-    }
-
-    20% {
-        background-color: #3BF5FF;
-    }
-
-    30% {
-        background-color: #32B1F6;
-    }
-
-    40% {
-        background-color: #262288;
-    }
-
-    50% {
-        background-color: #4A237E;
-    }
-
-    60% {
-        background-color: #9B28BB;
-    }
-
-    70% {
-        background-color: #312244;
-    }
-
-    80% {
-        background-color: #E32DE3;
-    }
-
-    90% {
-        background-color: #FF17E4;
+        background-color: #07f49e;
     }
 
     100% {
-        background-color: #FC0ED1;
+        background-color: #42047e;
     }
 }
 
@@ -190,7 +155,7 @@ div.backtotop {
     justify-content: center;
     align-items: center;
     font-size: 4em;
-    color: #ffffff;
+    color: #ff17e4;
     margin-top: 5%;
     padding: 2%;
 }

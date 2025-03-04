@@ -13,6 +13,7 @@ import weatherapp from '../assets/projects/weatherIcon.png'
 import penguinFlow from '../assets/projects/penguinFlow.png'
 import sealions from '../assets/projects/Sealions.png'
 import sharktank from '../assets/projects/sharktank.png'
+import Sealion from './Sealion.jsx';
 import './List.css';
 
 
@@ -61,9 +62,6 @@ const itemData = [
         title: "Rolling D20 App",
         description: "HTML, CSS, JavaScript",
         link: "https://rstuckey1.github.io/Dice-Rolling-D20/",
-        rows: 2,
-        cols: 2,
-        featured: true,
     },
     {
         img: booksearch,
@@ -87,7 +85,7 @@ const itemData = [
         img: sealions,
         title: "Sea Lion Holding System",
         description: "pump/filtration/automated chemical system",
-        link: "/SeaLion",
+        link: "/Sealion",
     },
     {
         img: sharktank,

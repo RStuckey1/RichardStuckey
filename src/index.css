@@ -14,7 +14,6 @@
 
 .content {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: #FCEFB4
 }
 
 .headerbox {
@@ -39,7 +38,7 @@
 li {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 25px;
-  color: white;
+  color: #06E8C6;
 }
 
 #contactInfo {
@@ -49,27 +48,13 @@ li {
 }
 
 a:link {
-  color: #ffffff;
   text-decoration: none;
-}
-
-
-a:visited {
-  color: white;
-}
-
-a:hover {
-  color: #f88888;
-}
-
-a:active {
-  color: #332d92;
 }
 
 p {
   font-family: Helvetica, sans-serif;
   font-size: 25px;
-  color: #3AAFCF;
+  color: #06E8C6;
 }
 
 h1 {

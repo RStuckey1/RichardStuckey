@@ -10,7 +10,7 @@
 
 .slide {
     border-radius: 5%;
-    box-shadow: 0px 0px 7px #666;
+    box-shadow: 0px 0px 7px #FF17E4;
     height: 70%;
     width: 85%;
     margin: 1%;
@@ -27,7 +27,7 @@
     position: static;
     height: 2rem;
     color: white;
-    filter: drop-shadow(0px 0px 5px #555);
+    filter: drop-shadow(0px 0px 5px #FF17E4);
 }
 
 .arrow:hover {
@@ -50,7 +50,7 @@
 }
 
 .indicator {
-    background-color: white;
+    background-color: #8011ff;
     height: 0.5rem;
     width: 0.5rem;
     border-radius: 100%;

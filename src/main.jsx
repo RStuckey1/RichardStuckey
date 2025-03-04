@@ -3,7 +3,6 @@ import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import Navbar from './components/Navbar.jsx'
-import Landing from './Pages/Landing.jsx'
 import Footer from './Footer.jsx'
 import Contact from './Pages/Contact.jsx'
 import Resume from './Pages/Resume.jsx'
@@ -11,7 +10,7 @@ import ErrorPage from './Pages/ErrorPage.jsx'
 import Home from './Pages/Home.jsx'
 import List from './Pages/List.jsx'
 import FlowMeters from './Pages/FlowMeters.jsx'
-import SeaLion from './Pages/Sealion.jsx'
+import Sealion from './Pages/Sealion.jsx'
 import QT from './Pages/QT.jsx'
 
 
@@ -56,8 +55,8 @@ const router = createBrowserRouter([
         element: <FlowMeters />,
       },
       {
-        path: '/SeaLion',
-        element: <SeaLion />,
+        path: '/Sealion',
+        element: <Sealion />,
       },
       {
         path: '/QT',

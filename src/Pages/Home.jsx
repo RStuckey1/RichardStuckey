@@ -38,7 +38,7 @@ const Home = () => {
 
         <p className="intro">I'm happy you found my Website. To navigate your way around, click any of the following words below or at the top:</p>
 
-        <ul className="introLinks">
+        <ul class="b">
           <li><Link to="/Resume">Resume</Link></li>
           <li><Link to="/List">Portfolio</Link></li>
           <li><Link to="/Contact">Contact Rick</Link></li>

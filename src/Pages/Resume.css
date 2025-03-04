@@ -21,7 +21,7 @@ body {
   place-self: center;
   justify-items: center;
   max-width: fit-content;
-  background-color: #4D194D;
+  background-color: #4d194d;
   border-radius: 10%;
   padding: 5%;
   object-fit: fill;
@@ -172,6 +172,7 @@ div.certifications>ul {
   margin-bottom: 2%;
   margin-left: 15%;
   font-family: monospace;
+  color: #06E8C6;
 }
 
 .certifications>h2 {
