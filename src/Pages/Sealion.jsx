@@ -2,9 +2,9 @@ import React from 'react';
 import controls1 from '../assets/SLholding/controls1.png';
 import controls2 from '../assets/SLholding/controls2.png';
 import pumps1 from '../assets/SLholding/pumps1.png';
-import './SeaLion.css';
+import './Sealion.css';
 
-function SeaLion() {
+function Sealion() {
     return (
         <>
             <div className="flowMeters">
@@ -34,4 +34,4 @@ function SeaLion() {
     );
 };
 
-export default SeaLion;
+export default Sealion;
