@@ -79,7 +79,7 @@ const itemData = [
         img: penguinFlow,
         title: "Penguin Exhibit Filtration Upgrade",
         description: "Safety improvements to a penguin exhibit filtration system",
-        link: "/FlowMeters",
+        link: "https://reactme-pksc.onrender.com/FlowMeters",
     },
     {
         img: sealions,
