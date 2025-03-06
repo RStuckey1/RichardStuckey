@@ -34,7 +34,7 @@ export function List() {
                 </ImageListItem>
                 {itemData.map((item) => (
                     <ImageListItem key={item.img}>
-                        <Link to={item.link} target='_blank'>
+                        <Link to={item.link} rel="noopener noreferrer">
                             <img
                                 srcSet={`${item.img}?w=400&h=250&fit=crop&auto=format&dpr=2 2x`}
                                 src={`${item.img}?w=400&h=250&fit=crop&auto=format&dpr=2 2x`}
@@ -48,6 +48,7 @@ export function List() {
                                 position="top"
                             />
                         </Link>
+                    
                     </ImageListItem>
                 ))}
             </ImageList>
@@ -78,7 +79,7 @@ const itemData = [
         img: penguinFlow,
         title: "Penguin Exhibit Filtration Upgrade",
         description: "Safety improvements to a penguin exhibit filtration system",
-        link: "https://reactme-pksc.onrender.com/FlowMeters",
+        link: "/FlowMeters",
     },
     {
         img: sealions,
