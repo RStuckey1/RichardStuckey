@@ -34,7 +34,7 @@ export function List() {
                 </ImageListItem>
                 {itemData.map((item) => (
                     <ImageListItem key={item.img}>
-                        <Link to={item.link} rel="noopener noreferrer">
+                        <Link to={item.link}>
                             <img
                                 srcSet={`${item.img}?w=400&h=250&fit=crop&auto=format&dpr=2 2x`}
                                 src={`${item.img}?w=400&h=250&fit=crop&auto=format&dpr=2 2x`}
