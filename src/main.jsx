@@ -10,7 +10,7 @@ import ErrorPage from './Pages/ErrorPage.jsx'
 import Home from './Pages/Home.jsx'
 import List from './Pages/List.jsx'
 import FlowMeters from './Pages/FlowMeters.jsx'
-import SeaLion from './Pages/SeaLion.jsx'
+import Holding from './Pages/Holding.jsx'
 import QT from './Pages/QT.jsx'
 
 
@@ -55,8 +55,8 @@ const router = createBrowserRouter([
         element: <FlowMeters />,
       },
       {
-        path: '/SeaLion',
-        element: <SeaLion />,
+        path: '/Holding',
+        element: <Holding />,
       },
       {
         path: '/QT',

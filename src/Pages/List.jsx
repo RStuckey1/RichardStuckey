@@ -85,7 +85,7 @@ const itemData = [
         img: sealions,
         title: "Sea Lion Holding System",
         description: "pump/filtration/automated chemical system",
-        link: "/SeaLion",
+        link: "/Holding",
     },
     {
         img: sharktank,
