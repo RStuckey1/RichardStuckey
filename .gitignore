@@ -15,6 +15,5 @@ dist-ssr
 *.local
 *.local.*
 
-dist
 
 dist\index.html
