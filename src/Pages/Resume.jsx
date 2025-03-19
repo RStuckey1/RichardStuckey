@@ -190,7 +190,7 @@ function Resume() {
                 <div className="WorkHighlights">
                     <h1>Resume</h1>
                     <h3>
-                        <Link to="/List" target="_blank">Click to see Rick's Portfolio</Link>
+                        <Link to="/List">Click to see Rick's Portfolio</Link>
                     </h3>
                     <br></br>
                     <h2>Work Experience Highlights</h2>

@@ -88,17 +88,8 @@ contactForm {
 
   display: flex;
   justify-content: space-between;
-  max-width: 80%;
-  max-height: 75%;
   margin:10%;
-  border-radius: 30px;
   align-items: center;
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0);
-  backdrop-filter: blur(50px);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  position: sticky;
-  top: 0;
 }
 
 #root > div.portfolio-app > div:nth-child(1) > contactform > div > form > div:nth-child(4) > button {
@@ -160,13 +151,7 @@ img.linkedinIcon {
   color: #ffffff;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > contactform > div > form > div:nth-child(1) > div > div {
-  color:aliceblue
-}
 
-#root > div.portfolio-app > div:nth-child(1) > contactform > div > form > div:nth-child(1) > div {
-  color:aliceblue
-}
 
 .information {
   display: flex;

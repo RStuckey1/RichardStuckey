@@ -14,12 +14,9 @@ import '../index.css';
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: '#4D194D',
-    backdropFilter: 'blur(50px)',
-    boxshadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
-    ...theme.typography.body2,
     padding: theme.spacing(2),
     borderRadius: '10px',
-    border: '2px solid #006466',
+    border: '2px solid #06E8C6',
     margin: '30px',
     textAlign: 'center',
 }),
@@ -31,7 +28,7 @@ const theme = createTheme({
             main: "#83cbc7"
         },
         secondary: {
-            main: "#FDFA36"
+            main: "#06E8C6"
         },
     }
 });
@@ -79,7 +76,6 @@ export const Contact = () => {
             </div>
             <Box
                 component="contactForm"
-                sx={{ '& .MultiTextField-root': { m: 2, width: '50ch' } }}
                 display="flex"
                 justifyContent="center"
                 alignItems="center"
@@ -104,7 +100,7 @@ export const Contact = () => {
                                     name='from_name'
                                     label="name"
                                     margin="dense"
-                                    sx={{ width: '100%', borderRadius: '20px', border: '2px solid #006466' }}
+                                    sx={{ width: '100%', borderRadius: '10px', border: '2px solid #06E8C6' }}
                                     InputColor='#4d194d'
                                 />
                             </Item>
@@ -115,7 +111,7 @@ export const Contact = () => {
                                     name='email_from'
                                     label="email"
                                     margin="dense"
-                                    sx={{ width: '100%', borderRadius: '20px', border: '2px solid #006466' }}
+                                    sx={{ width: '100%', borderRadius: '10px', border: '2px solid #06E8C6' }}
                                 />
                             </Item>
                             <Item>
@@ -127,7 +123,7 @@ export const Contact = () => {
                                     multiline
                                     minRows={8}
                                     margin="dense"
-                                    sx={{ width: '100%', borderRadius: '20px', border: '2px solid #006466' }}
+                                    sx={{ width: '100%', borderRadius: '20px', border: '2px solid #06E8C6' }}
                                 />
                             </Item>
                             <Item>

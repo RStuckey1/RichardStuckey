@@ -11,7 +11,7 @@ function FlowMeters() {
             <div className="flowMeters">
                 <h1> Penguin Flowmeter Upgrade</h1>
                 <h2>Kansas City Zoo and Aquarium</h2>
-                <p>This 120,000 gallon cold penguin exhibit had 6 sandfilters stacked in 3 groups and flowed 400-600GPM(Gallons Per Minute) or saltwater, each.
+                <p>This 120,000 gallon cold penguin exhibit had 6 sandfilters stacked in 3 groups and each filter moved 400-600GPM(Gallons Per Minute) of saltwater.
                     When the flowmeters were installed they only had local displays and were difficult to read because they were hard
                     to safely access. These flowmeters had to be recorded 2x per day and many other times during cleaning of the filters.
                 </p>
