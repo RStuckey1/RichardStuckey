@@ -185,15 +185,14 @@ function Resume() {
             <div className="resume">
                 <div className="objective">
                     <h1>Objective</h1>
-                    <p> In 2023, I realized that I was truely "burned out". It was time for me to follow my dreams. Since I was a child, I was facinated with computers and how they are parts of our everyday life. So I went back to school at the University of Kansas and earned a certificate in Software Development. I feel like my spark has been revived and I am hungry to learn more and to show my tenacity once again.</p>
+                    <p> In 2023, I made the choice to pursue a career in Software Development.  So I went back to school at the University of Kansas and earned a certificate in Software Development. Now I am hungry for knowledge and ready to showcase my tenacious curiosity and creativity.</p>
                 </div>
                 <div className="WorkHighlights">
-                    <h1>Resume</h1>
                     <h3>
-                     <Link to="/List">Portfolio</Link>
+                     <Link to="/List">Click Here to See My Portfolio</Link>
                     </h3>
                     <br></br>
-                    <h2>Work Experience Highlights</h2>
+                    <h3>Work Experience Highlights</h3>
                     <br></br>
                     <h2>Kansas City Zoo & Aquarium (Life Support Systems Manager)</h2>
                     <br></br>
@@ -205,7 +204,8 @@ function Resume() {
                     <h3>Stingray Bay</h3>
                     <br></br>
                     <p>This was my first ground-up touch tank exhibit. I contributed to the design, installation, and commissioning of the exhibit.
-                        I managed the Life Support Systems, and the building automation systems. All of the sensors and controllers utilized remote monitoring via a web applicaion interface<br></br>
+                        I managed the Life Support Systems, and the building automation systems. All of the sensors and controllers utilized remote monitoring via a web application interface.</p>
+                        <p> 
                         This building had a very unique automation system. The water loop for heating and cooling were one system and would switch between heating via a boiler and cooling, through a water chiller. I was able to program the automation to handle the changing seasons.</p>
                     <br></br>
                     <h3>Helzberg Penguin Plaza</h3>

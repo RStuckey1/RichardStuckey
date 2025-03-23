@@ -52,13 +52,14 @@ a:link {
 }
 
 p {
-  font-family: Helvetica, sans-serif;
+  font-family: lucida, sans-serif;
   font-size: 25px;
+  text-indent: 50px;
   color: #06E8C6;
 }
 
 h1 {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: lucida, sans-serif;
   font-size: 4rem;
   letter-spacing: 0.4px;
   word-spacing: -0.6px;
@@ -67,13 +68,13 @@ h1 {
 }
 
 h2 {
-  font-family: Arial, sans-serif;
+  font-family: lucida, sans-serif;
   font-size: 3rem;
   color: #06E8C6;
 }
 
 h3 {
-  font-family: Arial, sans-serif;
+  font-family: lucida, sans-serif;
   font-size: 2rem;
   color: #06E8C6;
 }

@@ -1,4 +1,4 @@
-.active {
+a.active {
     border-color: #FF17E4;
     border: solid 2px;
 }
@@ -9,17 +9,27 @@ nav {
     border-style: outset;
     border-color: #FF17E4;
     position:sticky;
+    z-index: 2;
 }
-#root > nav > ul {
+nav ul {
     display: flex;
-
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
 }
 
-nav ul li {
+/* nav ul li {
     list-style: inline;
     list-style-type: none;
     font-size: 3em;
    
+} */
+
+nav ul li {
+    position: relative;
+    margin-right: 20px;
+    z-index: 2;
 }
 
 nav ul li a{
@@ -28,6 +38,42 @@ nav ul li a{
     padding: 0.5rem;
     border-radius: 0.5rem;
     color: #06E8C6;
+    z-index: 2;
+}
+
+nav ul li.dropdown:hover .dropdown-menu {
+    display: block;
+    z-index: 2;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    list-style: none;
+    border: solid 2px;
+    border-color: #FF17E4; 
+    background-color:black;
+    z-index: 2;
+    box-shadow: 0 4px 6pc rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu li {
+    margin: 5px 0;
+    z-index: 2;
+}
+
+.dropdown-menu li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #06E8C6;
+    display: block;
+    z-index: 2;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #172554;
+    z-index: 2;
 }
 
 nav ul li a:not(.active):hover {

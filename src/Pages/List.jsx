@@ -10,9 +10,6 @@ import getitdone from '../assets/projects/kanban.png'
 import notfadeaway from '../assets/projects/notfadeIcon.png'
 import D20 from '../assets/projects/D20Icon.png'
 import weatherapp from '../assets/projects/weatherIcon.png'
-import penguinFlow from '../assets/projects/penguinFlow.png'
-import sealions from '../assets/projects/Sealions.png'
-import sharktank from '../assets/projects/sharktank.png'
 import './List.css';
 
 
@@ -74,24 +71,6 @@ const itemData = [
         title: "5-day Weather Forecast Dashboard",
         description: "HTML, CSS, BootStrap, TypeScript, Wait-ON, Concurrently",
         link: "https://weather-95ia.onrender.com/",
-    },
-    {
-        img: penguinFlow,
-        title: "Penguin Exhibit Filtration Upgrade",
-        description: "Safety improvements to a penguin exhibit filtration system",
-        link: "/FlowMeters",
-    },
-    {
-        img: sealions,
-        title: "Sea Lion Holding System",
-        description: "pump/filtration/automated chemical system",
-        link: "/Holding",
-    },
-    {
-        img: sharktank,
-        title: "Solving a Fluke Problem",
-        description: "Flukes in a Shark Tank",
-        link: "/QT",
     },
     {
         img: getitdone,
