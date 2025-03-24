@@ -35,20 +35,28 @@ const Home = () => {
         <div className="wave">
           <NameWave />
         </div>
-
-        <p className="intro">I'm happy you found my Website. To navigate your way around, click any of the following words below or at the top:</p>
-
+      <div className="intro">
+        <p className="intro">
+          Tenacious <br></br>
+          </p>
+        <p className="intro2">
+          Innovative <br></br>
+          </p>
+        <p className="intro3">
+          Leader<br></br>
+        </p>
+        </div>
+      </div>
+      <div className="links">
         <ul class="b">
           <li><Link to="/Resume">Resume</Link></li>
           <li><Link to="/List">Portfolio</Link></li>
           <li><Link to="/Contact">Contact Rick</Link></li>
         </ul>
+      </div>
+       <br></br>
+       <br></br>
 
-        <br></br>
-        <p>Before all of the normal parts of a portfolio website, let me show you what inspires me...</p>
-
-        <br></br>
-        <br></br>
         <div className="quote">
           <p>"Twenty years from now you will be more disappointed by the things
             that you didn't do than by the ones you did do,
@@ -78,7 +86,7 @@ const Home = () => {
 
           </div>
         </div>
-      </div>
+     
 
     </>
 

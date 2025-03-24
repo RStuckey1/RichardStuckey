@@ -6,49 +6,72 @@
 }
 
 .intro {
-
     font-display: block;
-    letter-spacing: 1px;
-    text-align: justify;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-top: 9%;
-    padding-bottom: 2%;
+    padding-top: 5%;
+    margin-left: 8%;
+    margin-right: 10%;
+}
+
+p.intro {
+    font-display: block;
+    font-size: 3em;
+    text-align: left;
+
 
 }
 
+p.intro2 {
+    font-display: block;
+    font-size: 3em;
+    text-align: center;
+}
+
+p.intro3 {
+    font-display: block;
+    font-size: 3em;
+    text-align: right;
+    margin-right: 10%;
+}
+
+.links {
+    display: flex;
+    padding-top:4%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 ul.b>li {
     font-size: 50px;
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > ul.b > li:nth-child(1) > a {
+#root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(1)>a {
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > ul.b > li:nth-child(1) > a:hover {
+#root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(1)>a:hover {
     color: #FF17E4;
     text-shadow: 2px 2px white;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > ul.b > li:nth-child(2) > a {
+#root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(2)>a {
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > ul.b > li:nth-child(2) > a:hover {
+#root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(2)>a:hover {
     color: #FF17E4;
     text-shadow: 2px 2px white;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > ul.b > li:nth-child(3) > a {
+#root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(3)>a {
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > ul.b > li:nth-child(3) > a:hover {
+#root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(3)>a:hover {
     color: #FF17E4;
     text-shadow: 2px 2px white;
 }
@@ -71,7 +94,7 @@ ul.b>li {
 
 div.strobe {
     width: 30%;
-    background-color:  #42047e;
+    background-color: #42047e;
     animation-name: changing;
     animation-duration: 6s;
     animation-direction: alternate;
@@ -84,7 +107,7 @@ div.strobe {
 
 div.strobe1 {
     width: 30%;
-    background-color:  #42047e;
+    background-color: #42047e;
     animation-name: changing;
     animation-duration: 6s;
     animation-delay: 2s;
@@ -98,7 +121,7 @@ div.strobe1 {
 
 div.strobe2 {
     width: 30%;
-    background-color:  #42047e;
+    background-color: #42047e;
     animation-name: changing;
     animation-duration: 6s;
     animation-delay: 4s;
@@ -108,7 +131,6 @@ div.strobe2 {
     border-radius: 5%;
     margin: 2%;
     box-shadow: 6px 6px 15px 0 #ff17e4, 0 6px 20px 0 #4d194d
-
 }
 
 @keyframes changing {
