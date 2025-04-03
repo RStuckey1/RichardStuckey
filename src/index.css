@@ -52,14 +52,13 @@ a:link {
 }
 
 p {
-  font-family: lucida, sans-serif;
+  font-family: "Audiowide", sans-serif;
   font-size: 25px;
-  text-indent: 50px;
   color: #06E8C6;
 }
 
 h1 {
-  font-family: lucida, sans-serif;
+  font-family: "Audiowide", sans-serif;
   font-size: 4rem;
   letter-spacing: 0.4px;
   word-spacing: -0.6px;
@@ -68,13 +67,13 @@ h1 {
 }
 
 h2 {
-  font-family: lucida, sans-serif;
+  font-family: "Audiowide", sans-serif;
   font-size: 3rem;
   color: #06E8C6;
 }
 
 h3 {
-  font-family: lucida, sans-serif;
+  font-family: "Audiowide", sans-serif;
   font-size: 2rem;
   color: #06E8C6;
 }
@@ -119,15 +118,23 @@ img.linkedinIcon {
   margin-right: 20px;
 }
 
-#root>div.portfolio-app>button {
+.scroll {
+  margin:5%;
+}
+
+#root>div.portfolio-app>div.scroll>button {
   display: block;
+  font-family: "Audiowide", sans-serif;
+  color: #4d194d;
+  text-shadow: 2px 2px #FF17E4;
+  background-color: #07f49e;
   margin-left: 39%;
-  min-width: 10%;
-  min-height: 10%;
-  font-size: 2em;
-  justify-content: center;
-  align-items: center;;
-  border-radius: 10%;
+  min-width: 30%;
+  min-height: auto;
+  font-size: 1.75em;
+  text-align: center;
+  align-items: center;
+  border-radius: 15px;
 
 }
 

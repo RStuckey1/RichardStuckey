@@ -13,33 +13,44 @@
 }
 
 p.intro {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-display: block;
-    font-size: 3em;
+    font-size: 4em;
     text-align: left;
 
 
 }
 
+
 p.intro2 {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-display: block;
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
 }
 
 p.intro3 {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-display: block;
-    font-size: 3em;
+    font-size: 4em;
     text-align: right;
     margin-right: 10%;
 }
 
 .links {
     display: flex;
-    padding-top:4%;
+    padding-top: 4%;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
 ul.b>li {
     font-size: 50px;
     color: #4d194d;
@@ -47,8 +58,10 @@ ul.b>li {
 }
 
 #root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(1)>a {
+    font-family: "Audiowide", sans-serif;
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
+    padding: 15px;
 }
 
 #root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(1)>a:hover {
@@ -57,8 +70,10 @@ ul.b>li {
 }
 
 #root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(2)>a {
+    font-family: "Audiowide", sans-serif;
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
+    padding: 15px;
 }
 
 #root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(2)>a:hover {
@@ -67,8 +82,10 @@ ul.b>li {
 }
 
 #root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(3)>a {
+    font-family: "Audiowide", sans-serif;
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
+    padding: 15px;
 }
 
 #root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(3)>a:hover {
@@ -150,6 +167,8 @@ div.strobe2 {
 
 p.strobeText {
     font-family: monospace;
+    justify-content: center;
+    text-align: center;
     font-size: 18px;
     margin: 5%;
     padding: 2%;

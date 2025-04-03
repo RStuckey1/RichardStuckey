@@ -45,8 +45,8 @@
 
 .indicators {
     display: flex;
-    align-self: center;
-    ;
+    justify-content: center;
+
 }
 
 .indicator {
@@ -61,7 +61,14 @@
     cursor: pointer;
 }
 
-#root>div.portfolio-app>div:nth-child(1)>div>div:nth-child(12)>div>span {
-
-    justify-content: center;
+button.indicator.active{
+    background-color: #FF17E4;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px #fcf9f9;
+    margin: 0 0.2rem;
+    cursor: pointer;
 }

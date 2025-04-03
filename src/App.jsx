@@ -11,9 +11,13 @@ function App() {
       <div>
         <Outlet />
       </div>
+    <div className="scroll">
       <Scroll />
-      <Footer />
       </div>
+      <div className="footer">
+      <Footer />
+    </div>
+    </div>
   </>
   );
 }

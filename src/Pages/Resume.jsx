@@ -42,6 +42,31 @@ const Item = styled(Box)(({ theme }) => ({
 function Resume() {
     return (
         <div>
+            <div className="objective">
+                    
+                    <h2>Technical Skills</h2>
+
+           
+                        <ul className="skills">
+                            <li>Water Filtration</li>
+                            <li>Water Quality Laboratory Standards</li>
+                            <li>OSHA Safety Standards</li>
+                            <li>Industrial Ozone Processes</li>
+                            <li>Building Automation & SCADA Systems</li>
+                            <li>Variable Frequency Drives</li>
+                            <li>Programmable Logic Controllers</li>
+                            <li>Process Automation</li>
+                            <li>Building Water Loop maintenance</li>
+                            <li>Fluid Equipment Repair & Maintenance</li>
+                            <li>Metal Fabrication</li>
+                            <li>Supply Chain Management</li>
+                        </ul>
+                  
+                    <p> In 2023, I made the choice to pursue a career in Software Development.  So I went back to school at the University of Kansas and earned a certificate in Software Development. Now I am hungry for knowledge and ready to showcase my tenacious curiosity and creativity.
+                    </p>
+                    
+                </div>
+        <div>
             <h1 className="resume">Coding Knowledge </h1>
 
             <div className="codingSkills" id="codebox" >
@@ -183,10 +208,7 @@ function Resume() {
                 </Stack>
             </div>
             <div className="resume">
-                <div className="objective">
-                    <h1>Objective</h1>
-                    <p> In 2023, I made the choice to pursue a career in Software Development.  So I went back to school at the University of Kansas and earned a certificate in Software Development. Now I am hungry for knowledge and ready to showcase my tenacious curiosity and creativity.</p>
-                </div>
+                
                 <div className="WorkHighlights">
                     <h3>
                      <Link to="/List">Click Here to See My Portfolio</Link>
@@ -220,11 +242,10 @@ function Resume() {
 
                 <div className="education">
                     <h2>Education</h2>
-                    <p>University of Kansas - Software Development Certificate </p>
-                    <p>University of Kansas(Lawrence, KS) </p>
-                    <p>Bachelor's of Science - Environmental Science</p>
-                    <p>Bachelor's of Science - Microbiology</p>
-                    <p>Minor - Biological Anthropology</p>
+                    <p>Software Development Certificate - University of Kansas </p>
+                    <p>B.S. Environmental Science - University of Kansas</p>
+                    <p>B.S. Microbiology - University of Kansas</p>
+                    <p>Minor Biological Anthropology - University of Kansas</p>
                 </div>
                 <div className="certifications">
                     <h2>Certifications</h2>
@@ -239,23 +260,24 @@ function Resume() {
                 </div>
                 <div className="workHistory">
                     <h1>Work History</h1>
-                    <h2>Commercial Water(Lead service Technician)2024</h2>
+                    <h3>Commercial Water(Lead service Technician)2024</h3>
                     <p>Pure water applications for Industrial, Medical, and Laboratory industries. Diagnosed and repaired automated water systems and CIP(Clean in Place) technologies</p>
-                    <h2>Cogent(Field service controls technician)2024</h2>
+                    <h3>Cogent(Field service controls technician)2024</h3>
                     <p>Automated controls for Industrial and Municipal Wastewater systems. Repaired/commissioned systems including rotating equipment. </p>
-                    <h2>Kansas City Zoo and Aquarium (Life Support Systems/ Water Quality Manager)2015-2023</h2>
+                    <h3>Kansas City Zoo and Aquarium (Life Support Systems/ Water Quality Manager)2015-2023</h3>
                     <p>Managed all life support systems and staff. This included Polar Bear, Otter, Sea Lion, Stingray Bay, Elephant, MDC aquarium, SOBELLA aquarium, Penguin and many behind the scenes conservation efforts. I specialized in Ozone filtration design and repair, Rotary screw air compressors, long-couples pumps, biofilters, sand filter, foam fractioners, chillers, and process automation</p>
-                    <h2>Landry's T-REX Cafe (Curator/ Aqusition&Quarantine Manager)2008-2015</h2>
-                    <h2>Environmental Science Coporation (Field Technician)2007-2008</h2>
+                    <h3>Landry's T-REX Cafe (Curator/ Aqusition&Quarantine Manager)2008-2015</h3>
+                    <h3>Environmental Science Coporation (Field Technician)2007-2008</h3>
                     <br></br>
                 </div>
 
 
 
             </div>
-
+            </div>
         </div>
     );
+    
 }
 
 export default Resume;

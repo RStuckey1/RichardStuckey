@@ -80,6 +80,7 @@ body {
 .objective {
   padding: 1%;
   text-align: center;
+  margin-top: 2%;
 
   line-height: 1.5;
   justify-items: center;
@@ -90,7 +91,15 @@ body {
   margin-right: 10%;
   margin-top: 5%;
   line-height: 1.5;
+}
 
+ul.skills {
+  list-style-type: none;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  column-count: 2;
+  column-gap: 5%;
 }
 
 #root > div.portfolio-app > div:nth-child(1) > div > div.resume > div.WorkHighlights > h3:nth-child(1) > a {
