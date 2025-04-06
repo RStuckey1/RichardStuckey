@@ -54,8 +54,6 @@ const Home = () => {
           <li><Link to="/Contact">Contact Rick</Link></li>
         </ul>
       </div>
-       <br></br>
-       <br></br>
 
         <div className="quote">
           <p>"Twenty years from now you will be more disappointed by the things
@@ -67,6 +65,8 @@ const Home = () => {
           <p>"The ones who are crazy enough to think that they can change the world are the ones who do."
             <span>~Steve Jobs</span>
           </p>
+          <p>"All of our dreams can come true, if we have the courage to pursue them."</p>
+          <span>~Walt Disney</span>
         </div>
         <br></br>
         <br></br>
@@ -74,7 +74,7 @@ const Home = () => {
         <div className="flare">
           <div className="strobe">
             <Carousel itemData={itemData} />
-            <p className="strobeText">These images show Jellyfish transforming from stationary polyps, to free swimming ephyra.</p>
+            <p className="strobeText">These images show Jellyfish transforming from polyps, to ephyra. This was a project of mine in 2020 </p>
           </div>
           <div className="strobe1">
             <Carousel2 itemData={itemData} />

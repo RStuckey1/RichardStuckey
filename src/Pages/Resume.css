@@ -95,21 +95,39 @@ body {
 
 ul.skills {
   list-style-type: none;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 5%;
+  margin-left:10%;
+  margin-right:10%;
+  padding:3%;
   column-count: 2;
-  column-gap: 5%;
+  line-height: 1.5;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > div.resume > div.WorkHighlights > h3:nth-child(1) > a {
+#root > div > div:nth-child(1) > div > div:nth-child(2) > div.resume > div.WorkHighlights > h3:nth-child(1) > a {
   color: #4d194d;
   text-shadow: 2px 2px #FF17E4;
 }
 
-#root > div.portfolio-app > div:nth-child(1) > div > div.resume > div.WorkHighlights > h3:nth-child(1) > a:hover{
+#root > div > div:nth-child(1) > div > div:nth-child(2) > div.resume > div.WorkHighlights > h3:nth-child(1) > a:hover {
   color: hsl(0, 0%, 100%);
   text-shadow: 2px 2px #FF17E4;
+}
+
+.codingCon>h3 {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  padding: 3%;
+  line-height: 1.5;
+}
+
+.codingCon>ul {
+  list-style-type: none;
+  margin-left: 10%;
+  margin-right: 10%;
+  columns: 2;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom:7%;
 }
 
 div.WorkHighlights {
@@ -177,6 +195,7 @@ div.education>p {
 }
 
 div.certifications>ul {
+  list-style-type: none;
   margin-top: 2%;
   margin-bottom: 2%;
   margin-left: 15%;
@@ -185,23 +204,20 @@ div.certifications>ul {
 }
 
 .certifications>h2 {
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin: 2% 10% 2% 10%;
   text-align: center;
-}
-
-
-.workHistory>h1 {
-  margin: 2%;
 }
 
 .workHistory>h2 {
-  margin: 2%;
+  margin: 2% 10% 2% 10%;
 }
+
+.workHistory>h3 {
+  margin: 4% 10% 2% 10%;
+}
+
 
 div.workHistory>p {
   text-align: center;
-  margin: 10px;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin: 4% 10% 2% 10%;
 }

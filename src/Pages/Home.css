@@ -175,6 +175,11 @@ p.strobeText {
     color: white;
 }
 
+.quote>p {
+    margin: 5% 10% 2% 10%;
+    line-height: 1.5;
+}
+
 div.quote>p>span {
     font-style: italic;
     font-size: 20px;

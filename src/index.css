@@ -1,3 +1,12 @@
+.body {
+  box-sizing: border-box;
+  background-color: black;
+  min-height: 100vh;
+  min-width: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   box-sizing: border-box;
   background-color: black;
@@ -96,7 +105,6 @@ contactForm {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left:20%;
   border-radius: 10px;
   font-size: 2em;
   min-width: 10%;
@@ -104,18 +112,26 @@ contactForm {
   
 }
 
+.contact>h2 {
+  margin-top:3%;
+
+}
+
+.contact>h3 {
+  margin-top: 3%;
+}
 
 img.github {
   border-radius: 50px;
-  margin-left:20px;
-  margin-right:20px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
 img.linkedinIcon {
   border-radius: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .scroll {
@@ -124,16 +140,16 @@ img.linkedinIcon {
 
 #root>div.portfolio-app>div.scroll>button {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   font-family: "Audiowide", sans-serif;
   color: #4d194d;
   text-shadow: 2px 2px #FF17E4;
-  background-color: #07f49e;
-  margin-left: 39%;
-  min-width: 30%;
+  background-color: #06E8C6;
+  min-width: 35%;
   min-height: auto;
-  font-size: 1.75em;
+  font-size: 1.5em;
   text-align: center;
-  align-items: center;
   border-radius: 15px;
 
 }

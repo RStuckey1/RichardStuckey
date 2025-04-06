@@ -58,8 +58,8 @@ export const Contact = () => {
     return (
         <>
             <div className="contact">
-                <h1>To get in touch, send me a message...</h1>
-                <h2>...or find me on LinkedIn or GitHub(click the icons below)</h2>
+                <h2>To get in touch, send me a message...</h2>
+                <h3>...or find me on LinkedIn or GitHub(click the icons below)</h3>
                 <br></br>
                 <br></br>
                 <div className="information">
@@ -129,6 +129,7 @@ export const Contact = () => {
                             <Item>
                                 <Button
                                     variant="contained"
+                                    sx={({ justifyContent: 'center', marginLeft: 'auto', marginRight: 'auto' })}
                                     size="medium"
                                     color="secondary"
                                     type="submit"
