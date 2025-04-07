@@ -183,6 +183,7 @@ p.strobeText {
 div.quote>p>span {
     font-style: italic;
     font-size: 20px;
+    padding:4%
 }
 
 #root>div.portfolio-app>div:nth-child(1)>div>div.flare>div.strobe1>div>span {

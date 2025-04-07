@@ -60,13 +60,14 @@ const Home = () => {
             that you didn't do than by the ones you did do,
             so throw off the bowlines, sail away from safe harbor,
             catch the trade winds in your sails. Explore. Dream. Discover."
-            <span>~Mark Twain</span></p>
+            <br></br><span>~Mark Twain</span></p>
           <br></br>
           <p>"The ones who are crazy enough to think that they can change the world are the ones who do."
-            <span>~Steve Jobs</span>
+           <br></br> <span>~Steve Jobs</span>
           </p>
-          <p>"All of our dreams can come true, if we have the courage to pursue them."</p>
-          <span>~Walt Disney</span>
+          <p>"All of our dreams can come true, if we have the courage to pursue them."
+          <br></br><span>~Walt Disney</span>
+          </p>
         </div>
         <br></br>
         <br></br>
