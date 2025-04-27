@@ -19,8 +19,20 @@ p.intro {
     font-display: block;
     font-size: 4em;
     text-align: left;
+}
 
+.wave {
+    display: block;
+    float: center;
+    margin: 2% 10% 5% 20%;
+    padding: 2%;
+}
 
+.wave2 {
+    display:block;
+    position: center;
+    margin: 2% 10% 5% 35%;
+    padding: 2%;
 }
 
 
@@ -113,8 +125,8 @@ div.strobe {
     width: 30%;
     background-color: #42047e;
     animation-name: changing;
-    animation-duration: 6s;
-    animation-direction: alternate;
+    animation-duration: 4.5s;
+    animation-direction: alternate-reverse;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     border-radius: 5%;
@@ -126,9 +138,9 @@ div.strobe1 {
     width: 30%;
     background-color: #42047e;
     animation-name: changing;
-    animation-duration: 6s;
-    animation-delay: 2s;
-    animation-direction: alternate;
+    animation-duration: 4.5s;
+    animation-delay: -1.5s;
+    animation-direction: alternate-reverse;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     border-radius: 5%;
@@ -140,9 +152,9 @@ div.strobe2 {
     width: 30%;
     background-color: #42047e;
     animation-name: changing;
-    animation-duration: 6s;
-    animation-delay: 4s;
-    animation-direction: alternate;
+    animation-duration: 4.5s;
+    animation-delay: -3s;
+    animation-direction: alternate-reverse;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     border-radius: 5%;
@@ -208,10 +220,3 @@ div.backtotop {
     padding: 2%;
 }
 
-.wave {
-    display: block;
-    margin: 10%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}

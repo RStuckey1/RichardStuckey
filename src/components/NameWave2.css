@@ -3,23 +3,22 @@
 
 
 
-.content h2 {
+.content2 h2 {
 	font-size: 6em;
 	position: absolute;
 	/* transform: translate(15%, -50%); */
 }
 
-.content h2:nth-child(1) {
+.content2 h2:nth-child(1) {
 	color: transparent;
 	-webkit-text-stroke: 1.5px #ff17e4;
 	font-weight: 100;
 	z-index: 1;
 }
 
-.content h2:nth-child(2) {
+.content2 h2:nth-child(2) {
 	color: #0a32c1;
 	animation: animate 3.5s ease-in-out infinite;
-	animation-delay: -1.5s;
 }
 
 

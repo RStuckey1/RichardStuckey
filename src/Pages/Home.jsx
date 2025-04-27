@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import jelly from '../assets/me/jelly.gif'
 import jelly2 from '../assets/me/jelly2.gif'
 import NameWave from '../components/NameWave';
+import NameWave2 from '../components/NameWave2';
 import strobulation from '../assets/me/strobulation.gif'
 import { Carousel } from '../components/Carousel';
 import { Carousel2 } from '../components/Carousel2';
@@ -34,6 +35,9 @@ const Home = () => {
       <div className="home">
         <div className="wave">
           <NameWave />
+        </div>
+        <div className="wave2">
+          <NameWave2 />
         </div>
       <div className="intro">
         <p className="intro">
@@ -75,11 +79,13 @@ const Home = () => {
         <div className="flare">
           <div className="strobe">
             <Carousel itemData={itemData} />
-            <p className="strobeText">These images show Jellyfish transforming from polyps, to ephyra. This was a project of mine in 2020 </p>
+            <p className="strobeText">These images show Jellyfish transforming from polyps, to ephyra.</p>
+            <p className="strobeText">This was while I worked at the KansasCity Zoo & Aquarium(2020)</p>
           </div>
           <div className="strobe1">
             <Carousel2 itemData={itemData} />
             <p className="strobeText">Boundary Waters 2024 Minnesota, USA/Canada Border</p>
+            <p className="strobeText">This is the most peaceful place I have ever witnessed</p>
           </div>
           <div className="strobe2">
             <Carousel3 itemData={itemData} />
