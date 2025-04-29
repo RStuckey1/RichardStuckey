@@ -133,7 +133,7 @@ export const Contact = () => {
                                     size="medium"
                                     color="secondary"
                                     type="submit"
-                                >Send Rick Your Message</Button>
+                                >Send Richard Your Message</Button>
                             </Item>
 
 

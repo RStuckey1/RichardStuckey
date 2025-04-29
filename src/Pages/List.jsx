@@ -22,7 +22,7 @@ export function List() {
     return (
         <div className="portfolio">
             <h1>Rick's Portfolio</h1>
-            <p>All of the images below are projects of mine. Some are web applications I have created and others are projects that I am very proud of working in Zoo's and Aquariums</p>
+            <p>Click on the pictures to experience some of my coding projects</p>
             <br></br>
             <br></br>
             <ImageList sx={{ width: 900, height: 500 }}>
