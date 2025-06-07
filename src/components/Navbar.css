@@ -5,6 +5,7 @@ a.active {
 
 nav {
     display: flex;
+    width: 100%;
     justify-content: center;
     border-style: outset;
     border-color: #FF17E4;

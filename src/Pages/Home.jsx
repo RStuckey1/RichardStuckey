@@ -1,9 +1,7 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import jelly from '../assets/me/jelly.gif'
 import jelly2 from '../assets/me/jelly2.gif'
 import NameWave from '../components/NameWave';
-import NameWave2 from '../components/NameWave2';
 import strobulation from '../assets/me/strobulation.gif'
 import { Carousel } from '../components/Carousel';
 import { Carousel2 } from '../components/Carousel2';
@@ -32,23 +30,23 @@ const Home = () => {
 
   return (
     <>
-      <div className="home">
-        <div className="wave">
-          <NameWave />
-        </div>
-        <div className="wave2">
-          <NameWave2 />
+      <div className="header">
+        <div className="home">
+          <div className="wave">
+            <NameWave />
+          </div>
         </div>
       <div className="intro">
-        <p className="intro">
-          Tenacious <br></br>
+          <p className="intro1">
+            Work Creatively<br></br>
           </p>
-        <p className="intro2">
-          Innovative <br></br>
+
+          <p className="intro2">
+            Inspire Connection<br></br>
           </p>
-        <p className="intro3">
-          Leader<br></br>
-        </p>
+          <p className="intro3">
+            Live Tenaciously<br></br>
+          </p>
         </div>
       </div>
       <div className="links">
@@ -59,41 +57,41 @@ const Home = () => {
         </ul>
       </div>
 
-        <div className="quote">
-          <p>"Twenty years from now you will be more disappointed by the things
-            that you didn't do than by the ones you did do,
-            so throw off the bowlines, sail away from safe harbor,
-            catch the trade winds in your sails. Explore. Dream. Discover."
-            <br></br><span>~Mark Twain</span></p>
-          <br></br>
-          <p>"The ones who are crazy enough to think that they can change the world are the ones who do."
-           <br></br> <span>~Steve Jobs</span>
-          </p>
-          <p>"All of our dreams can come true, if we have the courage to pursue them."
+      <div className="quote">
+        <p>"Twenty years from now you will be more disappointed by the things
+          that you didn't do than by the ones you did do,
+          so throw off the bowlines, sail away from safe harbor,
+          catch the trade winds in your sails. Explore. Dream. Discover."
+          <br></br><span>~Mark Twain</span></p>
+        <br></br>
+        <p>"The ones who are crazy enough to think that they can change the world are the ones who do."
+          <br></br> <span>~Steve Jobs</span>
+        </p>
+        <p>"All of our dreams can come true, if we have the courage to pursue them."
           <br></br><span>~Walt Disney</span>
-          </p>
+        </p>
+      </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <div className="flare">
+        <div className="strobe">
+          <Carousel itemData={itemData} />
+          <p className="strobeText">These images show Jellyfish transforming from polyps, to ephyra.</p>
+          <p className="strobeText">This was while I worked at the KansasCity Zoo & Aquarium(2020)</p>
         </div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <div className="flare">
-          <div className="strobe">
-            <Carousel itemData={itemData} />
-            <p className="strobeText">These images show Jellyfish transforming from polyps, to ephyra.</p>
-            <p className="strobeText">This was while I worked at the KansasCity Zoo & Aquarium(2020)</p>
-          </div>
-          <div className="strobe1">
-            <Carousel2 itemData={itemData} />
-            <p className="strobeText">Boundary Waters 2024 Minnesota, USA/Canada Border</p>
-            <p className="strobeText">This is the most peaceful place I have ever witnessed</p>
-          </div>
-          <div className="strobe2">
-            <Carousel3 itemData={itemData} />
-            <p className="strobeText">Some Adventures That Have Amazing Stories (Ask Me About Them)</p>
+        <div className="strobe1">
+          <Carousel2 itemData={itemData} />
+          <p className="strobeText">Boundary Waters 2024 Minnesota, USA/Canada Border</p>
+          <p className="strobeText">This is the most peaceful place I have ever witnessed</p>
+        </div>
+        <div className="strobe2">
+          <Carousel3 itemData={itemData} />
+          <p className="strobeText">Some Adventures That Have Amazing Stories (Ask Me About Them)</p>
 
-          </div>
         </div>
-     
+      </div>
+
 
     </>
 

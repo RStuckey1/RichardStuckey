@@ -6,8 +6,10 @@ import Scroll from './components/Scroll'
 function App() {
   return (
     <>
-  <Navbar />
+  
+ 
   <div className="portfolio-app">
+        <Navbar />
       <div>
         <Outlet />
       </div>

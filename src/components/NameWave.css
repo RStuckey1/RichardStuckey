@@ -4,9 +4,9 @@
 
 
 .content h2 {
-	font-size: 6em;
+	font-size: 4.5em;
 	position: absolute;
-	/* transform: translate(15%, -50%); */
+	/* transform: translate(-50%, -50%);  */
 }
 
 .content h2:nth-child(1) {

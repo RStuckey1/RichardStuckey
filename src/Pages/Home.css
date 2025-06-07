@@ -1,58 +1,76 @@
-.home {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.header {
+    width:100%;
+    display:inline-block;
 }
+
+
+.home { 
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 15%;    
+}
+
 
 .intro {
-    font-display: block;
-    padding-top: 5%;
-    margin-left: 8%;
-    margin-right: 10%;
-}
-
-p.intro {
+    height: 30%;
+    margin: 10% 2% 0% 2%;
+    display: grid;
+    grid-template-columns: auto auto auto;
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-display: block;
-    font-size: 4em;
-    text-align: left;
+    text-align: center;
+    
 }
 
-.wave {
-    display: block;
-    float: center;
-    margin: 2% 10% 5% 20%;
-    padding: 2%;
+p.intro1,
+p.intro2,
+p.intro3 {
+    opacity: 0;
 }
 
-.wave2 {
-    display:block;
-    position: center;
-    margin: 2% 10% 5% 35%;
-    padding: 2%;
+p.intro1 {
+    grid-column: 1 / span 2;
+    font-size: 2em;
+    animation-name: leftToRight;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
-
 
 p.intro2 {
-    font-family: "Audiowide", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-display: block;
-    font-size: 4em;
-    text-align: center;
+    grid-column: 2 / span 2;
+    font-size: 2em;
+    animation-name: leftToRight;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 p.intro3 {
-    font-family: "Audiowide", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-display: block;
-    font-size: 4em;
-    text-align: right;
-    margin-right: 10%;
+   grid-column: 3 / span 2;
+   font-size: 2em;
+   animation-name: leftToRight;
+   animation-duration: 2s;
+   animation-delay: 4s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
+/* Update the keyframes to animate opacity */
+@keyframes leftToRight {
+    from {
+        transform: translateX(-200%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 .links {
@@ -65,6 +83,7 @@ p.intro3 {
 
 ul.b>li {
     font-size: 50px;
+    text-decoration: none;
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
 }
@@ -74,6 +93,7 @@ ul.b>li {
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
     padding: 15px;
+    
 }
 
 #root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(1)>a:hover {
@@ -203,15 +223,6 @@ div.quote>p>span {
 }
 
 #root>div.portfolio-app>div:nth-child(1)>div>div.flare>div.strobe2>div>span {
-    justify-self: center;
-}
-
-#root>div.portfolio-app>div:nth-child(1)>div>div.flare>div.strobe>div>span {
-    justify-self: center;
-}
-
-div.backtotop {
-
     justify-content: center;
     align-items: center;
     font-size: 4em;
