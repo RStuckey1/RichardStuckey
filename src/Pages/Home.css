@@ -4,16 +4,14 @@
 }
 
 
-.home { 
-    display:flex;
-    flex-direction: row;
-    margin-bottom: 15%;    
+.wave {
+    margin: 0 20% 0 20%;
 }
 
 
 .intro {
     height: 30%;
-    margin: 10% 2% 0% 2%;
+    margin: 15% 2% 0% 2%;
     display: grid;
     grid-template-columns: auto auto auto;
     font-family: "Audiowide", sans-serif;
@@ -81,8 +79,11 @@ p.intro3 {
     text-align: center;
 }
 
+
+
 ul.b>li {
     font-size: 50px;
+    list-style-type: none;
     text-decoration: none;
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
@@ -130,6 +131,7 @@ ul.b>li {
     display: flex;
     flex-direction: row;
 }
+
 
 
 
