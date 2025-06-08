@@ -74,6 +74,7 @@ p.intro3 {
 .links {
     display: flex;
     padding-top: 4%;
+    margin: 2%;
     justify-content: center;
     align-items: center;
     text-align: center;

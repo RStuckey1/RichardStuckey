@@ -111,6 +111,12 @@ h1.resume {
   align-items: center;
 }
 
+.Popover>p {
+  color: #0a32c1;
+  font-size: 1.5rem;
+}
+
+
 contactForm {
 
   display: flex;

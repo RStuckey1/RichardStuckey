@@ -1,3 +1,4 @@
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import jelly from '../assets/me/jelly.gif'
 import jelly2 from '../assets/me/jelly2.gif'
@@ -6,27 +7,49 @@ import strobulation from '../assets/me/strobulation.gif'
 import { Carousel } from '../components/Carousel';
 import { Carousel2 } from '../components/Carousel2';
 import { Carousel3 } from '../components/Carousel3';
+import Popover1 from '../components/Popover1';
+import Popover2 from '../components/Popover2';
+import Popover3 from '../components/Popover3';
 import './Home.css';
 
 
+const popoverTexts = [
+  <Popover1 />,
+  <Popover2 />,
+  <Popover3 />
+];
+
 const Home = () => {
   const itemData = [
-    {
-      img: jelly,
-      alt: "Jellyfish Strobulation",
-      page: "1"
-    },
-    {
-      img: strobulation,
-      alt: "Jellyfish Strobulation",
-      page: "2"
-    },
-    {
-      img: jelly2,
-      alt: "Jellyfish Strobulation",
-      page: "3"
-    },
+    { img: jelly, alt: "Jellyfish Strobulation", page: "1" },
+    { img: strobulation, alt: "Jellyfish Strobulation", page: "2" },
+    { img: jelly2, alt: "Jellyfish Strobulation", page: "3" },
   ];
+
+  const [hovered, setHovered] = useState(null);
+  const [canShow, setCanShow] = useState([false, false, false]);
+  const popoverRefs = [useRef(null), useRef(null), useRef(null)];
+  const [popoverPos, setPopoverPos] = useState({ top: 0, left: 0 });
+
+  useEffect(() => {
+    const timers = [
+      setTimeout(() => setCanShow(c => [true, c[1], c[2]]), 2000),
+      setTimeout(() => setCanShow(c => [c[0], true, c[2]]), 4000),
+      setTimeout(() => setCanShow(c => [c[0], c[1], true]), 6000),
+    ];
+    return () => timers.forEach(clearTimeout);
+  }, []);
+
+  // Update popover position on hover
+  useEffect(() => {
+    if (hovered !== null && popoverRefs[hovered].current) {
+      const rect = popoverRefs[hovered].current.getBoundingClientRect();
+      setPopoverPos({
+        top: rect.bottom + window.scrollY + 8,
+        left: rect.left + window.scrollX + rect.width / 2,
+      });
+    }
+  }, [hovered]);
 
   return (
     <>
@@ -36,18 +59,54 @@ const Home = () => {
             <NameWave />
           </div>
         </div>
-      <div className="intro">
-          <p className="intro1">
-            Work Creatively<br></br>
+        <div className="intro">
+          <p
+            className="intro1"
+            ref={popoverRefs[0]}
+            onMouseEnter={() => canShow[0] && setHovered(0)}
+            onMouseLeave={() => setHovered(null)}
+          >
+            Work Creatively<br />
           </p>
-
-          <p className="intro2">
-            Inspire Connection<br></br>
+          <p
+            className="intro2"
+            ref={popoverRefs[1]}
+            onMouseEnter={() => canShow[1] && setHovered(1)}
+            onMouseLeave={() => setHovered(null)}
+          >
+            Inspire Connection<br />
           </p>
-          <p className="intro3">
-            Live Tenaciously<br></br>
+          <p
+            className="intro3"
+            ref={popoverRefs[2]}
+            onMouseEnter={() => canShow[2] && setHovered(2)}
+            onMouseLeave={() => setHovered(null)}
+          >
+            Live Tenaciously<br />
           </p>
         </div>
+        {hovered !== null && (
+          <div
+            style={{
+              position: 'absolute',
+              top: popoverPos.top,
+              left: popoverPos.left,
+              transform: 'translateX(-50%)',
+              background: '#000000',
+              color: '#8f18a9',
+              padding: '1em',
+              border: '1px solid #cb12b5',
+              borderRadius: '8px',
+              zIndex: 1000,
+              minWidth: 220,
+              maxWidth: 300,
+              fontSize: '0.5em',
+              pointerEvents: 'none'
+            }}
+          >
+            {popoverTexts[hovered]}
+          </div>
+        )}
       </div>
       <div className="links">
         <ul className="b">
