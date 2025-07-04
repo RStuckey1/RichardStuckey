@@ -48,7 +48,7 @@ export default function App() {
             <Link to="https://booksearchmern-lsoz.onrender.com/"><img src={booksearch} alt="Book Search" />Book Search</Link>
           </div>
           <div className="carousel__cell number-slide3">
-            <Link to="https://rstuckey1.github.io/Weather-Dashboard/"><img src={weatherapp} alt="Weather Dashboard" />Weather Dashboard</Link>
+            <Link to="https://weather-95ia.onrender.com/"><img src={weatherapp} alt="Weather Dashboard" />Weather Dashboard</Link>
           </div>
           <div className="carousel__cell number-slide4">
             <Link to="https://github.com/RStuckey1/Get-It-Done"><img src={getitdone} alt="Get It Done" />Get It Done</Link>
