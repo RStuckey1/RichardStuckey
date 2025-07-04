@@ -1,0 +1,76 @@
+[class^="number-slide"],
+[class*=" number-slide"] {
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+  height: 200px;
+  max-height: 100vh;
+}
+
+.number-slide1 {
+  background: #06e8c4;
+  text-align: center;
+  color: #cb12b5
+}
+
+.number-slide1 :link :visited, :hover, :active :{
+  color: #cb12b5;
+  text-decoration: none;
+}
+
+.number-slide2 {
+  background: #06e8c4;
+
+}
+
+.number-slide3 {
+  background: #06e8c4;
+
+}
+
+.number-slide4 {
+  background: #06e8c4;
+
+}
+
+.number-slide5 {
+  background: #06e8c4;
+}
+
+
+.number-slide6 {
+  background: #06e8c4;
+
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.scene {
+  width: 260px;
+  height: 200px;
+  perspective: 1000px;
+  position: relative;
+}
+
+.scene .carousel.keen-slider {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  position: absolute;
+  transform: translateZ(-288px);
+  transform-style: preserve-3d;
+}
+
+.carousel__cell {
+  position: absolute;
+  width: 100%;
+  
+  height: 100%;
+}

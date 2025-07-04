@@ -41,22 +41,11 @@ body {
   display: flex;
   justify-content: top;
   align-items: center;
-  width: 100vw !important;
-  min-width: 100vw !important;
-  max-width: 100vw !important;
-  margin: 0 !important;
-  padding: 0 !important;
   box-sizing: border-box;
   overflow-x: hidden !important;
 }
 
 .portfolio-app {
-  width: 100vw !important;
-  min-width: 100vw !important;
-  max-width: 100vw !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  box-sizing: border-box;
   overflow-x: hidden !important;
 }
 

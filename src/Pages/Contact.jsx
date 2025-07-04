@@ -123,7 +123,7 @@ export const Contact = () => {
                                     multiline
                                     minRows={8}
                                     margin="dense"
-                                    sx={{ width: '100%', borderRadius: '20px', border: '2px solid #06E8C6' }}
+                                    sx={{ width: '100%', borderRadius: '20px', border: '2px solid #06E8C6'}}
                                 />
                             </Item>
                             <Item>

@@ -10,13 +10,14 @@ import { Carousel3 } from '../components/Carousel3';
 import Popover1 from '../components/Popover1';
 import Popover2 from '../components/Popover2';
 import Popover3 from '../components/Popover3';
+import Popover4 from '../components/Popover4'; // <-- Add this import
 import './Home.css';
 
-
 const popoverTexts = [
-  <Popover1 />,
   <Popover2 />,
-  <Popover3 />
+  <Popover1 />, 
+  <Popover3 />,
+  <Popover4 /> // <-- Add new popover for NameWave
 ];
 
 const Home = () => {
@@ -27,15 +28,20 @@ const Home = () => {
   ];
 
   const [hovered, setHovered] = useState(null);
-  const [canShow, setCanShow] = useState([false, false, false]);
-  const popoverRefs = [useRef(null), useRef(null), useRef(null)];
+  const [canShow, setCanShow] = useState([false, false, false, true]); // 4th for NameWave, always true
+  const popoverRefs = [
+    useRef(null), // intro1
+    useRef(null), // intro2
+    useRef(null), // intro3
+    useRef(null)  // NameWave
+  ];
   const [popoverPos, setPopoverPos] = useState({ top: 0, left: 0 });
 
   useEffect(() => {
     const timers = [
-      setTimeout(() => setCanShow(c => [true, c[1], c[2]]), 2000),
-      setTimeout(() => setCanShow(c => [c[0], true, c[2]]), 4000),
-      setTimeout(() => setCanShow(c => [c[0], c[1], true]), 6000),
+      setTimeout(() => setCanShow(c => [true, c[1], c[2], c[3]]), 2000),
+      setTimeout(() => setCanShow(c => [c[0], true, c[2], c[3]]), 4000),
+      setTimeout(() => setCanShow(c => [c[0], c[1], true, c[3]]), 6000),
     ];
     return () => timers.forEach(clearTimeout);
   }, []);
@@ -55,10 +61,16 @@ const Home = () => {
     <>
       <div className="header">
         <div className="home">
-          <div className="wave">
+          <div
+            className="wave"
+            ref={popoverRefs[3]}
+            onMouseEnter={() => canShow[3] && setHovered(3)}
+            onMouseLeave={() => setHovered(null)}
+          >
             <NameWave />
           </div>
         </div>
+        
         <div className="intro">
           <p
             className="intro1"
@@ -99,7 +111,8 @@ const Home = () => {
               borderRadius: '8px',
               zIndex: 1000,
               minWidth: 220,
-              maxWidth: 300,
+              maxWidth: 800,
+              textAlign: 'center',
               fontSize: '0.5em',
               pointerEvents: 'none'
             }}

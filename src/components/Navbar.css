@@ -1,6 +1,7 @@
 a.active {
     
     border: solid 2px;
+    border-color: #FF17E4;
     border-radius: 10px;
 }
 

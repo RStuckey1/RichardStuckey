@@ -2,28 +2,21 @@
     display: block;
     text-align: center;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 2% auto 2% auto;
 }
 
-
-
-
-#root>div.portfolio-app>div:nth-child(1)>div>ul {
-    object-fit: contain;
-    object-position: center;
-    place-self: center;
-
-
+.portfolio h1 {
+    margin: 2% auto 2% auto;
 }
 
-#root>div.portfolio-app>div:nth-child(1)>div>ul>li {
+.portfolio p {
+    margin: 10% auto 10% auto;
+  
+}
+
+.bottom {
     display: flex;
-    object-fit: contain;
-    Object-position: center;
-    place-self: center;
-
-
-
-
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto 10% auto;
 }
