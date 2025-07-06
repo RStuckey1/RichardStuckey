@@ -130,7 +130,6 @@ ul.b>li {
 
 .flare {
     display: flex;
-    flex-direction: row;
 }
 
 
@@ -145,7 +144,9 @@ ul.b>li {
 }
 
 div.strobe {
-    width: 30%;
+    width:70%;
+    height:40%;
+    margin:2% auto 2% auto;
     background-color: #42047e;
     animation-name: changing;
     animation-duration: 4.5s;
@@ -153,37 +154,10 @@ div.strobe {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     border-radius: 5%;
-    margin: 2%;
     box-shadow: -8px 6px 15px 0 #ff17e4, 0 6px 20px 0 #4d194d
 }
 
-div.strobe1 {
-    width: 30%;
-    background-color: #42047e;
-    animation-name: changing;
-    animation-duration: 4.5s;
-    animation-delay: -1.5s;
-    animation-direction: alternate-reverse;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    border-radius: 5%;
-    margin: 2%;
-    box-shadow: 0 6px 15px 0 #ff17e4, 0 8px 20px 0 #4d194d
-}
 
-div.strobe2 {
-    width: 30%;
-    background-color: #42047e;
-    animation-name: changing;
-    animation-duration: 4.5s;
-    animation-delay: -3s;
-    animation-direction: alternate-reverse;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    border-radius: 5%;
-    margin: 2%;
-    box-shadow: 6px 6px 15px 0 #ff17e4, 0 6px 20px 0 #4d194d
-}
 
 @keyframes changing {
     0% {

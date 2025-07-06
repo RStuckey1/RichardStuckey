@@ -1,12 +1,7 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import jelly from '../assets/me/jelly.gif'
-import jelly2 from '../assets/me/jelly2.gif'
-import NameWave from '../components/NameWave';
-import strobulation from '../assets/me/strobulation.gif'
-import { Carousel } from '../components/Carousel';
-import { Carousel2 } from '../components/Carousel2';
-import { Carousel3 } from '../components/Carousel3';
+import NameWave from '../components/NameWave'; 
+import Carousel from '../components/Carousel';
 import Popover1 from '../components/Popover1';
 import Popover2 from '../components/Popover2';
 import Popover3 from '../components/Popover3';
@@ -21,12 +16,6 @@ const popoverTexts = [
 ];
 
 const Home = () => {
-  const itemData = [
-    { img: jelly, alt: "Jellyfish Strobulation", page: "1" },
-    { img: strobulation, alt: "Jellyfish Strobulation", page: "2" },
-    { img: jelly2, alt: "Jellyfish Strobulation", page: "3" },
-  ];
-
   const [hovered, setHovered] = useState(null);
   const [canShow, setCanShow] = useState([false, false, false, true]); // 4th for NameWave, always true
   const popoverRefs = [
@@ -105,15 +94,16 @@ const Home = () => {
               left: popoverPos.left,
               transform: 'translateX(-50%)',
               background: '#000000',
-              color: '#8f18a9',
-              padding: '1em',
+              color: '#cb12b5',
+              padding: '10px',
               border: '1px solid #cb12b5',
               borderRadius: '8px',
               zIndex: 1000,
               minWidth: 220,
-              maxWidth: 800,
+              maxWidth: 1100,
               textAlign: 'center',
               fontSize: '0.5em',
+              margin:'0',
               pointerEvents: 'none'
             }}
           >
@@ -146,23 +136,12 @@ const Home = () => {
       <br></br>
       <br></br>
       <br></br>
-      <div className="flare">
+      
         <div className="strobe">
-          <Carousel itemData={itemData} />
-          <p className="strobeText">These images show Jellyfish transforming from polyps, to ephyra.</p>
-          <p className="strobeText">This was while I worked at the KansasCity Zoo & Aquarium(2020)</p>
+          <Carousel />
+          
         </div>
-        <div className="strobe1">
-          <Carousel2 itemData={itemData} />
-          <p className="strobeText">Boundary Waters 2024 Minnesota, USA/Canada Border</p>
-          <p className="strobeText">This is the most peaceful place I have ever witnessed</p>
-        </div>
-        <div className="strobe2">
-          <Carousel3 itemData={itemData} />
-          <p className="strobeText">Some Adventures That Have Amazing Stories (Ask Me About Them)</p>
-
-        </div>
-      </div>
+    
 
 
     </>

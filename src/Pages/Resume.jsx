@@ -42,12 +42,9 @@ const Item = styled(Box)(({ theme }) => ({
 function Resume() {
     return (
         <div>
-            <div className="objective">
-
-                <h1>Technical Skills</h1>
-            </div>
+          
             <div>
-                <h3 className="resume">Computer Coding</h3>
+                <h2 className="resume">Computer Coding</h2>
             
 
                 <div className="codingSkills" id="codebox" >
@@ -189,52 +186,38 @@ function Resume() {
                     </Stack>
                 </div>
                 <div className="codingCon">
-                    <h3>Teamwork Traits</h3>
+                    <h2>Teamwork Traits</h2>
                     <ul className="codingCon">
                         <li>Agile Learning</li>
                         <li>Excellent Communicator</li>
                         <li>SCRUM Framework</li>
-                        <li>Self-Motivated</li>
-                        <li>Strong Work Ethic</li>
-                        <li>Problem Solving</li>
-                        <li>Time Management</li>
-                        <li>Attention to Detail</li>
                         <li>Adaptability</li>
                         <li>Collaboration</li>
                         <li>Creativity</li>
                         <li>Critical Thinking</li>
-                        <li>Leadership</li>
                         <li>Emotional Intelligence</li>
                     </ul>
                     
 
                 </div>
                 <div className="resume">
-                    <h3>Technical Skills</h3>
-                    <h3>Theory/Installation/Maintenance/Troubleshooting/Repair</h3>
+                    <h2>Technical Skills</h2>
                     <ul className="skills">
-                        <li>Website Design and Development</li>
-                        <li>Full Stack Web Development</li>
+                        <li>Website Design & Development</li>
+                        <li>Full-Stack Programming</li>
                         <li>UX/UI</li>
                         <li>Program Testing CI/CD</li>
-                        <li>Remote Equipment Monitoring</li>
-                        <li>Building Automation & SCADA Systems</li>
+                        <li>Automation & SCADA Systems</li>
                         <li>Variable Frequency Drives</li>
                         <li>Programmable Logic Controllers</li>
-                        <li>Control Panels</li>
-                        <li>Ozone Water Sanitation Systems</li>
-                        <li>Process Heating/Cooling Automation</li>
+                        <li>Control Panel Design</li>
                         <li>Process Instrumentation</li>
-                        <li>Building HVAC Water Loops</li>
-                        <li>Water Filtration Systems</li>
-                        <li>Water Quality Laboratory Standards</li>
-                        <li>Centrifugal Pumps</li>
-                        <li>Air Compressors</li>
-                        <li>Chemical Injection</li>
+                        <li>Calibration</li>
+                
                        
                        
                     </ul>
-
+                
                     <div className="education">
                         <h2>Education</h2>
                         <p>Software Development Certificate - University of Kansas </p>
@@ -249,7 +232,7 @@ function Resume() {
                             <li>Certified Water Quality Laboratory Technician(level 1&2)</li>
                             <li>OSHA 10</li>
                             <li>NSPF Certified Pool Operator</li>
-                            <li>Eagle Scout - Boy Scouts of America</li>
+                            <li>Eagle Scout - BSA</li>
                         </ul>
                     </div>
             <div className="WorkHighlights">
@@ -260,20 +243,14 @@ function Resume() {
 
             <div className="workHistory">
                         <h2>Work History</h2>
-                        <h3>Commercial Water(Lead service Technician)2024</h3>
-                        <p>Provided ultra pure water services. Laboratories, Medical Facilities, and Industrial applicaions</p>
+                        <h3>Kansas City Zoo and Aquarium (Life Support Systems/ Water Quality Manager)</h3>
+                        <p>Managed all life support systems and staff. This included Polar Bear, Otter, Sea Lion, Stingray Bay, Elephant, Misouri Department of Conservation Aquarium, SOBELLA Ocean Aquarium, Alligator Alley, Penguin Exhibits and many behind the scenes conservation efforts.</p>
                         <br></br>
-                        <h3>Cogent(Field service controls technician)2024</h3>
-                        <p>Installed, Commissioned, Maintained, and Repaired, Automated controls for Industrial and Municipal Wastewater Systems.  </p>
+                        <h3>Landry's T-REX Cafe (Curator/ Aqusition&Quarantine Manager)</h3>
+                        <p>Maintained all exhibits and aquatic dive staff. Acquired, Quarantined,and Distribted incoming specimens.</p>
                         <br></br>
-                        <h3>Kansas City Zoo and Aquarium (Life Support Systems/ Water Quality Manager)2015-2023</h3>
-                        <p>Managed all life support systems and staff. This included Polar Bear, Otter, Sea Lion, Stingray Bay, Elephant, MDC aquarium, SOBELLA aquarium, Penguin and many behind the scenes conservation efforts. I specialized in Ozone filtration design and repair, Rotary screw air compressors, long-couples pumps, biofilters, sand filter, foam fractioners, chillers, and process automation</p>
-                        <br></br>
-                        <h3>Landry's T-REX Cafe (Curator/ Aqusition&Quarantine Manager)2008-2015</h3>
-                        <p>Maintained all exhibits and aquatic diver staff. Acquired, Quarantined, Distribted incoming specimens. Had a high rate of success for animal survival (90%)</p>
-                        <br></br>
-                        <h3>Environmental Science Coporation (Field Technician)2007-2008</h3>
-                        <p>Collected soil and water samples for clients. Created proper EPA chain of custody documentations. Preserved samples for shipment. Provided clients with recommendations for testing on different applications. </p>
+                        <h3>Environmental Science Coporation (Field Technician)</h3>
+                        <p>Collected soil and water samples for clients. Created proper EPA chain of custody documents for samples. Preserved samples for shipment. Provided clients with recommendations for Local and Federal compliance. </p>
                         <br></br>
                     </div>
 

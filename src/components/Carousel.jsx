@@ -1,67 +1,94 @@
-import React, { useState } from 'react';
-import jelly from '../assets/me/jelly.gif';
-import jelly2 from '../assets/me/jelly2.gif';
-import strobulation from '../assets/me/strobulation.gif';
-import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from 'react-icons/bs';
+import { useState } from 'react';
+import { useKeenSlider } from "keen-slider/react"
+import "keen-slider/keen-slider.min.css"
 import "./Carousel.css";
 
-export const Carousel = ({ itemData }) => {
-    const [slide, setSlide] = useState(0);
+function Carousel() {
+  const [currentSlide, setCurrentSlide] = useState(0)
+  const [loaded, setLoaded] = useState(false)
+  const [sliderRef, instanceRef] = useKeenSlider({
+    initial: 0,
+    slideChanged(slider) {
+      setCurrentSlide(slider.track.details.rel)
+    },
+    created() {
+      setLoaded(true)
+    },
+  })
 
-    const handlePrevClick = () => {
-        setSlide((prevSlide) => (prevSlide === 0 ? itemData.length - 1 : prevSlide - 1));
-    };
-
-    const handleNextClick = () => {
-        setSlide((prevSlide) => (prevSlide === itemData.length - 1 ? 0 : prevSlide + 1));
-    };
-
-    const handleIndicatorClick = (idx) => {
-        setSlide(idx);
-    };
-
-    return (
-        <div className="carouselbox">
-            <BsArrowLeftCircleFill className="arrow arrow-left" onClick={handlePrevClick} />
-            {itemData.map((item, idx) => (
-                <img
-                    srcSet={`${item.img}?w=400&h=250&fit=crop&auto=format&dpr=2 2x`}
-                    src={`${item.img}?w=500&h=400&fit=crop&auto=format&dpr=2 2x`}
-                    alt={item.alt}
-                    key={idx}
-                    className={slide === idx ? "slide" : "slide slide-hidden"}
-                />
-            ))}
-            <BsArrowRightCircleFill className="arrow arrow-right" onClick={handleNextClick} />
-            <span className="indicators">
-                {itemData.map((item, idx) => (
-                    <button
-                        key={item.idx}
-                        onClick={() => handleIndicatorClick(idx)}
-                        className={`indicator ${slide === idx ? "active" : ""}`}
-                    ></button>
-                ))}
-            </span>
+  return (
+    <>
+      <div className="navigation-wrapper">
+        <div ref={sliderRef} className="keen-slider">
+          <div className="keen-slider__slide number-slide1">1</div>
+          <div className="keen-slider__slide number-slide2">2</div>
+          <div className="keen-slider__slide number-slide3">3</div>
+          <div className="keen-slider__slide number-slide4">4</div>
+          <div className="keen-slider__slide number-slide5">5</div>
+          <div className="keen-slider__slide number-slide6">6</div>
         </div>
-    );
-};
+        {loaded && instanceRef.current && (
+          <>
+            <Arrow
+              left
+              onClick={(e) =>
+                e.stopPropagation() || instanceRef.current?.prev()
+              }
+              disabled={currentSlide === 0}
+            />
 
-const itemData = [
-    {
-        img: jelly,
-        alt: "Jellyfish Strobulation",
-        page: "1"
-    },
-    {
-        img: strobulation,
-        alt: "Jellyfish Strobulation",
-        page: "2"
-    },
-    {
-        img: jelly2,
-        alt: "Jellyfish Strobulation",
-        page: "2"
-    },
-];
+            <Arrow
+              onClick={(e) =>
+                e.stopPropagation() || instanceRef.current?.next()
+              }
+              disabled={
+                currentSlide ===
+                instanceRef.current.track.details.slides.length - 1
+              }
+            />
+          </>
+        )}
+      </div>
+      {loaded && instanceRef.current && (
+        <div className="dots">
+          {[
+            ...Array(instanceRef.current.track.details.slides.length).keys(),
+          ].map((idx) => {
+            return (
+              <button
+                key={idx}
+                onClick={() => {
+                  instanceRef.current?.moveToIdx(idx)
+                }}
+                className={"dot" + (currentSlide === idx ? " active" : "")}
+              ></button>
+            )
+          })}
+        </div>
+      )}
+    </>
+  )
+}
+
+function Arrow(props) {
+  const disabled = props.disabled ? " arrow--disabled" : ""
+  return (
+    <svg
+      onClick={props.onClick}
+      className={`arrow ${
+        props.left ? "arrow--left" : "arrow--right"
+      } ${disabled}`}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+    >
+      {props.left && (
+        <path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z" />
+      )}
+      {!props.left && (
+        <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z" />
+      )}
+    </svg>
+  )
+}
 
 export default Carousel;

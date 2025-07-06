@@ -78,6 +78,14 @@ body {
   text-align: center;
 }
 
+h2.resume {
+  color:#FF17E4;
+  margin: 5% auto 5% auto;
+}
+
+.resume>h2{
+  color:#FF17E4;
+}
 .objective {
   padding: 1%;
   text-align: center;
@@ -113,12 +121,13 @@ ul.skills {
   text-shadow: 2px 2px #FF17E4;
 }
 
-.codingCon>h3 {
+.codingCon>h2 {
   margin-left: 10%;
   margin-right: 10%;
   text-align: center;
   padding: 3%;
   line-height: 1.5;
+  color:#FF17E4;
 }
 
 .codingCon>ul {
@@ -131,6 +140,7 @@ ul.skills {
   margin-bottom:7%;
 }
 
+
 div.WorkHighlights {
   margin-left: 10%;
   margin-right: 10%;
@@ -142,9 +152,11 @@ div.WorkHighlights {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.WorkHighlights>h2 {
+.workHistory>h2 {
   font-family: 'Courier New', Courier, monospace;
   margin-top: 2%;
+  color:#FF17E4
+
 }
 
 .WorkHighlights>h3 {
@@ -176,6 +188,7 @@ div.education>p {
 .education>h2 {
   margin-top: 2%;
   margin-bottom: 2%;
+  color:#FF17E4;
 }
 
 div.education>p {
@@ -207,6 +220,7 @@ div.certifications>ul {
 .certifications>h2 {
   margin: 2% 10% 2% 10%;
   text-align: center;
+  color:#FF17E4;
 }
 
 .workHistory>h2 {
@@ -215,6 +229,7 @@ div.certifications>ul {
 
 .workHistory>h3 {
   margin: 4% 10% 2% 10%;
+  color:
 }
 
 
