@@ -128,34 +128,7 @@ ul.b>li {
 }
 
 
-.flare {
-    display: flex;
-}
 
-
-
-
-
-
-#root>div.portfolio-app>div:nth-child(1)>div>ul {
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 2%;
-}
-
-div.strobe {
-    width:70%;
-    height:40%;
-    margin:2% auto 2% auto;
-    background-color: #42047e;
-    animation-name: changing;
-    animation-duration: 4.5s;
-    animation-direction: alternate-reverse;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    border-radius: 5%;
-    box-shadow: -8px 6px 15px 0 #ff17e4, 0 6px 20px 0 #4d194d
-}
 
 
 
@@ -174,37 +147,10 @@ div.strobe {
     margin-right: 10%;
 }
 
-p.strobeText {
-    font-family: monospace;
-    justify-content: center;
-    text-align: center;
-    font-size: 18px;
-    margin: 5%;
-    padding: 2%;
-    color: white;
-}
 
 .quote>p {
     margin: 5% 10% 2% 10%;
     line-height: 1.5;
 }
 
-div.quote>p>span {
-    font-style: italic;
-    font-size: 20px;
-    padding:4%
-}
-
-#root>div.portfolio-app>div:nth-child(1)>div>div.flare>div.strobe1>div>span {
-    justify-self: center;
-}
-
-#root>div.portfolio-app>div:nth-child(1)>div>div.flare>div.strobe2>div>span {
-    justify-content: center;
-    align-items: center;
-    font-size: 4em;
-    color: #ff17e4;
-    margin-top: 5%;
-    padding: 2%;
-}
 

@@ -1,18 +1,29 @@
 import { useState } from 'react';
 import { useKeenSlider } from "keen-slider/react"
+import BW4 from '../assets/me/BW4.png'
+import AQme from '../assets/me/AQme.png'
+import KC from '../assets/me/MGAme.png'
+import Penguin from '../assets/me/TREX.png'
+import Bees from '../assets/me/RickBees.png'
+import BW from '../assets/me/BW.png'
 import "keen-slider/keen-slider.min.css"
 import "./Carousel.css";
 
+const animation = { duration: 50000, easing: (t) => t }
+
 function Carousel() {
-  const [currentSlide, setCurrentSlide] = useState(0)
-  const [loaded, setLoaded] = useState(false)
-  const [sliderRef, instanceRef] = useKeenSlider({
-    initial: 0,
-    slideChanged(slider) {
-      setCurrentSlide(slider.track.details.rel)
+  const [sliderRef] = useKeenSlider({
+    loop: true,
+    renderMode: "performance",
+    drag: false,
+    created(s) {
+      s.moveToIdx(5, true, animation)
     },
-    created() {
-      setLoaded(true)
+    updated(s) {
+      s.moveToIdx(s.track.details.abs + 5, true, animation)
+    },
+    animationEnded(s) {
+      s.moveToIdx(s.track.details.abs + 5, true, animation)
     },
   })
 
@@ -20,75 +31,27 @@ function Carousel() {
     <>
       <div className="navigation-wrapper">
         <div ref={sliderRef} className="keen-slider">
-          <div className="keen-slider__slide number-slide1">1</div>
-          <div className="keen-slider__slide number-slide2">2</div>
-          <div className="keen-slider__slide number-slide3">3</div>
-          <div className="keen-slider__slide number-slide4">4</div>
-          <div className="keen-slider__slide number-slide5">5</div>
-          <div className="keen-slider__slide number-slide6">6</div>
+          <div className="keen-slider__slide number-slide7">
+            <img src={BW4} alt="boundrywaters"></img>
+          </div>
+          <div className="keen-slider__slide number-slide8">
+            <img src={AQme} alt="boundrywaters"></img>
+          </div>
+          <div className="keen-slider__slide number-slide9">
+            <img src={KC} alt="boundrywaters"></img>
+          </div>
+          <div className="keen-slider__slide number-slide10">
+            <img src={Penguin} alt="boundrywaters"></img>
+          </div>
+          <div className="keen-slider__slide number-slide11">
+            <img src={Bees} alt="boundrywaters"></img>
+          </div>
+          <div className="keen-slider__slide number-slide12">
+            <img src={BW} alt="boundrywaters"></img>
+          </div>
         </div>
-        {loaded && instanceRef.current && (
-          <>
-            <Arrow
-              left
-              onClick={(e) =>
-                e.stopPropagation() || instanceRef.current?.prev()
-              }
-              disabled={currentSlide === 0}
-            />
-
-            <Arrow
-              onClick={(e) =>
-                e.stopPropagation() || instanceRef.current?.next()
-              }
-              disabled={
-                currentSlide ===
-                instanceRef.current.track.details.slides.length - 1
-              }
-            />
-          </>
-        )}
-      </div>
-      {loaded && instanceRef.current && (
-        <div className="dots">
-          {[
-            ...Array(instanceRef.current.track.details.slides.length).keys(),
-          ].map((idx) => {
-            return (
-              <button
-                key={idx}
-                onClick={() => {
-                  instanceRef.current?.moveToIdx(idx)
-                }}
-                className={"dot" + (currentSlide === idx ? " active" : "")}
-              ></button>
-            )
-          })}
         </div>
-      )}
-    </>
-  )
-}
+      </>
+  )}
 
-function Arrow(props) {
-  const disabled = props.disabled ? " arrow--disabled" : ""
-  return (
-    <svg
-      onClick={props.onClick}
-      className={`arrow ${
-        props.left ? "arrow--left" : "arrow--right"
-      } ${disabled}`}
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-    >
-      {props.left && (
-        <path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z" />
-      )}
-      {!props.left && (
-        <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z" />
-      )}
-    </svg>
-  )
-}
-
-export default Carousel;
+      export default Carousel;
