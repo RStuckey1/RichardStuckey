@@ -24,6 +24,12 @@ export const Navbar = () => {
                         <li>
                             <Link to="https://weather-95ia.onrender.com/" target="_blank">Weather Dashboard</Link>
                         </li>
+                        <li>
+                            <Link to="https://github.com/RStuckey1/Get-It-Done/" target="_blank">Get it Done</Link>
+                        </li>
+                        <li> 
+                            <Link to="https://car-pal.onrender.com/" target="_blank">Car-Pal</Link>
+                        </li>
                     </ul>
                 </li>
                 <li class="c">

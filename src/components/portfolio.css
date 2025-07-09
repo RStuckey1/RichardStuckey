@@ -15,13 +15,20 @@
 .number-slide1>img {
   background: #000000;
   object-fit: contain;
-  
+}
+.carousel__cell.number-slide1 > a > p {
+  font-size: 2rem;
+  text-align: center;
 }
 
 .number-slide2>img {
   background: #000000;
   object-fit: contain;
+}
 
+.carousel__cell.number-slide2 > a > p {
+  font-size: 2rem;
+  text-align: center;
 }
 
 .number-slide3>img {
@@ -29,9 +36,19 @@
   object-fit: contain;
 }
 
+.carousel__cell.number-slide3 > a > p {
+  font-size: 2rem;
+  text-align: center;
+}
+
 .number-slide4>img {
   background: #000000;
   object-fit: contain;
+}
+
+.carousel__cell.number-slide4 > a > p {
+  font-size: 2rem;
+  text-align: center;
 }
 
 .number-slide5>img {
@@ -39,9 +56,19 @@
   object-fit: contain;
 }
 
+.carousel__cell.number-slide5 > a > p {
+  font-size: 2rem;
+  text-align: center;
+}
+
 .number-slide6>img {
   background: #000000;
   object-fit: contain;
+}
+
+.carousel__cell.number-slide6 > a > p {
+  font-size: 2rem;
+  text-align: center;
 }
 
 .wrapper {

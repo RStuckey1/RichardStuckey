@@ -98,7 +98,7 @@ ul.b>li {
     
 }
 
-#root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(1)>a:hover {
+#root > div > div:nth-child(2) > div.links > ul > li:nth-child(1) > a:hover {
     color: #FF17E4;
     text-shadow: 2px 2px white;
 }
@@ -110,7 +110,7 @@ ul.b>li {
     padding: 15px;
 }
 
-#root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(2)>a:hover {
+#root > div > div:nth-child(2) > div.links > ul > li:nth-child(2) > a:hover {
     color: #FF17E4;
     text-shadow: 2px 2px white;
 }
@@ -122,25 +122,11 @@ ul.b>li {
     padding: 15px;
 }
 
-#root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(3)>a:hover {
+#root > div > div:nth-child(2) > div.links > ul > li:nth-child(3) > a:hover {
     color: #FF17E4;
     text-shadow: 2px 2px white;
 }
 
-
-
-
-
-
-@keyframes changing {
-    0% {
-        background-color: #07f49e;
-    }
-
-    100% {
-        background-color: #42047e;
-    }
-}
 
 .quote {
     margin-left: 10%;
@@ -153,4 +139,11 @@ ul.b>li {
     line-height: 1.5;
 }
 
+.strobe {
+    
+    border: 3px solid hsl(307, 100%, 55%);
+    border-radius: 10px;
+    width:25%;
+    margin: 1% 20% 1% 20%;
+}
 

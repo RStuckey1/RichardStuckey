@@ -94,7 +94,6 @@ const Home = () => {
               left: popoverPos.left,
               transform: 'translateX(-50%)',
               background: '#000000',
-              color: '#cb12b5',
               padding: '10px',
               border: '1px solid #cb12b5',
               borderRadius: '8px',
@@ -137,7 +136,7 @@ const Home = () => {
       <br></br>
       <br></br>
       
-        <div className="strobe">
+      <div className="strobe">
           <Carousel />
           
         </div>

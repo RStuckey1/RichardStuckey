@@ -42,22 +42,34 @@ export default function App() {
       <div className="scene">
         <div className="carousel keen-slider" ref={sliderRef}>
           <div className="carousel__cell number-slide1 ">
-            <Link to="https://rstuckey1.github.io/Dice-Rolling-D20/"><img src={D20} alt="Dice Rollin'" width="400px" height="400px" />Dice Rollin'</Link>
+            <Link to="https://rstuckey1.github.io/Dice-Rolling-D20/"><img src={D20} alt="Dice Rollin'" width="400px" height="400px" />
+            <p>Dice Rollin'</p>
+            </Link>
           </div>
           <div className="carousel__cell number-slide2">
-            <Link to="https://booksearchmern-lsoz.onrender.com/"><img src={booksearch} alt="Book Search" width="400px" height="400px" />Book Search</Link>
+            <Link to="https://booksearchmern-lsoz.onrender.com/"><img src={booksearch} alt="Book Search" width="400px" height="400px" />
+            <p>Book Search</p>
+            </Link>
           </div>
           <div className="carousel__cell number-slide3">
-            <Link to="https://weather-95ia.onrender.com/"><img src={weatherapp} alt="Weather Dashboard" width="400px" height="400px"/>Weather Dashboard</Link>
+            <Link to="https://weather-95ia.onrender.com/"><img src={weatherapp} alt="Weather Dashboard" width="400px" height="400px"/>
+            <p>Weather Dashboard</p>
+            </Link>
           </div>
           <div className="carousel__cell number-slide4">
-            <Link to="https://github.com/RStuckey1/Get-It-Done"><img src={getitdone} alt="Get It Done" width="400px" height="400px" />Get It Done</Link>
+            <Link to="https://github.com/RStuckey1/Get-It-Done"><img src={getitdone} alt="Get It Done" width="400px" height="400px" />
+            <p>Get It Done</p>
+            </Link>
           </div>
           <div className="carousel__cell number-slide5">
-            <Link to="https://github.com/RStuckey1/Car-Pal-"><img src={carpalapp} alt="Car Pal" width="400px" height="400px" />Car Pal</Link>
+            <Link to="https://car-pal.onrender.com"><img src={carpalapp} alt="Car Pal" width="400px" height="400px" />
+            <p>Car Pal</p>
+            </Link>
           </div>
           <div className="carousel__cell number-slide6">
-            <Link to="https://github.com/RStuckey1/Gastro-Book"><img src={gastroBook} alt="Gastro Book" width="400px" height="400px" />Gastro Book</Link>
+            <Link to="https://github.com/RStuckey1/Gastro-Book"><img src={gastroBook} alt="Gastro Book" width="400px" height="400px" />
+            <p>Gastro Book</p>
+            </Link>
           </div>
         </div>
       </div>
