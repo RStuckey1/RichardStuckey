@@ -16,8 +16,8 @@ import reactpic from '../assets/icons/reactpic.png';
 import arduino from '../assets/icons/arduino.png';
 import graphql from '../assets/icons/graphql.png';
 import jsonwebtoken from '../assets/icons/jsonwebtoken.png';
-import excel from '../assets/icons/excel.png';
-import word from '../assets/icons/word.png';
+import tailwindcss from '../assets/icons/tailwindcss.png';
+import mysql from '../assets/icons/mysql.png';
 import npm from '../assets/icons/npm.png';
 import postgresql from '../assets/icons/postgresql.png';
 import raspberrypi from '../assets/icons/raspberrypi.png';
@@ -131,13 +131,13 @@ function Resume() {
                             <div className="overlay">
                                 <div className="text">JsonWebToken</div>
                             </div></Item>
-                        <Item><img className="res" src={excel} alt="microsoft excel" />
+                        <Item><img className="res" src={mysql} alt="mysql" />
                             <div className="overlay">
-                                <div className="text">Excel</div>
+                                <div className="text">MySQL</div>
                             </div></Item>
-                        <Item><img className="res" src={word} alt="microsoft word" />
+                        <Item><img className="res" src={tailwindcss} alt="tailwind" />
                             <div className="overlay">
-                                <div className="text">Word</div>
+                                <div className="text">TailwindCSS</div>
                             </div></Item>
                     </Stack>
                     <Stack direction={"row"} spacing={6}
@@ -185,6 +185,13 @@ function Resume() {
                             </div></Item>
                     </Stack>
                 </div>
+
+                <div className="WorkHighlights">
+                <h3>
+                    <Link to="/List">Click Here to See My Computer Coding Portfolio</Link>
+                </h3>
+            </div>
+
                 <div className="codingCon">
                     <h2>Teamwork Traits</h2>
                     <ul className="codingCon">
@@ -235,12 +242,7 @@ function Resume() {
                             <li>Eagle Scout - BSA</li>
                         </ul>
                     </div>
-            <div className="WorkHighlights">
-                <h3>
-                    <Link to="/List">Click Here to See My Computer Coding Portfolio</Link>
-                </h3>
-            </div>
-
+            
             <div className="workHistory">
                         <h2>Work History</h2>
                         <h3>Kansas City Zoo and Aquarium (Life Support Systems/ Water Quality Manager)</h3>

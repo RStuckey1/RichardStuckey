@@ -5,11 +5,11 @@
     margin: 2% auto 2% auto;
 }
 
-.portfolio h1 {
+.portfolio>h1 {
     margin: 2% auto 2% auto;
 }
 
-.portfolio p {
+.portfolio>p {
     margin: 10% auto 10% auto;
   
 }
@@ -18,5 +18,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10% auto 10% auto;
+    margin: 20% auto 10% auto;
 }

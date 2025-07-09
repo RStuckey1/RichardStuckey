@@ -1,4 +1,4 @@
-import { useState } from 'react';
+
 import { useKeenSlider } from "keen-slider/react"
 import BW4 from '../assets/me/BW4.png'
 import AQme from '../assets/me/AQme.png'
@@ -15,7 +15,7 @@ function Carousel() {
   const [sliderRef] = useKeenSlider({
     loop: true,
     renderMode: "performance",
-    drag: false,
+    drag: true,
     created(s) {
       s.moveToIdx(5, true, animation)
     },

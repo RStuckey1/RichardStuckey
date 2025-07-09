@@ -142,14 +142,15 @@ ul.skills {
 
 
 div.WorkHighlights {
-  margin-left: 10%;
-  margin-right: 10%;
+  display:flex;
+  margin: 2% 15% 2% 15%;
+  
   padding: 1%;
   line-height: 1.5;
 }
 
-.WorkHighlights>h1 {
-  font-family: 'Courier New', Courier, monospace;
+div.WorkHighlights>h3>a:hover {
+  color:#FF17E4;
 }
 
 .workHistory>h2 {
@@ -163,6 +164,7 @@ div.WorkHighlights {
   font-family: sans-serif;
   margin-top: 2%;
   margin-bottom: 2%;
+  
 }
 
 .WorkHighlights>p {
@@ -229,7 +231,7 @@ div.certifications>ul {
 
 .workHistory>h3 {
   margin: 4% 10% 2% 10%;
-  color:
+  color:#9B28BB
 }
 
 
