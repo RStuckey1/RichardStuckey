@@ -17,58 +17,37 @@
 }
 
 .navigation-wrapper {
-
    background-color: #000000;
 }
 
 
 div.keen-slider {
-   
+     
    justify-items: center;
 
 
 }
 
 .number-slide7>img {
-   height: 100%;
-   width: 100%;
    object-fit: contain;
-   border-radius: 10px;
-
 }
 
 .number-slide8>img {
-   height: 100%;
-   width: 100%;
-   object-fit: contain;
-   border-radius: 10px;
+   object-fit:contain;
 }
 
 .number-slide9>img {
-   height: 100%;
-   width: 100%;
-   object-fit: contain;
-   border-radius: 10px;
+ object-fit:contain;
 }
 
 .number-slide10>img {
-   height: 100%;
-   width: 100%;
-   object-fit: contain;
-   border-radius: 10px;
+  object-fit:contain;
 }
 
 .number-slide11>img {
-   height: 100%;
-   width: 100%;
-   object-fit: contain;
-   border-radius: 10px;
+  object-fit:contain;
 }
 
 .number-slide12>img {
-
-   height: 100%;
-   width: 100%;
-   object-fit: contain;
-   border-radius: 10px;
+ object-fit:contain;
 }

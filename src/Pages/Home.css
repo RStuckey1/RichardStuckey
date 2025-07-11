@@ -140,10 +140,13 @@ ul.b>li {
 }
 
 .strobe {
+
     
     border: 3px solid hsl(307, 100%, 55%);
     border-radius: 10px;
-    width:25%;
-    margin: 1% 20% 1% 20%;
+    margin:5% auto 5% auto;
+    width:70%;
+    height:450px;
+   
 }
 

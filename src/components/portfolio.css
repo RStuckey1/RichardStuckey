@@ -6,16 +6,14 @@
   font-size: 50px;
   color: #fff;
   font-weight: 500;
-  height: 200px;
   max-height: 100vh;
 }
-
-
 
 .number-slide1>img {
   background: #000000;
   object-fit: contain;
 }
+
 .carousel__cell.number-slide1 > a > p {
   font-size: 2rem;
   text-align: center;

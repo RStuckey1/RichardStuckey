@@ -114,7 +114,7 @@ const Home = () => {
         <ul className="b">
           <li><Link to="/Resume">Resume</Link></li>
           <li><Link to="/List">Portfolio</Link></li>
-          <li><Link to="/Contact">Contact Rick</Link></li>
+          <li><Link to="/Contact">Contact Richard</Link></li>
         </ul>
       </div>
 
