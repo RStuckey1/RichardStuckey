@@ -19,7 +19,7 @@ function Footer() {
         }}>
 
             <Link to="https://www.linkedin.com/in/richard-stuckey-9b2910234/" target="_blank">
-                <img className="linkedinIcon" src={linkedin} alt="linkedinicon"></img>
+                <img className="linkedinIcon" src={linkedin} alt="linkedinicon" width="100px" height="100px"></img>
             </Link>
             <p>&copy; {new Date().getFullYear()} Richard Stuckey</p>
             <Link to="https://www.github.com/RStuckey1" target="_blank">

@@ -7,7 +7,6 @@
   color: #fff;
   font-weight: 500;
   height: 200px;
-  max-height: 100vh;
 }
 
 
@@ -72,6 +71,8 @@
 }
 
 .wrapper {
+  width: 100%;
+  height:auto;
   display: flex;
   justify-content: center;
 }

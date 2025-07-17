@@ -41,12 +41,17 @@ const Item = styled(Box)(({ theme }) => ({
 
 function Resume() {
     return (
-        <div>
-          
+    <>
+        <div className="Resume_size">
+
             <div>
                 <h2 className="resume">Computer Coding</h2>
-            
 
+                <div className="WorkHighlights">
+                    <h3>
+                        <Link to="/List">Click Here to See My Computer Coding Portfolio</Link>
+                    </h3>
+                </div>
                 <div className="codingSkills" id="codebox" >
 
                     <Stack direction="row" spacing={6}
@@ -186,11 +191,7 @@ function Resume() {
                     </Stack>
                 </div>
 
-                <div className="WorkHighlights">
-                <h3>
-                    <Link to="/List">Click Here to See My Computer Coding Portfolio</Link>
-                </h3>
-            </div>
+
 
                 <div className="codingCon">
                     <h2>Teamwork Traits</h2>
@@ -204,7 +205,7 @@ function Resume() {
                         <li>Critical Thinking</li>
                         <li>Emotional Intelligence</li>
                     </ul>
-                    
+
 
                 </div>
                 <div className="resume">
@@ -220,11 +221,11 @@ function Resume() {
                         <li>Control Panel Design</li>
                         <li>Process Instrumentation</li>
                         <li>Calibration</li>
-                
-                       
-                       
+
+
+
                     </ul>
-                
+
                     <div className="education">
                         <h2>Education</h2>
                         <p>Software Development Certificate - University of Kansas </p>
@@ -242,8 +243,8 @@ function Resume() {
                             <li>Eagle Scout - BSA</li>
                         </ul>
                     </div>
-            
-            <div className="workHistory">
+
+                    <div className="workHistory">
                         <h2>Work History</h2>
                         <h3>Kansas City Zoo and Aquarium (Life Support Systems/ Water Quality Manager)</h3>
                         <p>Managed all life support systems and staff. This included Polar Bear, Otter, Sea Lion, Stingray Bay, Elephant, Misouri Department of Conservation Aquarium, SOBELLA Ocean Aquarium, Alligator Alley, Penguin Exhibits and many behind the scenes conservation efforts.</p>
@@ -261,6 +262,7 @@ function Resume() {
                 </div>
             </div>
         </div>
+    </>
     );
 
 }

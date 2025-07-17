@@ -47,8 +47,9 @@ const Home = () => {
   }, [hovered]);
 
   return (
-    <>
-      <div className="header">
+  <>
+    <div className="header">
+      <div>
         <div className="home">
           <div
             className="wave"
@@ -141,9 +142,8 @@ const Home = () => {
           
         </div>
     
-
-
-    </>
+</div>
+</>
 
   );
 }

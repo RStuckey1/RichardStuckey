@@ -3,14 +3,17 @@ import Footer from './Footer'
 import { Navbar } from './components/Navbar'
 import Scroll from './components/Scroll'
 
+
 function App() {
   return (
     <>
   
  
   <div className="portfolio-app">
+      <div className="Navigation">
         <Navbar />
-      <div>
+      </div>
+      <div className="outlet">
         <Outlet />
       </div>
     <div className="scroll">
