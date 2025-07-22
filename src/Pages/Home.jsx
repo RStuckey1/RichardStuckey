@@ -40,7 +40,7 @@ const Home = () => {
     if (hovered !== null && popoverRefs[hovered].current) {
       const rect = popoverRefs[hovered].current.getBoundingClientRect();
       setPopoverPos({
-        top: rect.bottom + window.scrollY + 8,
+        top: rect.top + window.scrollY,
         left: rect.left + window.scrollX + rect.width / 2,
       });
     }
@@ -68,7 +68,7 @@ const Home = () => {
             onMouseEnter={() => canShow[0] && setHovered(0)}
             onMouseLeave={() => setHovered(null)}
           >
-            Work Creatively<br />
+            Exercise Imagination<br />
           </p>
           <p
             className="intro2"
@@ -93,16 +93,16 @@ const Home = () => {
                 position: 'absolute',
                 top: popoverPos.top,
                 left: popoverPos.left,
-                transform: 'translateX(-90%)',
+                transform: 'translate(-50%, -100%)',
                 background: '#000000',
-                padding: '10px',
+                padding: '3px 6px',
                 border: '1px solid #cb12b5',
-                borderRadius: '8px',
-                zIndex: 800,
-                minWidth: 220,
-                maxWidth: 500,
+                borderRadius: '3px',
+                zIndex: 50,
+                minWidth: 180,
+                maxWidth: 600,
                 textAlign: 'center',
-                fontSize: '0.25em',
+                fontSize: '0.35em',
                 margin: '0',
                 pointerEvents: 'none'
               }}

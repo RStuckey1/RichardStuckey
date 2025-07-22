@@ -84,7 +84,6 @@ max-width: 1000px;
     align-items: center;
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
-    position: relative;
     padding: 2rem 0;
     min-height: 400px;
 }
@@ -94,7 +93,7 @@ p.intro2,
 p.intro3 {
     opacity: 0;
     font-size: 2em;
-    margin: 1rem 0;
+   
     position: relative;
 }
 
@@ -143,14 +142,10 @@ p.intro3 {
 
 .links {
     display: flex;
-    padding-top: 4%;
-    margin: 2%;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-
-
 
 ul.b>li {
     font-size: 50px;
@@ -160,39 +155,39 @@ ul.b>li {
     text-shadow: 2px 2px #FF17E4;
 }
 
-#root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(1)>a {
+div.links > ul > li:nth-child(1) > a {
     font-family: "Audiowide", sans-serif;
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
-    padding: 15px;
+  
     
 }
 
-#root > div > div:nth-child(2) > div.links > ul > li:nth-child(1) > a:hover {
+div.links > ul > li:nth-child(1) > a:hover {
     color: #FF17E4;
     text-shadow: 2px 2px white;
 }
 
-#root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(2)>a {
+div.links > ul > li:nth-child(2) > a {
     font-family: "Audiowide", sans-serif;
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
-    padding: 15px;
+    
 }
 
-#root > div > div:nth-child(2) > div.links > ul > li:nth-child(2) > a:hover {
+div.links > ul > li:nth-child(2) > a:hover {
     color: #FF17E4;
     text-shadow: 2px 2px white;
 }
 
-#root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(3)>a {
+div.links > ul > li:nth-child(3) > a {
     font-family: "Audiowide", sans-serif;
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
-    padding: 15px;
+   
 }
 
-#root > div > div:nth-child(2) > div.links > ul > li:nth-child(3) > a:hover {
+div.links > ul > li:nth-child(3) > a:hover {
     color: #FF17E4;
     text-shadow: 2px 2px white;
 }
@@ -210,10 +205,9 @@ ul.b>li {
 }
 
 .strobe {
-    
     border: 3px solid hsl(307, 100%, 55%);
     border-radius: 10px;
-    width:25%;
-    margin: 1% 20% 1% 20%;
+    width: 60%;
+    margin: 1% auto;
 }
 
