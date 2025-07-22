@@ -1,4 +1,4 @@
-import React from "react";
+import Wave from "./NameWave.jsx";
 import { NavLink, Link } from "react-router-dom";
 import "./Navbar.css"
 

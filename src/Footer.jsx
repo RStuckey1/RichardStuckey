@@ -1,5 +1,6 @@
 
 import { Link } from 'react-router-dom';
+import Scroll from './components/Scroll.jsx'
 import linkedin from './assets/linkedin.png';
 import github from './assets/githubCat.png';
 import { Box } from '@mui/material';
@@ -7,7 +8,8 @@ import { Box } from '@mui/material';
 function Footer() {
 
     return (
-
+    <>
+        <Scroll/>
         <Box sx={{
             display: 'flex',
             padding: '80px',
@@ -26,7 +28,7 @@ function Footer() {
                 <img className="github" src={github} alt="github"></img>
             </Link>
         </Box>
-
+    </>
     );
 }
 
