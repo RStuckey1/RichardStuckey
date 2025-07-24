@@ -1,7 +1,7 @@
-body {
-  display: block;
+.Resume_size {
+  width:100%;
+  height:100%;
 }
-
 
 /* .resumepage{
   display:flex;
@@ -15,13 +15,28 @@ body {
 
 }
 
+.portLink {
+  text-align: center;
+}
+
+div.portLink>h3>a {
+
+  color:#06E8C6;
+  padding: 1%;
+  line-height: 1.5;
+}
+
+div.portLink>h3>a:hover {
+  color:#FF17E4;
+}
+
 .codingSkills {
   position: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   place-self: center;
   justify-items: center;
   max-width: fit-content;
-  background-color: #4d194d;
+  background-color: #8f18a9;
   border-radius: 10%;
   padding: 5%;
   object-fit: fill;
@@ -30,6 +45,7 @@ body {
   backdrop-filter: blur(80px);
   box-shadow: 0 4px 8px 0 #ff17e4, 0 6px 20px 0 #ff17e4
 }
+
 
 .div.css-1nktuad {
   display: relative;
@@ -86,30 +102,7 @@ h2.resume {
 .resume>h2{
   color:#FF17E4;
 }
-.objective {
-  padding: 1%;
-  text-align: center;
-  margin-top: 2%;
 
-  line-height: 1.5;
-  justify-items: center;
-}
-
-.objective>p {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 5%;
-  line-height: 1.5;
-}
-
-ul.skills {
-  list-style-type: none;
-  margin-left:10%;
-  margin-right:10%;
-  padding:3%;
-  column-count: 2;
-  line-height: 1.5;
-}
 
 #root > div > div:nth-child(1) > div > div:nth-child(2) > div.resume > div.WorkHighlights > h3:nth-child(1) > a {
   color: #4d194d;
@@ -121,121 +114,101 @@ ul.skills {
   text-shadow: 2px 2px #FF17E4;
 }
 
-.codingCon>h2 {
-  margin-left: 10%;
-  margin-right: 10%;
+.resume2 {
+  display:grid;
+  grid-template-columns: auto auto;
+  gap:2%;
   text-align: center;
-  padding: 3%;
-  line-height: 1.5;
-  color:#FF17E4;
+  margin:4% auto 4% auto;
 }
+
+.codingCon {
+  grid-column: 1;
+}
+
+.codingCon>h2 {
+  color:#FF17E4;
+  }
 
 .codingCon>ul {
   list-style-type: none;
-  margin-left: 10%;
-  margin-right: 10%;
-  columns: 2;
+}
+
+.skills {
+  grid-column: 2;
+
+}
+
+.skills>h2 {
+ color: #FF17E4; 
+
+}
+ 
+.skills>ul {
+  list-style-type: none;
+  
+}
+
+.resume3 {
+  display:grid;
+  grid-template-columns: auto auto;
+  gap: 2%;
+  margin:4% auto 4% auto;
+}
+
+.education{
+  grid-column:1;
+  margin: 4% auto;
   text-align: center;
-  line-height: 1.5;
-  margin-bottom:7%;
-}
-
-
-div.WorkHighlights {
-  display:flex;
-  margin: 2% 15% 2% 15%;
-  
-  padding: 1%;
-  line-height: 1.5;
-}
-
-div.WorkHighlights>h3>a:hover {
-  color:#FF17E4;
-}
-
-.workHistory>h2 {
-  font-family: 'Courier New', Courier, monospace;
-  margin-top: 2%;
-  color:#FF17E4
-
-}
-
-.WorkHighlights>h3 {
-  font-family: sans-serif;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  
-}
-
-.WorkHighlights>p {
-  text-align: left;
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
-div.WorkHighlights>li {
-  font-family: sans-serif;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 1%;
-  text-align: left;
-
-}
-
-div.education>p {
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .education>h2 {
-  margin-top: 2%;
-  margin-bottom: 2%;
   color:#FF17E4;
+   
 }
 
-div.education>p {
-  text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2%;
-  ;
+.education>ul {
+   list-style-type:none;
 }
 
-.certifications {
-  margin-top: 4%;
-  margin-bottom: 4%;
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: left;
-  line-height: 1.6;
-}
-
-div.certifications>ul {
-  list-style-type: none;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 15%;
-  font-family: monospace;
-  color: #06E8C6;
+.certifications{
+  grid-column: 2;
+  margin:4% auto;
 }
 
 .certifications>h2 {
-  margin: 2% 10% 2% 10%;
-  text-align: center;
-  color:#FF17E4;
+   color:#ff17e4;
 }
 
-.workHistory>h2 {
-  margin: 2% 10% 2% 10%;
+.certifications>ul {
+  list-style-type:none;
+}
+
+.Work {
+  grid-template-columns: auto auto auto;
+}
+
+.Work>h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size:3rem;
+  text-align: center;
+  color:#FF17E4;
+  text-shadow: 2px 2px hsl(0, 0%, 100%);
+
+}
+
+.workHistory{
+  grid-row:1;
 }
 
 .workHistory>h3 {
-  margin: 4% 10% 2% 10%;
-  color:#9B28BB
+  color:#FF17E4;
 }
 
+.workHistory2>h3 {
+  color:#FF17E4;
+}
 
-div.workHistory>p {
-  text-align: center;
-  margin: 4% 10% 2% 10%;
+.workHistory3>h3 {
+  color:#ff17e4;
 }

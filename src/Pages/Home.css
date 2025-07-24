@@ -1,35 +1,105 @@
-.header {
-    width:100%;
-    display:inline-block;
+.header{
+    max-width: 1000px;
+    height:auto;
+    background: #000000;
+    margin: 0 auto;
+    padding: 0;
 }
 
+.home {
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 .wave {
-    margin: 0 20% 0 20%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 1% 0;
+margin: 0 auto;
+width: 100%;
+max-width: 1000px;
 }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .wave {
+        padding: 2% 0;
+        margin: 0 auto;
+    }
+    
+    .intro {
+        min-height: 300px;
+        padding: 1.5rem 0;
+    }
+    
+    p.intro1,
+    p.intro2,
+    p.intro3 {
+        font-size: 1.5em;
+    }
+    
+    p.intro1 {
+        margin-left: 5%;
+    }
+    
+    p.intro3 {
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .wave {
+        padding: 3% 0;
+        margin: 0 auto;
+    }
+    
+    .intro {
+        min-height: 250px;
+        padding: 1rem 0;
+    }
+    
+    p.intro1,
+    p.intro2,
+    p.intro3 {
+        font-size: 1.2em;
+        margin: 0.5rem 0;
+    }
+    
+    p.intro1 {
+        margin-left: 2%;
+    }
+    
+    p.intro3 {
+        margin-right: 2%;
+    }
+}
 
 .intro {
-    height: 30%;
-    margin: 15% 2% 0% 2%;
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    
+    padding: 2rem 0;
+    min-height: 400px;
 }
 
 p.intro1,
 p.intro2,
 p.intro3 {
     opacity: 0;
+    font-size: 2em;
+   
+    position: relative;
 }
 
 p.intro1 {
-    grid-column: 1 / span 2;
-    font-size: 2em;
+    align-self: flex-start;
+    margin-left: 10%;
     animation-name: leftToRight;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
@@ -38,8 +108,7 @@ p.intro1 {
 }
 
 p.intro2 {
-    grid-column: 2 / span 2;
-    font-size: 2em;
+    align-self: center;
     animation-name: leftToRight;
     animation-duration: 2s;
     animation-delay: 2s;
@@ -49,20 +118,20 @@ p.intro2 {
 }
 
 p.intro3 {
-   grid-column: 3 / span 2;
-   font-size: 2em;
-   animation-name: leftToRight;
-   animation-duration: 2s;
-   animation-delay: 4s;
-   animation-timing-function: ease-in-out;
-   animation-iteration-count: 1;
-   animation-fill-mode: forwards;
+    align-self: flex-end;
+    margin-right: 10%;
+    animation-name: leftToRight;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 /* Update the keyframes to animate opacity */
 @keyframes leftToRight {
     from {
-        transform: translateX(-200%);
+        transform: translateX(-100%);
         opacity: 0;
     }
     to {
@@ -73,14 +142,10 @@ p.intro3 {
 
 .links {
     display: flex;
-    padding-top: 4%;
-    margin: 2%;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-
-
 
 ul.b>li {
     font-size: 50px;
@@ -90,39 +155,39 @@ ul.b>li {
     text-shadow: 2px 2px #FF17E4;
 }
 
-#root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(1)>a {
+div.links > ul > li:nth-child(1) > a {
     font-family: "Audiowide", sans-serif;
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
-    padding: 15px;
+  
     
 }
 
-#root > div > div:nth-child(2) > div.links > ul > li:nth-child(1) > a:hover {
+div.links > ul > li:nth-child(1) > a:hover {
     color: #FF17E4;
     text-shadow: 2px 2px white;
 }
 
-#root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(2)>a {
+div.links > ul > li:nth-child(2) > a {
     font-family: "Audiowide", sans-serif;
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
-    padding: 15px;
+    
 }
 
-#root > div > div:nth-child(2) > div.links > ul > li:nth-child(2) > a:hover {
+div.links > ul > li:nth-child(2) > a:hover {
     color: #FF17E4;
     text-shadow: 2px 2px white;
 }
 
-#root>div.portfolio-app>div:nth-child(1)>div>ul.b>li:nth-child(3)>a {
+div.links > ul > li:nth-child(3) > a {
     font-family: "Audiowide", sans-serif;
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
-    padding: 15px;
+   
 }
 
-#root > div > div:nth-child(2) > div.links > ul > li:nth-child(3) > a:hover {
+div.links > ul > li:nth-child(3) > a:hover {
     color: #FF17E4;
     text-shadow: 2px 2px white;
 }
@@ -140,13 +205,10 @@ ul.b>li {
 }
 
 .strobe {
-
-    
     border: 3px solid hsl(307, 100%, 55%);
     border-radius: 10px;
-    margin:5% auto 5% auto;
-    width:70%;
-    height:450px;
-   
+    width: 60%;
+    max-height:200px;
+    margin: 1% auto;
 }
 

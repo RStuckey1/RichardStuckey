@@ -1,12 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
-
-
+.content {
+	justify-content: center;
+	align-items:center;
+	text-align: center;
+	width: 100%;
+	position: relative;
+	height: clamp(3rem, 12vw, 6rem);
+	margin: 0 auto;
+	padding: 0;
+}
 
 .content h2 {
-	font-size: 4.5em;
+	font-size: clamp(2rem, 8vw, 4.5rem);
 	position: absolute;
-	/* transform: translate(-50%, -50%);  */
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	width: auto;
 }
 
 .content h2:nth-child(1) {
@@ -20,6 +33,35 @@
 	color: #0a32c1;
 	animation: animate 3.5s ease-in-out infinite;
 	animation-delay: -1.5s;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+	.content {
+		height: clamp(2.5rem, 10vw, 5rem);
+	}
+	
+	.content h2 {
+		font-size: clamp(1.5rem, 7vw, 3.5rem);
+	}
+	
+	.content h2:nth-child(1) {
+		-webkit-text-stroke: 1px #ff17e4;
+	}
+}
+
+@media (max-width: 480px) {
+	.content {
+		height: clamp(2rem, 8vw, 4rem);
+	}
+	
+	.content h2 {
+		font-size: clamp(1.2rem, 6vw, 2.5rem);
+	}
+	
+	.content h2:nth-child(1) {
+		-webkit-text-stroke: 0.8px #ff17e4;
+	}
 }
 
 

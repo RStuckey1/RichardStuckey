@@ -5,7 +5,6 @@ import AQme from '../assets/me/AQme.png'
 import KC from '../assets/me/MGAme.png'
 import Penguin from '../assets/me/TREX.png'
 import Bees from '../assets/me/RickBees.png'
-import BW from '../assets/me/BW.png'
 import "keen-slider/keen-slider.min.css"
 import "./Carousel.css";
 
@@ -45,9 +44,6 @@ function Carousel() {
           </div>
           <div className="keen-slider__slide number-slide11">
             <img src={Bees} alt="boundrywaters"></img>
-          </div>
-          <div className="keen-slider__slide number-slide12">
-            <img src={BW} alt="boundrywaters"></img>
           </div>
         </div>
         </div>
