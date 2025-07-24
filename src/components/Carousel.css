@@ -23,45 +23,39 @@
 
 
 div.keen-slider {
-   
+   object-fit: contain;
    justify-items: center;
+   object-position: center;
 
 
 }
 
 .number-slide7>img {
    
-   object-fit: contain;
-   border-radius: 10px;
+  object-fit: contain;
+
 
 }
 
 .number-slide8>img {
   
-   object-fit: contain;
-   border-radius: 10px;
+object-fit: contain;
+
 }
 
 .number-slide9>img {
   
-   object-fit: contain;
-   border-radius: 10px;
+ object-fit: contain;
+ 
 }
 
 .number-slide10>img {
  
-   object-fit: contain;
-   border-radius: 10px;
+  object-fit: contain;
+ 
 }
 
 .number-slide11>img {
+  object-fit: contain;
   
-   object-fit: contain;
-   border-radius: 10px;
-}
-
-.number-slide12>img {
-
-   object-fit: contain;
-   border-radius: 10px;
 }

@@ -208,6 +208,7 @@ div.links > ul > li:nth-child(3) > a:hover {
     border: 3px solid hsl(307, 100%, 55%);
     border-radius: 10px;
     width: 60%;
+    max-height:200px;
     margin: 1% auto;
 }
 

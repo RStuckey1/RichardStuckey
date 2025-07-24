@@ -200,9 +200,8 @@ function Resume() {
                             <li>Agile Method</li>
                             <li>Excellent Communicator</li>
                             <li>SCRUM Framework</li>
-                            <li>Adaptable</li>
+                            <li>Adaptable Creativity</li>
                             <li>Collaborative</li>
-                            <li>Creativity</li>
                             <li>Critical Thinker</li>
                             <li>Emotionally Intelligent</li>
                         </ul>
@@ -247,18 +246,21 @@ function Resume() {
                     </div>
                 </div>
                 <div className="Work">
-
+                    <h2>Work History</h2>
                     <div className="workHistory">
-                        <h2>Work History</h2>
                         <h3>Kansas City Zoo and Aquarium (Life Support Systems/ Water Quality Manager)</h3>
                         <p>Managed all life support systems and staff. This included Polar Bear, Otter, Sea Lion, Stingray Bay, Elephant, Misouri Department of Conservation Aquarium, SOBELLA Ocean Aquarium, Alligator Alley, Penguin Exhibits and many behind the scenes conservation efforts.</p>
                         <br></br>
+                    <div className="workHistory2">
                         <h3>Landry's T-REX Cafe (Curator/ Aqusition&Quarantine Manager)</h3>
                         <p>Maintained all exhibits and aquatic dive staff. Acquired, Quarantined,and Distribted incoming specimens.</p>
                         <br></br>
+                    </div>
+                    <div className="workHistory3">
                         <h3>Environmental Science Coporation (Field Technician)</h3>
                         <p>Collected soil and water samples for clients. Created proper EPA chain of custody documents for samples. Preserved samples for shipment. Provided clients with recommendations for Local and Federal compliance. </p>
                         <br></br>
+                    </div>
                     </div>
 
 

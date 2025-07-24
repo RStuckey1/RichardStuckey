@@ -1,6 +1,10 @@
 
+
+
+
 #root > div > div.outlet {
   background: #000000;
+  margin:0;
 }
 
 
@@ -19,6 +23,7 @@
 
 .Navigation {
   grid-area: header;
+  margin-top:1%;
   background: #000000;
 
 }

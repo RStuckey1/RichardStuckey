@@ -188,19 +188,27 @@ h2.resume {
   grid-template-columns: auto auto auto;
 }
 
-.workHistory {
-  grid-row:1;}
-
-.workHistory>h2 {
+.Work>h2 {
   font-family: 'Courier New', Courier, monospace;
-  color:#FF17E4
+  font-size:3rem;
+  text-align: center;
+  color:#FF17E4;
+  text-shadow: 2px 2px hsl(0, 0%, 100%);
 
 }
 
-.workHistory>h2 {
-  color:#FF17E4;
+.workHistory{
+  grid-row:1;
 }
 
 .workHistory>h3 {
-  color:#9B28BB;
+  color:#FF17E4;
+}
+
+.workHistory2>h3 {
+  color:#FF17E4;
+}
+
+.workHistory3>h3 {
+  color:#ff17e4;
 }
