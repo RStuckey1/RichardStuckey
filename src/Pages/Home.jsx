@@ -5,14 +5,12 @@ import Carousel from '../components/Carousel';
 import Popover1 from '../components/Popover1';
 import Popover2 from '../components/Popover2';
 import Popover3 from '../components/Popover3';
-import Popover4 from '../components/Popover4'; // <-- Add this import
 import './Home.css';
 
 const popoverTexts = [
   <Popover2 />,
   <Popover1 />,
-  <Popover3 />,
-  <Popover4 /> // <-- Add new popover for NameWave
+  <Popover3 />, // <-- Add new popover for NameWave
 ];
 
 const Home = () => {
@@ -28,9 +26,9 @@ const Home = () => {
 
   useEffect(() => {
     const timers = [
-      setTimeout(() => setCanShow(c => [true, c[1], c[2], c[3]]), 2000),
-      setTimeout(() => setCanShow(c => [c[0], true, c[2], c[3]]), 4000),
-      setTimeout(() => setCanShow(c => [c[0], c[1], true, c[3]]), 6000),
+      setTimeout(() => setCanShow(c => [true, c[1], c[2]]), 2000),
+      setTimeout(() => setCanShow(c => [c[0], true, c[2]]), 4000),
+      setTimeout(() => setCanShow(c => [c[0], c[1], true ]), 6000),
     ];
     return () => timers.forEach(clearTimeout);
   }, []);
@@ -51,12 +49,7 @@ const Home = () => {
       <div className="header">
         {/* NameWave positioned right below NavBar */}
         <div className="home">
-          <div
-            className="wave"
-            ref={popoverRefs[3]}
-            onMouseEnter={() => canShow[3] && setHovered(3)}
-            onMouseLeave={() => setHovered(null)}
-          >
+          <div className="wave">
             <NameWave />
           </div>
         </div>
@@ -84,7 +77,7 @@ const Home = () => {
             onMouseEnter={() => canShow[2] && setHovered(2)}
             onMouseLeave={() => setHovered(null)}
           >
-            Live Tenaciously<br />
+            Live Fearlessly<br />
           </p>
 
           {hovered !== null && (
@@ -96,8 +89,8 @@ const Home = () => {
                 transform: 'translate(-50%, -100%)',
                 background: '#000000',
                 padding: '3px 6px',
-                border: '1px solid #cb12b5',
-                borderRadius: '3px',
+                border: '3px solid #ff17e4',
+                borderRadius: '10px',
                 zIndex: 50,
                 minWidth: 180,
                 maxWidth: 600,

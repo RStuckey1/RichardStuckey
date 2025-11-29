@@ -190,11 +190,11 @@ h2.resume {
 
 .Work>h2 {
   font-family: 'Courier New', Courier, monospace;
-  font-size:3rem;
+  font-size:3.5rem;
+  font-weight: 900;
   text-align: center;
-  color:#FF17E4;
-  text-shadow: 2px 2px hsl(0, 0%, 100%);
-
+  color:#ff17e4;
+ 
 }
 
 .workHistory{
@@ -203,12 +203,42 @@ h2.resume {
 
 .workHistory>h3 {
   color:#FF17E4;
+  margin:0% 5%;
+  justify-content: center;
+  text-align: center;
 }
 
 .workHistory2>h3 {
   color:#FF17E4;
+  margin:0% 5%;
+  justify-content: center;
+  text-align: center;
 }
 
 .workHistory3>h3 {
-  color:#ff17e4;
+  color:#FF17E4;
+  margin:0% 5%;
+  justify-content: center;
+  text-align: center;
+}
+
+.workHistory3>p {
+  color:#06e8c6;
+  margin:2% 5%;
+  justify-content: center;
+  text-align: center;
+}
+
+.workHistory2>p {
+  color:#06e8c6;
+  margin:2% 5%;
+  justify-content: center;
+  text-align: center;
+}
+
+.workHistory>p {
+  color:#06e8c6;
+  margin:2% 5%;
+  justify-content: center;
+  text-align: center;
 }

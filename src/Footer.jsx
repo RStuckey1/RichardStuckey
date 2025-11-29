@@ -5,6 +5,7 @@ import linkedin from './assets/linkedin.png';
 import github from './assets/githubCat.png';
 import { Box } from '@mui/material';
 
+
 function Footer() {
 
     return (
@@ -14,7 +15,7 @@ function Footer() {
             display: 'flex',
             padding: '80px',
             margin: '10px',
-            justifyContent: 'center',
+            justifyContent: 'space-between',
             alignItems: 'center',
             flexDirection: 'row',
             height: '100px'
@@ -25,7 +26,7 @@ function Footer() {
             </Link>
             <p>&copy; {new Date().getFullYear()} Richard Stuckey</p>
             <Link to="https://www.github.com/RStuckey1" target="_blank">
-                <img className="github" src={github} alt="github"></img>
+                <img className="github" src={github} alt="github" width="100px" height="100px"></img>
             </Link>
         </Box>
     </>

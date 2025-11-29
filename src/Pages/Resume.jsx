@@ -203,14 +203,12 @@ function Resume() {
                             <li>Adaptable Creativity</li>
                             <li>Collaborative</li>
                             <li>Critical Thinker</li>
-                            <li>Emotionally Intelligent</li>
+                            
                         </ul>
                     </div>
                     <div className="skills">
                         <h2>Technical Skills</h2>
                         <ul className="skills">
-                            <li>Front-End Web Design</li>
-                            <li>Database Design</li>
                             <li>Full-Stack Programming</li>
                             <li>UX/UI</li>
                             <li>RESTful APIs</li>
@@ -248,7 +246,7 @@ function Resume() {
                 <div className="Work">
                     <h2>Work History</h2>
                     <div className="workHistory">
-                        <h3>Kansas City Zoo and Aquarium (Life Support Systems/ Water Quality Manager)</h3>
+                        <h3>Kansas City Zoo and Aquarium (Life Support Systems Manager)</h3>
                         <p>Managed all life support systems and staff. This included Polar Bear, Otter, Sea Lion, Stingray Bay, Elephant, Misouri Department of Conservation Aquarium, SOBELLA Ocean Aquarium, Alligator Alley, Penguin Exhibits and many behind the scenes conservation efforts.</p>
                         <br></br>
                     <div className="workHistory2">
@@ -258,7 +256,7 @@ function Resume() {
                     </div>
                     <div className="workHistory3">
                         <h3>Environmental Science Coporation (Field Technician)</h3>
-                        <p>Collected soil and water samples for clients. Created proper EPA chain of custody documents for samples. Preserved samples for shipment. Provided clients with recommendations for Local and Federal compliance. </p>
+                        <p>Provided Clients with Soil/Water Lab services, ensuring EPA compliance. Sample Collection, Sample Field Testing and Preservation, COC Documents, and Shipping Compliance to ECS's Lab.   </p>
                         <br></br>
                     </div>
                     </div>

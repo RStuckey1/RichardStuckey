@@ -5,9 +5,8 @@ function Popover2() {
 
         <>
             <div className="Popover">
-              <p>I want to create a world where</p> 
-              <p>technology brings us together,</p>
-              <p> not apart</p>
+              <p>Creating a world where</p> 
+              <p>people unite</p>
             </div>
         </>
     )

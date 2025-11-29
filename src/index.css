@@ -1,4 +1,10 @@
-
+#root { 
+  width:100vw;
+  height:100vh;
+  background: #000000;
+  margin:0;
+  box-sizing: border-box;
+}
 
 
 
@@ -30,7 +36,6 @@
 
 .outlet {
   grid-area: main;
-  max-width:1000px;
 }
 
 .footer{
@@ -87,7 +92,7 @@ h3 {
 
 
 .Popover>p {
-  color: #0a32c1;
+  color: #0080ff;
   font-size: 1.5rem;
 }
 
