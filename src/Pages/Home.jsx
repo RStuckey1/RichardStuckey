@@ -89,13 +89,12 @@ const Home = () => {
                 transform: 'translate(-50%, -100%)',
                 background: '#000000',
                 padding: '3px 6px',
-                border: '3px solid #ff17e4',
+                border: '6px solid #ff17e4',
                 borderRadius: '10px',
                 zIndex: 50,
                 minWidth: 180,
                 maxWidth: 600,
                 textAlign: 'center',
-                fontSize: '0.35em',
                 margin: '0',
                 pointerEvents: 'none'
               }}

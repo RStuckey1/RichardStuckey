@@ -203,7 +203,7 @@ function Resume() {
                             <li>Adaptable Creativity</li>
                             <li>Collaborative</li>
                             <li>Critical Thinker</li>
-                            
+
                         </ul>
                     </div>
                     <div className="skills">
@@ -234,7 +234,7 @@ function Resume() {
                     <div className="certifications">
                         <h2>Certifications</h2>
                         <ul className="certifications">
-                            
+
                             <li>AALSO Operator(lv.2)</li>
                             <li>Water Quality Technician(lv.2)</li>
                             <li>OSHA 10</li>
@@ -249,16 +249,16 @@ function Resume() {
                         <h3>Kansas City Zoo and Aquarium (Life Support Systems Manager)</h3>
                         <p>Managed all life support systems and staff. This included Polar Bear, Otter, Sea Lion, Stingray Bay, Elephant, Misouri Department of Conservation Aquarium, SOBELLA Ocean Aquarium, Alligator Alley, Penguin Exhibits and many behind the scenes conservation efforts.</p>
                         <br></br>
-                    <div className="workHistory2">
-                        <h3>Landry's T-REX Cafe (Curator/ Aqusition&Quarantine Manager)</h3>
-                        <p>Maintained all exhibits and aquatic dive staff. Acquired, Quarantined,and Distribted incoming specimens.</p>
-                        <br></br>
-                    </div>
-                    <div className="workHistory3">
-                        <h3>Environmental Science Coporation (Field Technician)</h3>
-                        <p>Provided Clients with Soil/Water Lab services, ensuring EPA compliance. Sample Collection, Sample Field Testing and Preservation, COC Documents, and Shipping Compliance to ECS's Lab.   </p>
-                        <br></br>
-                    </div>
+                        <div className="workHistory2">
+                            <h3>Landry's T-REX Cafe (Curator/ Aqusition&Quarantine Manager)</h3>
+                            <p>Maintained all exhibits and aquatic dive staff. Acquired, Quarantined,and Distribted incoming specimens.</p>
+                            <br></br>
+                        </div>
+                        <div className="workHistory3">
+                            <h3>Environmental Science Coporation (Field Technician)</h3>
+                            <p>Provided Clients with Soil/Water Lab services, ensuring EPA compliance. Sample Collection, Sample Field Testing and Preservation, COC Documents, and Shipping Compliance to ECS's Lab.   </p>
+                            <br></br>
+                        </div>
                     </div>
 
 

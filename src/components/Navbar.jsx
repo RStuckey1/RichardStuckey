@@ -1,11 +1,14 @@
-import Wave from "./NameWave.jsx";
 import { NavLink, Link } from "react-router-dom";
+import BadButton from "./badbutton.jsx";
 import "./Navbar.css"
 
 export const Navbar = () => {
     return (
         <nav>
             <ul>
+                <li className="redButton">
+                    <BadButton />
+                </li>
                 <li className="c">
                     <NavLink to="/">Home</NavLink>
                 </li>

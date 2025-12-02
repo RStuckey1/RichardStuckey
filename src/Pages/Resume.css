@@ -117,26 +117,20 @@ h2.resume {
 .resume2 {
   display:grid;
   grid-template-columns: auto auto;
-  gap:2%;
   text-align: center;
-  margin:4% auto 4% auto;
+  margin: 10% auto;
 }
-
 .codingCon {
-  grid-column: 1;
+  grid-column:1;
+  margin: 4% auto;
+  text-align: center;
 }
-
 .codingCon>h2 {
   color:#FF17E4;
   }
 
 .codingCon>ul {
   list-style-type: none;
-}
-
-.skills {
-  grid-column: 2;
-
 }
 
 .skills>h2 {

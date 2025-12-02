@@ -20,6 +20,10 @@ nav ul {
     margin: 0;
     
 }
+button.redButton {
+    background-color: red;
+    color: white;
+}
 
 /* nav ul li {
     list-style: inline;
@@ -82,4 +86,11 @@ nav ul li.dropdown:hover .dropdown-menu {
 
 nav ul li a:not(.active):hover {
     background-color: #172554;
+}
+
+.redbutton {
+    background-color: red;
+    color: black;
+    border: 3px solid white;
+    border-radius: 10px;
 }
