@@ -160,7 +160,6 @@ div.links > ul > li:nth-child(1) > a {
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
   
-    
 }
 
 div.links > ul > li:nth-child(1) > a:hover {
@@ -210,5 +209,13 @@ div.links > ul > li:nth-child(3) > a:hover {
     width: 60%;
     max-height:200px;
     margin: 1% auto;
+}
+
+.floating-bad-button {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    z-index: 1000;
 }
 

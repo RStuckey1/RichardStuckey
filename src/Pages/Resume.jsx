@@ -232,7 +232,7 @@ function Resume() {
                         <h2>Certifications</h2>
                         <ul className="certifications">
 
-                            <li>AALSO Operator(lv.2)</li>
+                            <li>AALSO Operator(lv.1)</li>
                             <li>Water Quality Technician(lv.2)</li>
                             <li>OSHA 10</li>
                             <li>NSPF Certified Pool Operator</li>
@@ -243,19 +243,16 @@ function Resume() {
                 <div className="Work">
                     <h2>Work History</h2>
                     <div className="workHistory">
-                        <h3>Kansas City Zoo and Aquarium (Life Support Systems Manager)</h3>
-                        <p>Managed all life support systems and staff. This included Polar Bear, Otter, Sea Lion, Stingray Bay, Elephant, Misouri Department of Conservation Aquarium, SOBELLA Ocean Aquarium, Alligator Alley, Penguin Exhibits and many behind the scenes conservation efforts.</p>
+                        <h3>Kansas City Zoo and Aquarium (LSS Manager)</h3>
+                        <p>Oversaw the operation and maintenance of all life support systems throughout the
+                        Zoo. This includes ensuring all systems are functioning properly and overseeing day-to-day operations to assure proper water quality, clarity and chemistry. This position also supervised the Life Support Operators. Exhibits included The SOBELLS Aquarium, Polar Bear Pool, Helzberg Penguin Plaza (2 penguin pools and multiple saltwater aquariums), Elephant Passage Pool, Sea Lion Splash, Stingray Bay, Otter Pool, and Missouri Department of Conservation Aquarium.</p>
                         <br></br>
-                        <div className="workHistory2">
-                            <h3>Landry's T-REX Cafe (Curator/ Aqusition&Quarantine Manager)</h3>
-                            <p>Maintained all exhibits and aquatic dive staff. Acquired, Quarantined,and Distribted incoming specimens.</p>
-                            <br></br>
-                        </div>
-                        <div className="workHistory3">
-                            <h3>Environmental Science Coporation (Field Technician)</h3>
-                            <p>Provided Clients with Soil/Water Lab services, ensuring EPA compliance. Sample Collection, Sample Field Testing and Preservation, COC Documents, and Shipping Compliance to ECS's Lab.   </p>
-                            <br></br>
-                        </div>
+                        <h3>Landry's T-REX Cafe (Curator/ Aqusition&Quarantine Manager)</h3>
+                        <p>With a team of 3 direct reporting staff, maintained 4x marine aquariums(29,000 gallons total) throughout the building. This included elasmobranchs and teleost. Selected, purchased, transported, acclimated and quarantined new specimens. Managed a scientific exempt dive program that operated 5 days a week.</p>
+                        <br></br>
+                        <h3>Environmental Science Coporation (Field Technician)</h3>
+                        <p>Provided Clients with Soil/Water Lab testing services, ensuring EPA compliance. Sample Collection, Sample Field Testing and Preservation, COC Documents, and Shipping Compliance to ECS's Lab. Clients were mostly for Army Ammunition Plant decommissioning, municipal steam power plants, RCRA mitigation, and asbestos.   </p>
+                        <br></br>
                     </div>
 
 

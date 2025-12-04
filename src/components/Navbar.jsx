@@ -1,14 +1,10 @@
 import { NavLink, Link } from "react-router-dom";
-import BadButton from "./badbutton.jsx";
 import "./Navbar.css"
 
 export const Navbar = () => {
     return (
         <nav>
             <ul>
-                <li className="redButton">
-                    <BadButton />
-                </li>
                 <li className="c">
                     <NavLink to="/">Home</NavLink>
                 </li>
@@ -35,7 +31,7 @@ export const Navbar = () => {
                         </li>
                     </ul>
                 </li>
-                <li class="c">
+                <li className="c">
                     <NavLink to="/Contact">Contact</NavLink>
                 </li>
             </ul>

@@ -196,4 +196,12 @@ img.linkedinIcon {
   margin-right:10%;
 }
 
+.floating-bad-button {
+    position: fixed;
+    top: 2%;
+    right: 20px;
+   
+    z-index: 1000;
+}
+
 
