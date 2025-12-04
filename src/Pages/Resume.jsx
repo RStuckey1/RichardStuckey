@@ -194,9 +194,9 @@ function Resume() {
                 </div>
                 <div className="resume2">
 
-                    <div className="codingCon">
+                    <div className="teamwork">
                         <h2>Teamwork Traits</h2>
-                        <ul className="codingCon">
+                        <ul className="teamwork">
                             <li>Agile Method</li>
                             <li>Excellent Communicator</li>
                             <li>SCRUM Framework</li>
@@ -220,9 +220,6 @@ function Resume() {
                             <li>Calibration</li>
                         </ul>
                     </div>
-                </div>
-                <div className="resume3">
-
                     <div className="education">
                         <h2>Education</h2>
                         <ul className="education">

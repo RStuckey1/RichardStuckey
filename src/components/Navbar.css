@@ -89,8 +89,11 @@ nav ul li a:not(.active):hover {
 }
 
 .redbutton {
-    background-color: red;
-    color: black;
-    border: 3px solid white;
+    height:60px;
+    width:auto;
+    font-size: 1rem;
+    background-color: #0080FF;
+    color: #ffffff;
+    border: 3px solid #FF17E4;
     border-radius: 10px;
 }
