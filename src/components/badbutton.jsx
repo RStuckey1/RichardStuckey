@@ -20,6 +20,7 @@ function Modal({ isOpen, onClose, children }) {
             <div style={{
                  background: '#000000',
                  color: '#06E8C4',
+                 
         padding: '20px',
         borderRadius: '8px'
       }}>
