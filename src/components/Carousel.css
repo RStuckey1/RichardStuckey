@@ -4,6 +4,8 @@
    justify-content: center;
    align-items: center;
    font-weight: 500;
+   height: 400px;
+   width: 400px;
 
 }
 
@@ -11,50 +13,40 @@
    background-color: #42047e;
    align-items: center;
    justify-content: center;
-   align-items: center;
    font-weight: 500;
+   height: 400px;
 
 }
 
 .navigation-wrapper {
    background-color: #000000;
+   width: 400px;
+   height: 400px;
+   border: solid 6px #FF17E4;
+   border-radius: 8px;
 }
 
-
 div.keen-slider {
-   object-fit: contain;
-   justify-items: center;
-   object-position: center;
-
-
+   height: 400px;
+   width: 400px;
 }
 
 .number-slide7>img {
-   
-  object-fit: contain;
-
-
+   justify-content: center;
 }
 
-.number-slide8>img {
-  
-object-fit: contain;
-
+.number-slide8 {
+   justify-content: center;
 }
 
 .number-slide9>img {
-  
- object-fit: contain;
- 
+   justify-content: center;
 }
 
 .number-slide10>img {
- 
-  object-fit: contain;
- 
+   justify-content: center;
 }
 
 .number-slide11>img {
-  object-fit: contain;
-  
+   justify-content: center;
 }

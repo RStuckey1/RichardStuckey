@@ -204,11 +204,10 @@ div.links > ul > li:nth-child(3) > a:hover {
 }
 
 .strobe {
-    border: 3px solid hsl(307, 100%, 55%);
-    border-radius: 10px;
-    width: 60%;
-    max-height:200px;
-    margin: 1% auto;
+   position:relative;
+   justify-items: center;
+   margin:2% auto 5% auto; 
+
 }
 
 .floating-bad-button {

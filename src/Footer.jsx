@@ -21,7 +21,7 @@ function Footer() {
             height: '100px'
         }}>
 
-            <Link to="https://www.linkedin.com/in/richard-stuckey-9b2910234/" target="_blank">
+            <Link to="https://www.linkedin.com/in/richard-s-9b2910234?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BkgkYohIYQSyxne%2BeREaUkA%3D%3D" target="_blank">
                 <img className="linkedinIcon" src={linkedin} alt="linkedinicon" width="100px" height="100px"></img>
             </Link>
             <p>&copy; {new Date().getFullYear()} Richard Stuckey</p>
