@@ -5,6 +5,7 @@ import Carousel from '../components/Carousel';
 import Popover1 from '../components/Popover1';
 import Popover2 from '../components/Popover2';
 import Popover3 from '../components/Popover3';
+import Planet from '../assets/planet.png';
 
 import './Home.css';
 
@@ -56,7 +57,9 @@ const Home = () => {
             <NameWave />
           </div>
         </div>
-
+        <div className="planet">
+          <img src={Planet} alt="planet"></img>
+        </div>
         <div className="intro">
           <p
             className="intro1"
@@ -106,6 +109,8 @@ const Home = () => {
             </div>
           )}
         </div>
+
+    
         <div className="links">
           <ul className="b">
             <li><Link to="/Resume">Resume</Link></li>
@@ -136,7 +141,9 @@ const Home = () => {
           <Carousel />
 
         </div>
-
+    {/* <div className="spaceman">
+          <img src={Spaceman} alt="spaceman"></img>
+        </div> */}
       </div>
     </>
 

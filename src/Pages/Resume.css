@@ -141,11 +141,11 @@ h2.resume {
   padding:0;
   text-align: center;
 }
+
 .skills>h2 {
  color: #FF17E4;
  padding:0;
  margin:0;
-
 }
  
 .skills>ul {
@@ -197,7 +197,6 @@ h2.resume {
   font-weight: 900;
   text-align: center;
   color:#ff17e4;
- 
 }
 
 .workHistory>h3 {

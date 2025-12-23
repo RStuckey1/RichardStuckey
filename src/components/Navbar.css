@@ -1,5 +1,4 @@
 a.active {
-    
     border: solid 2px;
     border-color: #FF17E4;
     border-radius: 10px;
@@ -13,6 +12,7 @@ nav {
     position:sticky;
     z-index: 2;
 }
+
 nav ul {
     display: flex;
     list-style: none;
@@ -62,8 +62,7 @@ nav ul li.dropdown:hover .dropdown-menu {
     border-color: #FF17E4;
     border-radius: 10px; 
     background-color:black;
-    z-index: 2;
-    
+    z-index: 2;   
 }
 
 .dropdown-menu li {

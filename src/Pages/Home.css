@@ -170,8 +170,7 @@ div.links > ul > li:nth-child(1) > a:hover {
 div.links > ul > li:nth-child(2) > a {
     font-family: "Audiowide", sans-serif;
     color: #4d194d;
-    text-shadow: 2px 2px #FF17E4;
-    
+    text-shadow: 2px 2px #FF17E4;  
 }
 
 div.links > ul > li:nth-child(2) > a:hover {
@@ -183,7 +182,6 @@ div.links > ul > li:nth-child(3) > a {
     font-family: "Audiowide", sans-serif;
     color: #4d194d;
     text-shadow: 2px 2px #FF17E4;
-   
 }
 
 div.links > ul > li:nth-child(3) > a:hover {
@@ -207,7 +205,6 @@ div.links > ul > li:nth-child(3) > a:hover {
    position:relative;
    justify-items: center;
    margin:2% auto 5% auto; 
-
 }
 
 .floating-bad-button {
@@ -218,3 +215,10 @@ div.links > ul > li:nth-child(3) > a:hover {
     z-index: 1000;
 }
 
+.planet{
+    position:fixed;
+    top:-100px;
+    left:100px;
+    z-index:1;
+    opacity: 20%;
+}
