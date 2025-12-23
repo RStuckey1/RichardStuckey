@@ -57,9 +57,7 @@ const Home = () => {
             <NameWave />
           </div>
         </div>
-        <div className="planet">
-          <img src={Planet} alt="planet"></img>
-        </div>
+        
         <div className="intro">
           <p
             className="intro1"

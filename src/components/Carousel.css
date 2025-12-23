@@ -23,11 +23,13 @@
    height: 400px;
    border: solid 6px #FF17E4;
    border-radius: 8px;
+   z-index: 0;
 }
 
 div.keen-slider {
    height: 400px;
    width: 400px;
+   z-index: 0;
 }
 
 .number-slide7>img {

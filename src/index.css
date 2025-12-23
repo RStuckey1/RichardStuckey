@@ -7,7 +7,7 @@
 }
 
 #root > div > div.outlet {
-  background: #000000;
+  
   margin:0;
 }
 
@@ -26,7 +26,6 @@
 .Navigation {
   grid-area: header;
   margin-top:1%;
-  background: #000000;
 }
 
 .outlet {
@@ -36,7 +35,7 @@
 .footer{
   grid-area: footer;
   text-align: center;
-  background-color: #000000;
+ 
 }
 
 li {
@@ -191,5 +190,15 @@ img.linkedinIcon {
     right: 20px;
     z-index: 2000;
 }
+
+.planet{
+    position:fixed;
+    top:-100px;
+    left:100px;
+    z-index:1;
+    opacity: 15%;
+    pointer-events: none;
+}
+
 
 

@@ -1,9 +1,10 @@
 .header{
     max-width: 1000px;
     height:auto;
-    background: #000000;
+   
     margin: 0 auto;
     padding: 0;
+    z-index: 1;
 }
 
 .home {
@@ -11,6 +12,7 @@
     width: 100%;
     margin: 0;
     padding: 0;
+    z-index: 2;
 }
 
 .wave {
@@ -22,6 +24,7 @@ padding: 1% 0;
 margin: 0 auto;
 width: 100%;
 max-width: 1000px;
+z-index: 2;
 }
 
 /* Responsive adjustments */
@@ -144,6 +147,7 @@ p.intro3 {
     justify-content: center;
     align-items: center;
     text-align: center;
+
 }
 
 ul.b>li {
@@ -205,6 +209,7 @@ div.links > ul > li:nth-child(3) > a:hover {
    position:relative;
    justify-items: center;
    margin:2% auto 5% auto; 
+   z-index: 2;
 }
 
 .floating-bad-button {
@@ -215,10 +220,3 @@ div.links > ul > li:nth-child(3) > a:hover {
     z-index: 1000;
 }
 
-.planet{
-    position:fixed;
-    top:-100px;
-    left:100px;
-    z-index:1;
-    opacity: 20%;
-}
