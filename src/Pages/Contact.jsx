@@ -63,7 +63,7 @@ export const Contact = () => {
                 <br></br>
                 <br></br>
                 <div className="information">
-                    <Link to="https://www.linkedin.com/in/richard-stuckey-9b2910234/" target="_blank">
+                    <Link to="https://www.linkedin.com/in/richard-s-9b2910234?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B42HfR69bRbCZkx51P2F0OQ%3D%3D" target="_blank">
                         <img className="linkedinIcon" src={linkedin} alt="linkedinicon"></img>
                     </Link>
                     <br></br>
