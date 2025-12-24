@@ -97,3 +97,57 @@
   width: 100%;
   height: 100%;
 }
+
+/* Tablet Responsive Styles */
+@media (max-width: 768px) {
+  [class^="number-slide"],
+  [class*=" number-slide"] {
+    font-size: 35px;
+    height: 150px;
+  }
+  
+  .carousel__cell.number-slide1 > a > p,
+  .carousel__cell.number-slide2 > a > p,
+  .carousel__cell.number-slide3 > a > p,
+  .carousel__cell.number-slide4 > a > p,
+  .carousel__cell.number-slide5 > a > p,
+  .carousel__cell.number-slide6 > a > p {
+    font-size: 1.5rem;
+  }
+  
+  .scene {
+    width: 200px;
+    height: 150px;
+  }
+  
+  .wrapper {
+    padding: 0 10px;
+  }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 480px) {
+  [class^="number-slide"],
+  [class*=" number-slide"] {
+    font-size: 25px;
+    height: 120px;
+  }
+  
+  .carousel__cell.number-slide1 > a > p,
+  .carousel__cell.number-slide2 > a > p,
+  .carousel__cell.number-slide3 > a > p,
+  .carousel__cell.number-slide4 > a > p,
+  .carousel__cell.number-slide5 > a > p,
+  .carousel__cell.number-slide6 > a > p {
+    font-size: 1.2rem;
+  }
+  
+  .scene {
+    width: 150px;
+    height: 120px;
+  }
+  
+  .wrapper {
+    padding: 0 5px;
+  }
+}

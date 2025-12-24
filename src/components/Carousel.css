@@ -51,3 +51,42 @@ div.keen-slider {
 .number-slide11>img {
    justify-content: center;
 }
+
+/* Tablet Responsive Styles */
+@media (max-width: 768px) {
+  [class^="number-slide"],
+  [class*=" number-slide"] {
+    height: 300px;
+    width: 300px;
+  }
+  
+  .navigation-wrapper {
+    width: 300px;
+    height: 300px;
+  }
+  
+  div.keen-slider {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 480px) {
+  [class^="number-slide"],
+  [class*=" number-slide"] {
+    height: 250px;
+    width: 250px;
+  }
+  
+  .navigation-wrapper {
+    width: 250px;
+    height: 250px;
+    border: solid 4px #FF17E4;
+  }
+  
+  div.keen-slider {
+    height: 250px;
+    width: 250px;
+  }
+}

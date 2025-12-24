@@ -7,7 +7,8 @@
 }
 
 #root > div > div.outlet {
-  
+   width:auto;
+  height:auto;
   margin:0;
 }
 
@@ -81,6 +82,52 @@ h3 {
   color: #06E8C6;
 }
 
+/* Tablet Responsive Styles */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
+  li {
+    font-size: 20px;
+  }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.3rem;
+  }
+  
+  h3 {
+    font-size: 1rem;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  li {
+    font-size: 16px;
+  }
+}
+
 
 
 .Popover>p {
@@ -119,16 +166,36 @@ img.github {
   border-radius: 50px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100px;
+  width: 100%;
+  height: auto;
 }
 
 img.linkedinIcon {
   border-radius: 50px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100px;
+  width: 100%;
+  height: auto;
 }
 
 .scroll {
   margin:5%;
+}
+
+/* Tablet Responsive Styles for scroll */
+@media (max-width: 768px) {
+  .scroll {
+    margin: 3%;
+  }
+}
+
+/* Mobile Responsive Styles for scroll */
+@media (max-width: 480px) {
+  .scroll {
+    margin: 2%;
+  }
 }
 
 #root > div > div.footer > button {
@@ -192,12 +259,76 @@ img.linkedinIcon {
 }
 
 .planet{
+  width:auto;
+  height:auto;
     position:fixed;
     top:-100px;
     left:100px;
     z-index:1;
     opacity: 15%;
     pointer-events: none;
+}
+
+/* Tablet Responsive Styles */
+@media (max-width: 768px) {
+  .contact {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .information {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  #contactInfo {
+    margin: 5px;
+  }
+  
+  .planet {
+    left: 50px;
+    top: -50px;
+    opacity: 10%;
+  }
+  
+  #root > div > div.footer > button {
+    min-width: 50%;
+    font-size: 1.2em;
+  }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 480px) {
+  .contact {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  
+  .information {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  #contactInfo {
+    margin: 3px;
+  }
+  
+  .planet {
+    left: 20px;
+    top: -30px;
+    opacity: 8%;
+  }
+  
+  .floating-bad-button {
+    bottom: 5px;
+    right: 10px;
+  }
+  
+  #root > div > div.footer > button {
+    min-width: 70%;
+    font-size: 1em;
+    padding: 10px;
+  }
 }
 
 

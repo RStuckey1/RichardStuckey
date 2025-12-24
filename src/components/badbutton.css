@@ -3,3 +3,17 @@
     font-size: 1rem;
     float:inline-start;
 }
+
+/* Tablet Responsive Styles */
+@media (max-width: 768px) {
+  .badbuttonopen {
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 480px) {
+  .badbuttonopen {
+    font-size: 0.8rem;
+  }
+}

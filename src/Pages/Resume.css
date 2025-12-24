@@ -238,3 +238,85 @@ h2.resume {
   justify-content: center;
   text-align: center;
 }
+
+/* Tablet Responsive Styles */
+@media (max-width: 768px) {
+  .codingSkills {
+    grid-template-columns: 1fr;
+    padding: 3%;
+    margin-top: 3%;
+  }
+  
+  .resume2 {
+    grid-template-columns: 1fr;
+    margin: 0 8%;
+    gap: 20px;
+  }
+  
+  .education,
+  .certifications,
+  .teamwork,
+  .skills {
+    grid-column: 1;
+  }
+  
+  .Work > h2 {
+    font-size: 2.5rem;
+  }
+  
+  .workHistory > h3,
+  .workHistory2 > h3,
+  .workHistory3 > h3 {
+    margin: 0% 3%;
+  }
+  
+  .workHistory > p,
+  .workHistory2 > p,
+  .workHistory3 > p {
+    margin: 0% 5%;
+    font-size: 18px;
+  }
+  
+  .portLink > h3 > a {
+    font-size: 1.2rem;
+  }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 480px) {
+  .codingSkills {
+    padding: 2%;
+    margin-top: 2%;
+  }
+  
+  .resume2 {
+    margin: 0 5%;
+    gap: 15px;
+  }
+  
+  .Work > h2 {
+    font-size: 2rem;
+  }
+  
+  .workHistory > h3,
+  .workHistory2 > h3,
+  .workHistory3 > h3 {
+    margin: 0% 2%;
+    font-size: 1rem;
+  }
+  
+  .workHistory > p,
+  .workHistory2 > p,
+  .workHistory3 > p {
+    margin: 0% 3%;
+    font-size: 14px;
+  }
+  
+  .portLink > h3 > a {
+    font-size: 1rem;
+  }
+  
+  .text {
+    font-size: 24px;
+  }
+}

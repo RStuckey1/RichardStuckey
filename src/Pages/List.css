@@ -16,6 +16,41 @@
     margin: 0% auto 5% auto;
 }
 
+/* Tablet Responsive Styles */
+@media (max-width: 768px) {
+  .portfolio {
+    margin: 3% auto;
+  }
+  
+  .portfolio > h1 {
+    font-size: 2.5rem;
+    margin: 3% auto;
+  }
+  
+  .portfolio > p {
+    margin: 0% 5% 3% 5%;
+    font-size: 18px;
+  }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 480px) {
+  .portfolio {
+    margin: 2% auto;
+    padding: 0 10px;
+  }
+  
+  .portfolio > h1 {
+    font-size: 2rem;
+    margin: 2% auto;
+  }
+  
+  .portfolio > p {
+    margin: 0% 3% 2% 3%;
+    font-size: 16px;
+  }
+}
+
 .bottom {
     display:flex;
     width:100%;

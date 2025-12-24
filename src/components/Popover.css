@@ -2,3 +2,17 @@
      color: #06E8C6;
      font-size:1.5rem;
  }
+
+/* Tablet Responsive Styles */
+@media (max-width: 768px) {
+  .Popover > p {
+    font-size: 1.2rem;
+  }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 480px) {
+  .Popover > p {
+    font-size: 1rem;
+  }
+}
