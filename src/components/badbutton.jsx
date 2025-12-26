@@ -15,14 +15,16 @@ function Modal({ isOpen, onClose, children }) {
             backgroundColor: '#FF17E4',
             display: 'flex',
             alignItems: 'center',
-            justifyContent: 'center'
+            justifyContent: 'center',
+            zIndex: 10000
         }}>
             <div style={{
                  background: '#000000',
                  color: '#06E8C4',
-                 
-        padding: '20px',
-        borderRadius: '8px'
+                 padding: '20px',
+                 borderRadius: '8px',
+                 zIndex: 10001,
+                 position: 'relative'
       }}>
         {children}
       </div>
