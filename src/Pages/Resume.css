@@ -1,7 +1,6 @@
 .Resume_size {
   width:100%;
   height:100%;
-  background-color: #000000;
 }
 
 /* .resumepage{
@@ -32,19 +31,16 @@ div.portLink>h3>a:hover {
 }
 
 .codingSkills {
-  position: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  place-self: center;
-  justify-items: center;
-  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width:80%;
+  margin: 5% auto 30px auto;
   background-color: #8f18a9;
   border-radius: 10%;
   padding: 5%;
-  object-fit: fill;
-  margin-Bottom: 30px;
-  margin-top: 5%;
   backdrop-filter: blur(80px);
-  box-shadow: 0 4px 8px 0 #ff17e4, 0 6px 20px 0 #ff17e4
+  box-shadow: 0 4px 8px 0 #ff17e4, 0 6px 20px 0 #ff17e4;
 }
 
 
@@ -53,13 +49,20 @@ div.portLink>h3>a:hover {
   width: 50%;
 }
 
+/* Material-UI Item wrapper needs position relative for overlay */
+.MuiBox-root {
+  position: relative;
+}
+
 .res {
   opacity: 1;
   display: block;
   width: 100%;
+  max-width: 80px;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  position: relative;
 }
 
 .overlay {
@@ -69,8 +72,13 @@ div.portLink>h3>a:hover {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%);
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
 }
 
 .css-1nktuad:hover .res {
@@ -81,14 +89,23 @@ div.portLink>h3>a:hover {
   opacity: 1;
 }
 
+/* Add hover effects for Material-UI Item */
+.MuiBox-root:hover .res {
+  opacity: 0.3;
+}
+
+.MuiBox-root:hover .overlay {
+  opacity: 1;
+}
+
 .text {
   position: absolute;
   font-family: monospace;
   background-color: #000000;
   color: #ffffff;
-  font-size: 35px;
-  padding: 5px;
-  border-radius: 20px;
+  font-size: 18px;
+  padding: 4px 8px;
+  border-radius: 8px;
 }
 
 .resume {
@@ -116,10 +133,11 @@ h2.resume {
 }
 
 .resume2 {
-  display:grid;
-  grid-template-columns: auto auto;
-  
-  margin:0 15% 0 15%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin: 0 10%;
+  padding: 20px 0;
 }
 .teamwork {
   grid-column:1;
@@ -237,4 +255,131 @@ h2.resume {
   margin:0% 10%;
   justify-content: center;
   text-align: center;
+}
+
+/* Tablet Responsive Styles */
+@media (max-width: 768px) {
+  .codingSkills {
+    padding: 4%;
+    margin: 3% auto 30px auto;
+    max-width: 350px;
+  }
+  
+  .res {
+    max-width: 70px;
+  }
+  
+  .resume2 {
+    grid-template-columns: 1fr;
+    margin: 0 5%;
+    gap: 30px;
+  }
+  
+  .education,
+  .certifications,
+  .teamwork,
+  .skills {
+    grid-column: 1;
+  }
+  
+  h2.resume {
+    margin: 8% auto 5% auto;
+    font-size: 1.8rem;
+  }
+  
+  .Work > h2 {
+    font-size: 2.5rem;
+    margin: 5% 0;
+  }
+  
+  .workHistory > h3,
+  .workHistory2 > h3,
+  .workHistory3 > h3 {
+    margin: 0% 3%;
+    font-size: 1.3rem;
+  }
+  
+  .workHistory > p,
+  .workHistory2 > p,
+  .workHistory3 > p {
+    margin: 0% 5%;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .portLink > h3 > a {
+    font-size: 1.1rem;
+  }
+  
+  .text {
+    font-size: 28px;
+  }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 480px) {
+  .codingSkills {
+    padding: 3%;
+    margin: 5% auto 20px auto;
+    max-width: 300px;
+    border-radius: 15px;
+  }
+  
+  .res {
+    max-width: 60px;
+  }
+  
+  .resume2 {
+    margin: 0 3%;
+    gap: 25px;
+  }
+  
+  h2.resume {
+    margin: 10% auto 5% auto;
+    font-size: 1.5rem;
+  }
+  
+  .Work > h2 {
+    font-size: 1.8rem;
+    margin: 8% 0;
+  }
+  
+  .workHistory > h3,
+  .workHistory2 > h3,
+  .workHistory3 > h3 {
+    margin: 0% 2%;
+    font-size: 1.1rem;
+  }
+  
+  .workHistory > p,
+  .workHistory2 > p,
+  .workHistory3 > p {
+    margin: 0% 3%;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .portLink > h3 > a {
+    font-size: 0.95rem;
+    padding: 2%;
+  }
+  
+  .text {
+    font-size: 14px;
+    padding: 3px 6px;
+  }
+  
+  .teamwork > h2,
+  .skills > h2,
+  .education > h2,
+  .certifications > h2 {
+    font-size: 1.3rem;
+  }
+  
+  .teamwork > ul,
+  .skills > ul,
+  .education > ul,
+  .certifications > ul {
+    font-size: 0.9rem;
+  }
 }

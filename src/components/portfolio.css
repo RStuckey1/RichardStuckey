@@ -71,9 +71,12 @@
 
 .wrapper {
   width: 100%;
-  height:auto;
+  height: auto;
+  min-height: 300px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
 }
 
 .scene {
@@ -96,4 +99,62 @@
   position: absolute;
   width: 100%;
   height: 100%;
+}
+
+/* Tablet Responsive Styles */
+@media (max-width: 768px) {
+  [class^="number-slide"],
+  [class*=" number-slide"] {
+    font-size: 30px;
+    height: 160px;
+  }
+  
+  .carousel__cell.number-slide1 > a > p,
+  .carousel__cell.number-slide2 > a > p,
+  .carousel__cell.number-slide3 > a > p,
+  .carousel__cell.number-slide4 > a > p,
+  .carousel__cell.number-slide5 > a > p,
+  .carousel__cell.number-slide6 > a > p {
+    font-size: 1.4rem;
+  }
+  
+  .scene {
+    width: 220px;
+    height: 160px;
+    perspective: 800px;
+  }
+  
+  .wrapper {
+    padding: 30px 15px;
+    min-height: 260px;
+  }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 480px) {
+  [class^="number-slide"],
+  [class*=" number-slide"] {
+    font-size: 20px;
+    height: 140px;
+  }
+  
+  .carousel__cell.number-slide1 > a > p,
+  .carousel__cell.number-slide2 > a > p,
+  .carousel__cell.number-slide3 > a > p,
+  .carousel__cell.number-slide4 > a > p,
+  .carousel__cell.number-slide5 > a > p,
+  .carousel__cell.number-slide6 > a > p {
+    font-size: 1rem;
+  }
+  
+  .scene {
+    width: 180px;
+    height: 140px;
+    perspective: 600px;
+  }
+  
+  .wrapper {
+    padding: 20px 10px;
+    min-height: 220px;
+  }
 }

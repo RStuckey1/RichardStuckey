@@ -53,6 +53,17 @@ nav ul li.dropdown:hover .dropdown-menu {
     z-index: 2;
 }
 
+/* Ensure dropdown only shows on actual hover, not on touch */
+@media (hover: none) {
+    nav ul li.dropdown:hover .dropdown-menu {
+        display: none;
+    }
+    
+    nav ul li.dropdown:focus-within .dropdown-menu {
+        display: none;
+    }
+}
+
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -95,4 +106,70 @@ nav ul li a:not(.active):hover {
     color: #ffffff;
     border: 3px solid #FF17E4;
     border-radius: 10px;
+}
+
+/* Tablet Responsive Styles */
+@media (max-width: 768px) {
+  nav ul {
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    font-size: 0.9rem;
+    padding: 0.4rem;
+  }
+  
+  .redbutton {
+    height: 50px;
+    font-size: 0.9rem;
+  }
+  
+  .dropdown-menu {
+    min-width: 150px;
+  }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 480px) {
+  nav ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+  }
+  
+  nav ul li {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  
+  nav ul li a {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.5rem;
+    white-space: nowrap;
+  }
+  
+  .redbutton {
+    height: 40px;
+    font-size: 0.75rem;
+    padding: 5px 10px;
+  }
+  
+  .dropdown-menu {
+    min-width: 120px;
+    font-size: 0.75rem;
+  }
+  
+  .dropdown-menu li a {
+    padding: 8px;
+    font-size: 0.75rem;
+  }
 }
