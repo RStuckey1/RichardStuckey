@@ -13,29 +13,47 @@ function Footer() {
         <Scroll/>
         <Box sx={{
             display: 'flex',
-            padding: '80px',
-            margin: '10px',
+            padding: '40px 60px',
+            margin: '0',
             justifyContent: 'space-between',
             alignItems: 'center',
             flexDirection: 'row',
-            height: '100px',
+            height: 'auto',
+            width: '100%',
+            boxSizing: 'border-box',
             '@media (max-width: 768px)': {
-                padding: '40px 20px',
-                height: 'auto'
+                padding: '30px 20px',
+                gap: '15px'
             },
             '@media (max-width: 480px)': {
-                padding: '20px 10px',
+                padding: '20px 15px',
                 flexDirection: 'column',
-                gap: '20px'
+                gap: '15px'
             }
         }}>
 
             <Link to="https://www.linkedin.com/in/richard-s-9b2910234?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BkgkYohIYQSyxne%2BeREaUkA%3D%3D" target="_blank">
-                <img className="linkedinIcon" src={linkedin} alt="linkedinicon" style={{maxWidth: '100px', width: '100%', height: 'auto'}}></img>
+                <img className="linkedinIcon" src={linkedin} alt="linkedinicon" style={{
+                    maxWidth: '50px',
+                    width: '100%',
+                    height: 'auto',
+                    transition: 'transform 0.3s ease'
+                }}></img>
             </Link>
-            <p>&copy; {new Date().getFullYear()} Richard Stuckey</p>
+            <p style={{
+                margin: '0',
+                fontSize: '1rem',
+                '@media (max-width: 480px)': {
+                    fontSize: '0.9rem'
+                }
+            }}>&copy; {new Date().getFullYear()} Richard Stuckey</p>
             <Link to="https://www.github.com/RStuckey1" target="_blank">
-                <img className="github" src={github} alt="github" style={{maxWidth: '100px', width: '100%', height: 'auto'}}></img>
+                <img className="github" src={github} alt="github" style={{
+                    maxWidth: '50px',
+                    width: '100%',
+                    height: 'auto',
+                    transition: 'transform 0.3s ease'
+                }}></img>
             </Link>
         </Box>
     </>

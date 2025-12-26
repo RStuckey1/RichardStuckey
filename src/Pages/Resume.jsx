@@ -54,137 +54,166 @@ function Resume() {
                     </div>
                     <div className="codingSkills" id="codebox" >
 
-                        <Stack direction="row" spacing={6}
+                        <Stack 
+                            direction="row"
+                            spacing={2}
                             sx={{
-                                width: '80%',
-                                height: '80%',
+                                width: '100%',
                                 alignItems: 'center',
+                                flexWrap: 'wrap',
+                                justifyContent: 'center',
+                                gap: 2,
                             }}>
 
-                            <Item><img className="res" src={html} alt="html" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={html} alt="html" />
                                 <div className="overlay">
                                     <div className="text">HTML</div>
                                 </div></Item>
-                            <Item><img className="res" src={css} alt="css" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={css} alt="css" />
                                 <div className="overlay">
                                     <div className="text">CSS</div>
                                 </div>
                             </Item>
-                            <Item><img className="res" src={js} alt="javascript" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={js} alt="javascript" />
                                 <div className="overlay">
                                     <div className="text">JavaScript</div>
                                 </div></Item>
-                            <Item><img className="res" src={ts} alt="typescript" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={ts} alt="typescript" />
                                 <div className="overlay">
                                     <div className="text">TypeScript</div>
                                 </div></Item>
                         </Stack>
-                        <Stack direction="row" spacing={6}
+                        <Stack 
+                            direction="row"
+                            spacing={2}
                             sx={{
-                                width: '80%',
-                                height: '80%'
+                                width: '100%',
+                                alignItems: 'center',
+                                flexWrap: 'wrap',
+                                justifyContent: 'center',
+                                gap: 2,
                             }}>
-                            <Item><img className="res" src={github} alt="github" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={github} alt="github" />
                                 <div className="overlay">
                                     <div className="text">GitHub</div>
                                 </div></Item>
-                            <Item><img className="res" src={reactpic} alt="react" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={reactpic} alt="react" />
                                 <div className="overlay">
                                     <div className="text">React</div>
                                 </div></Item>
-                            <Item><img className="res" src={node} alt="JSnode" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={node} alt="JSnode" />
                                 <div className="overlay">
                                     <div className="text">Node</div>
                                 </div></Item>
-                            <Item><img className="res" src={mongo} alt="mongoDB" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={mongo} alt="mongoDB" />
                                 <div className="overlay">
                                     <div className="text">MongoDB</div>
                                 </div></Item>
                         </Stack>
-                        <Stack direction="row" spacing={6}
+                        <Stack 
+                            direction="row"
+                            spacing={2}
                             sx={{
-                                width: '80%',
-                                height: '80%'
+                                width: '100%',
+                                alignItems: 'center',
+                                flexWrap: 'wrap',
+                                justifyContent: 'center',
+                                gap: 2,
                             }}>
-                            <Item><img className="res" src={sql} alt="SQL" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={sql} alt="SQL" />
                                 <div className="overlay">
                                     <div className="text">SQL</div>
                                 </div></Item>
-                            <Item><img className="res" src={python} alt="python" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={python} alt="python" />
                                 <div className="overlay">
                                     <div className="text">Python</div>
                                 </div></Item>
-                            <Item><img className="res" src={git} alt="gitBash" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={git} alt="gitBash" />
                                 <div className="overlay">
                                     <div className="text">GitBash</div>
                                 </div></Item>
-                            <Item><img className="res" src={arduino} alt="arduino" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={arduino} alt="arduino" />
                                 <div className="overlay">
                                     <div className="text">Arduino</div>
                                 </div></Item>
                         </Stack>
-                        <Stack direction={"row"} spacing={6}
+                        <Stack 
+                            direction="row"
+                            spacing={2}
                             sx={{
-                                width: '80%',
-                                height: '80%'
+                                width: '100%',
+                                alignItems: 'center',
+                                flexWrap: 'wrap',
+                                justifyContent: 'center',
+                                gap: 2,
                             }}>
-                            <Item><img className="res" src={graphql} alt="graphql" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={graphql} alt="graphql" />
                                 <div className="overlay">
                                     <div className="text">Graphql</div>
                                 </div></Item>
-                            <Item><img className="res" src={jsonwebtoken} alt="jsonwebtoken" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={jsonwebtoken} alt="jsonwebtoken" />
                                 <div className="overlay">
                                     <div className="text">JsonWebToken</div>
                                 </div></Item>
-                            <Item><img className="res" src={mysql} alt="mysql" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={mysql} alt="mysql" />
                                 <div className="overlay">
                                     <div className="text">MySQL</div>
                                 </div></Item>
-                            <Item><img className="res" src={tailwindcss} alt="tailwind" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={tailwindcss} alt="tailwind" />
                                 <div className="overlay">
                                     <div className="text">TailwindCSS</div>
                                 </div></Item>
                         </Stack>
-                        <Stack direction={"row"} spacing={6}
+                        <Stack 
+                            direction="row"
+                            spacing={2}
                             sx={{
-                                width: '80%',
-                                height: '80%'
+                                width: '100%',
+                                alignItems: 'center',
+                                flexWrap: 'wrap',
+                                justifyContent: 'center',
+                                gap: 2,
                             }}>
-                            <Item><img className="res" src={npm} alt="npm" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={npm} alt="npm" />
                                 <div className="overlay">
                                     <div className="text">NPM</div>
                                 </div></Item>
-                            <Item><img className="res" src={postgresql} alt="postgresql" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={postgresql} alt="postgresql" />
                                 <div className="overlay">
                                     <div className="text">Postgresql</div>
                                 </div></Item>
-                            <Item><img className="res" src={raspberrypi} alt="RaspberryPi" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={raspberrypi} alt="RaspberryPi" />
                                 <div className="overlay">
                                     <div className="text">Raspberry pi</div>
                                 </div></Item>
-                            <Item><img className="res" src={materialui} alt="Materialui" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={materialui} alt="Materialui" />
                                 <div className="overlay">
                                     <div className="text">Materialui</div>
                                 </div></Item>
                         </Stack>
-                        <Stack direction={"row"} spacing={6}
+                        <Stack 
+                            direction="row"
+                            spacing={2}
                             sx={{
-                                width: '80%',
-                                height: '80%'
+                                width: '100%',
+                                alignItems: 'center',
+                                flexWrap: 'wrap',
+                                justifyContent: 'center',
+                                gap: 2,
                             }}>
-                            <Item><img className="res" src={vscode} alt="vscode" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={vscode} alt="vscode" />
                                 <div className="overlay">
                                     <div className="text">VSCode</div>
                                 </div></Item>
-                            <Item><img className="res" src={MD} alt="MarkDown" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={MD} alt="MarkDown" />
                                 <div className="overlay">
                                     <div className="text">MarkDown</div>
                                 </div></Item>
-                            <Item><img className="res" src={cypress} alt="cypress" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={cypress} alt="cypress" />
                                 <div className="overlay">
                                     <div className="text">Cypress</div>
                                 </div></Item>
-                            <Item><img className="res" src={boot} alt="Bootstrap" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={boot} alt="Bootstrap" />
                                 <div className="overlay">
                                     <div className="text">Bootstrap</div>
                                 </div></Item>

@@ -10,7 +10,7 @@
 }
 
 [class*=" number-slide"] {
-   background-color: #42047e;
+   background-color: #000000;
    align-items: center;
    justify-content: center;
    font-weight: 500;
@@ -23,6 +23,8 @@
    height: 400px;
    border: solid 6px #FF17E4;
    border-radius: 8px;
+   overflow: hidden;
+   margin: 0 auto;
    z-index: 0;
 }
 
@@ -63,6 +65,8 @@ div.keen-slider {
   .navigation-wrapper {
     width: 300px;
     height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
   }
   
   div.keen-slider {
@@ -83,6 +87,8 @@ div.keen-slider {
     width: 250px;
     height: 250px;
     border: solid 4px #FF17E4;
+    overflow: hidden;
+    margin: 0 auto;
   }
   
   div.keen-slider {

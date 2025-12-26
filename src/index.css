@@ -1,20 +1,39 @@
-#root { 
-  width:100vw;
-  height:100vh;
-  background: #000000;
-  margin:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #000000;
+}
+
+#root { 
+  width: 100vw;
+  height: 100vh;
+  background: #000000;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
 #root > div > div.outlet {
-   width:auto;
-  height:auto;
-  margin:0;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
 }
 
 .portfolio-app {
-  max-width:100%;
-  height:auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
   display: grid;
   justify-items: center;
   grid-template-areas: 
@@ -22,21 +41,30 @@
     'main'
     'footer';
   background: #000000;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .Navigation {
   grid-area: header;
   margin-top:1%;
+  z-index: 2;
 }
 
 .outlet {
   grid-area: main;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  z-index: 2;
 }
 
 .footer{
   grid-area: footer;
   text-align: center;
- 
+  width: 100%;
+  z-index: 2;
 }
 
 li {
@@ -166,18 +194,44 @@ img.github {
   border-radius: 50px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100px;
+  max-width: 50px;
   width: 100%;
   height: auto;
+  transition: transform 0.3s ease;
+}
+
+img.github:hover {
+  transform: scale(1.1);
 }
 
 img.linkedinIcon {
   border-radius: 50px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100px;
+  max-width: 50px;
   width: 100%;
   height: auto;
+  transition: transform 0.3s ease;
+}
+
+img.linkedinIcon:hover {
+  transform: scale(1.1);
+}
+
+/* Tablet responsive */
+@media (max-width: 768px) {
+  img.github,
+  img.linkedinIcon {
+    max-width: 45px;
+  }
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+  img.github,
+  img.linkedinIcon {
+    max-width: 40px;
+  }
 }
 
 .scroll {
@@ -253,20 +307,26 @@ img.linkedinIcon {
 
 .floating-bad-button {
     position: fixed;
-    bottom: 10px;
+    bottom: 40%;
     right: 20px;
     z-index: 2000;
 }
 
 .planet{
-  width:auto;
-  height:auto;
-    position:fixed;
-    top:-100px;
-    left:100px;
-    z-index:1;
-    opacity: 15%;
-    pointer-events: none;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: -100px;
+  left: 100px;
+  z-index: 1;
+  opacity: 35%;
+  pointer-events: none;
+}
+
+.planet img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* Tablet Responsive Styles */
@@ -286,9 +346,10 @@ img.linkedinIcon {
   }
   
   .planet {
-    left: 50px;
-    top: -50px;
-    opacity: 10%;
+    left: -50px;
+    top: 50px;
+    max-width: 350px;
+    opacity: 12%;
   }
   
   #root > div > div.footer > button {
@@ -314,13 +375,14 @@ img.linkedinIcon {
   }
   
   .planet {
-    left: 20px;
-    top: -30px;
-    opacity: 8%;
+    left: -80px;
+    top: 80px;
+    max-width: 250px;
+    opacity: 10%;
   }
   
   .floating-bad-button {
-    bottom: 5px;
+    top:3rem;
     right: 10px;
   }
   

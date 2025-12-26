@@ -1,9 +1,10 @@
 .header{
     max-width: 1000px;
-    height:auto;
-   
+    width: 100%;
+    height: auto;
     margin: 0 auto;
     padding: 0;
+    overflow-x: hidden;
     z-index: 1;
 }
 
@@ -28,58 +29,6 @@ z-index: 2;
 }
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
-    .wave {
-        padding: 2% 0;
-        margin: 0 auto;
-    }
-    
-    .intro {
-        min-height: 300px;
-        padding: 1.5rem 0;
-    }
-    
-    p.intro1,
-    p.intro2,
-    p.intro3 {
-        font-size: 1.5em;
-    }
-    
-    p.intro1 {
-        margin-left: 5%;
-    }
-    
-    p.intro3 {
-        margin-right: 5%;
-    }
-}
-
-@media (max-width: 480px) {
-    .wave {
-        padding: 3% 0;
-        margin: 0 auto;
-    }
-    
-    .intro {
-        min-height: 250px;
-        padding: 1rem 0;
-    }
-    
-    p.intro1,
-    p.intro2,
-    p.intro3 {
-        font-size: 1.2em;
-        margin: 0.5rem 0;
-    }
-    
-    p.intro1 {
-        margin-left: 2%;
-    }
-    
-    p.intro3 {
-        margin-right: 2%;
-    }
-}
 
 .intro {
     display: flex;
@@ -87,15 +36,14 @@ z-index: 2;
     align-items: center;
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
-    padding: 2rem 0;
-    min-height: 400px;
+    padding: 1rem 0;
 }
 
 p.intro1,
 p.intro2,
 p.intro3 {
     opacity: 0;
-    font-size: 2.5rem;
+    font-size: 2rem;
     position: relative;
 }
 
@@ -128,6 +76,51 @@ p.intro3 {
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+@media (max-width: 768px) {
+    .wave {
+        padding: 2% 0;
+        margin: 0 auto;
+    }
+    
+    .intro {
+        min-height: 300px;
+        padding: 1.5rem 0;
+    }
+    
+    p.intro1,
+    p.intro2,
+    p.intro3 {
+        font-size: 1.5em;
+    }
+    
+    p.intro1 {
+        margin-left: 5%;
+    }
+    
+    p.intro3 {
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .wave {
+        padding: 3%;
+        margin: 0 auto;
+    }
+    
+    .intro {
+        min-height: 250px;
+        padding: 0.5rem;
+    }
+    
+    p.intro1,
+    p.intro2,
+    p.intro3 {
+        font-size: 1em;
+        margin-left:2%;
+        padding:5%;
+    }
 }
 
 /* Update the keyframes to animate opacity */
@@ -206,9 +199,13 @@ div.links > ul > li:nth-child(3) > a:hover {
 }
 
 .strobe {
-   position:relative;
-   justify-items: center;
-   margin:2% auto 5% auto; 
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 2% auto 5% auto;
+   width: 100%;
+   overflow: hidden;
    z-index: 2;
 }
 
@@ -239,6 +236,7 @@ div.links > ul > li:nth-child(3) > a:hover {
   
   .strobe {
     margin: 2% auto 3% auto;
+    padding: 0 10px;
   }
 }
 
@@ -262,6 +260,7 @@ div.links > ul > li:nth-child(3) > a:hover {
   
   .strobe {
     margin: 1% auto 2% auto;
+    padding: 0 5px;
   }
   
   .floating-bad-button {

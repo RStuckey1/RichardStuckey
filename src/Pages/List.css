@@ -1,61 +1,90 @@
 
+.List {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .portfolio {
-    display:flex;
+    display: flex;
     flex-direction: column; 
     text-align: center;
     align-items: center;
     margin: 5% auto 5% auto;
+    padding: 0 20px;
 }
 
 .portfolio>h1 {
-    color:#FF17E4;
+    color: #FF17E4;
     margin: 5% auto 5% auto;
+    font-size: 3rem;
 }
 
 .portfolio>p {
     margin: 0% auto 5% auto;
+    font-size: 1.2rem;
+    max-width: 800px;
 }
 
 /* Tablet Responsive Styles */
 @media (max-width: 768px) {
   .portfolio {
-    margin: 3% auto;
+    margin: 5% auto 3% auto;
+    padding: 0 15px;
   }
   
   .portfolio > h1 {
     font-size: 2.5rem;
-    margin: 3% auto;
+    margin: 4% auto 3% auto;
   }
   
   .portfolio > p {
-    margin: 0% 5% 3% 5%;
-    font-size: 18px;
+    margin: 0% auto 4% auto;
+    font-size: 1.1rem;
+    padding: 0 10px;
+  }
+  
+  .bottom {
+    margin: 8% auto 5% auto;
+    padding: 15px;
   }
 }
 
 /* Mobile Responsive Styles */
 @media (max-width: 480px) {
+  .List {
+    min-height: auto;
+  }
+  
   .portfolio {
-    margin: 2% auto;
+    margin: 8% auto 2% auto;
     padding: 0 10px;
   }
   
   .portfolio > h1 {
-    font-size: 2rem;
-    margin: 2% auto;
+    font-size: 1.8rem;
+    margin: 3% auto 2% auto;
   }
   
   .portfolio > p {
-    margin: 0% 3% 2% 3%;
-    font-size: 16px;
+    margin: 0% auto 3% auto;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  .bottom {
+    margin: 5% auto 5% auto;
+    padding: 10px;
   }
 }
 
 .bottom {
-    display:flex;
-    width:100%;
+    display: flex;
+    width: 100%;
     height: auto;
     justify-content: center;
     align-items: center;
-    margin: 15% auto 5% auto;
+    margin: 10% auto 5% auto;
+    padding: 20px;
 }

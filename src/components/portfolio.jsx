@@ -11,19 +11,35 @@ import "keen-slider/keen-slider.min.css"
 import "./portfolio.css"
 
 const carousel = (slider) => {
-  const z = 400
+  // Responsive z-axis based on screen width
+  const getZValue = () => {
+    const width = window.innerWidth;
+    if (width <= 480) return 250; // Mobile
+    if (width <= 768) return 320; // Tablet
+    return 400; // Desktop
+  };
+  
+  let z = getZValue();
+  
   function rotate() {
     const deg = 360 * slider.track.details.progress
     slider.container.style.transform = `translateZ(-${z}px) rotateY(${-deg}deg)`
   }
-  slider.on("created", () => {
+  
+  function updateCarousel() {
+    z = getZValue();
     const deg = 360 / slider.slides.length
     slider.slides.forEach((element, idx) => {
       element.style.transform = `rotateY(${deg * idx}deg) translateZ(${z}px)`
     })
     rotate()
-  })
+  }
+  
+  slider.on("created", updateCarousel)
   slider.on("detailsChanged", rotate)
+  
+  // Update on window resize
+  window.addEventListener('resize', updateCarousel)
 }
 
 export default function App() {

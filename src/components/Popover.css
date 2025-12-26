@@ -6,7 +6,7 @@
 /* Tablet Responsive Styles */
 @media (max-width: 768px) {
   .Popover > p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
