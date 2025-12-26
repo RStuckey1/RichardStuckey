@@ -1,7 +1,6 @@
 .Resume_size {
   width:100%;
   height:100%;
-  background-color: #000000;
 }
 
 /* .resumepage{
@@ -35,7 +34,7 @@ div.portLink>h3>a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 400px;
+  max-width:80%;
   margin: 5% auto 30px auto;
   background-color: #8f18a9;
   border-radius: 10%;
@@ -50,6 +49,11 @@ div.portLink>h3>a:hover {
   width: 50%;
 }
 
+/* Material-UI Item wrapper needs position relative for overlay */
+.MuiBox-root {
+  position: relative;
+}
+
 .res {
   opacity: 1;
   display: block;
@@ -58,6 +62,7 @@ div.portLink>h3>a:hover {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  position: relative;
 }
 
 .overlay {
@@ -67,8 +72,13 @@ div.portLink>h3>a:hover {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%);
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
 }
 
 .css-1nktuad:hover .res {
@@ -76,6 +86,15 @@ div.portLink>h3>a:hover {
 }
 
 .css-1nktuad:hover .overlay {
+  opacity: 1;
+}
+
+/* Add hover effects for Material-UI Item */
+.MuiBox-root:hover .res {
+  opacity: 0.3;
+}
+
+.MuiBox-root:hover .overlay {
   opacity: 1;
 }
 
