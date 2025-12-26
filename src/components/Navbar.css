@@ -9,8 +9,8 @@ nav {
     justify-content: center;
     /* border-style: outset;
     border-color: #FF17E4; */
-    position:sticky;
-    z-index: 2;
+    position: sticky;
+    z-index: 2500;
 }
 
 nav ul {
@@ -38,6 +38,10 @@ nav ul li {
     z-index: 2;
 }
 
+nav ul li.dropdown {
+    z-index: 3000;
+}
+
 nav ul li a{
     display:inline-flex;
     text-decoration: none;
@@ -50,7 +54,7 @@ nav ul li a{
 
 nav ul li.dropdown:hover .dropdown-menu {
     display: block;
-    z-index: 2;
+    z-index: 9999;
 }
 
 /* Ensure dropdown only shows on actual hover, not on touch */
@@ -68,12 +72,14 @@ nav ul li.dropdown:hover .dropdown-menu {
     display: none;
     position: absolute;
     top: 100%;
+    left: 0;
     list-style: none;
     border: solid 2px;
     border-color: #FF17E4;
     border-radius: 10px; 
-    background-color:black;
-    z-index: 2;   
+    background-color: black;
+    z-index: 9999;
+    min-width: 150px;
 }
 
 .dropdown-menu li {
@@ -86,12 +92,12 @@ nav ul li.dropdown:hover .dropdown-menu {
     text-decoration: none;
     color: #06E8C6;
     display: block;
-    z-index: 2;
+    z-index: 5;
 }
 
 .dropdown-menu li a:hover {
     background-color: #172554;
-    z-index: 2;
+    z-index: 8;
 }
 
 nav ul li a:not(.active):hover {

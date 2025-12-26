@@ -48,8 +48,9 @@ html, body {
 
 .Navigation {
   grid-area: header;
-  margin-top:1%;
-  z-index: 2;
+  margin-top: 1%;
+  z-index: 3000;
+  position: relative;
 }
 
 .outlet {
