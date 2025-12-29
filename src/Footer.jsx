@@ -14,21 +14,17 @@ function Footer() {
         <Box sx={{
             display: 'flex',
             padding: '40px 60px',
-            margin: '0',
-            justifyContent: 'space-between',
+            textAlign: 'center',
             alignItems: 'center',
+            justifyContent: 'center',
             flexDirection: 'row',
             height: 'auto',
             width: '100%',
             boxSizing: 'border-box',
             '@media (max-width: 768px)': {
-                padding: '30px 20px',
-                gap: '15px'
             },
             '@media (max-width: 480px)': {
-                padding: '20px 15px',
                 flexDirection: 'column',
-                gap: '15px'
             }
         }}>
 

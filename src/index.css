@@ -393,5 +393,12 @@ img.linkedinIcon:hover {
   }
 }
 
+#root > div > div.footer > div {
+  display:flex;
+  justify-items: center;
+  text-align: center;
+  margin: 2% auto 2% auto;
+}
+
 
 
