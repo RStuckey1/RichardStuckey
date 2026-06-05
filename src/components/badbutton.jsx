@@ -72,7 +72,7 @@ function BadButton() {
       <Modal isOpen={isOpen}>
       <div className="badbuttonopen">
         <h2>Why did you click the button that said "DO NOT CLICK Here"?</h2>
-        <p>You just can't leave this portal. You have to pass a test to go back. So, to contijue, you will have to answer a math question...</p>
+        <p>You just can't leave this portal. You have to pass a test to go back. So, to continue, you will have to answer a math question...</p>
         <div style={{ marginTop: '20px' }}>
           <p style={{ fontSize: '18px', fontWeight: 'bold', textAlign: 'center' }}>
             What is {question.num1} + {question.num2} - {question.num3}?

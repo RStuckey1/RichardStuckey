@@ -37,8 +37,8 @@ function Footer() {
                 }}></img>
             </Link>
             <p style={{
-                margin: '0',
-                fontSize: '1rem',
+                margin: '1',
+                fontSize: '1.5rem',
                 '@media (max-width: 480px)': {
                     fontSize: '0.9rem'
                 }

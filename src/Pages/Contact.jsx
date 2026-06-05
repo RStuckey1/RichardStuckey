@@ -58,16 +58,15 @@ export const Contact = () => {
     return (
         <>
             <div className="contact">
-                <h2>To get in touch, send me a message...</h2>
-                <h3>...or find me on LinkedIn or GitHub(click the icons below)</h3>
+                <h2 className="contactintro">To get in touch, send a message...</h2>
+                <h2 className="contactintro">...or find me at LinkedIn or GitHub(click the icons below)</h2>
                 <br></br>
                 <br></br>
                 <div className="information">
                     <Link to="https://www.linkedin.com/in/richard-s-9b2910234?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B42HfR69bRbCZkx51P2F0OQ%3D%3D" target="_blank">
-                        <img className="linkedinIcon" src={linkedin} alt="linkedinicon"></img>
+                        <img className="linkedinIcon" src={linkedin} width="500px" height="500px" alt="linkedinicon"></img>
                     </Link>
-                    <br></br>
-                    <br></br>
+            
                     <Link to="https://www.github.com/RStuckey1" target="_blank">
                         <img className="github" src={github} alt="github"></img>
                     </Link>
@@ -100,8 +99,8 @@ export const Contact = () => {
                                     name='from_name'
                                     label="name"
                                     margin="dense"
-                                    sx={{ width: '100%', borderRadius: '10px', border: '2px solid #06E8C6' }}
-                                    InputColor='#4d194d'
+                                    sx={{ width: '100%' }}
+                                    inputColor='secondary'
                                 />
                             </Item>
                             <Item>

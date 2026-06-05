@@ -5,7 +5,6 @@ import Carousel from '../components/Carousel';
 import Popover1 from '../components/Popover1';
 import Popover2 from '../components/Popover2';
 import Popover3 from '../components/Popover3';
-import Planet from '../assets/planet.png';
 
 import './Home.css';
 
