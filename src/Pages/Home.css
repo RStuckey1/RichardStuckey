@@ -1,11 +1,23 @@
 .header{
-    max-width: 1000px;
+    max-width: none;
     width: 100%;
     height: auto;
-    margin: 0 auto;
-    padding: 0;
+    margin: 0;
+    padding: 0 2rem 0 220px;
     overflow-x: hidden;
     z-index: 1;
+}
+
+.home-layout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.home-main {
+    flex: 1 1 auto;
+    min-width: 0;
 }
 
 .home {
@@ -203,18 +215,16 @@ div.links > ul > li:nth-child(3) > a:hover {
    display: flex;
    justify-content: center;
    align-items: center;
-   margin: 2% auto 5% auto;
-   width: 100%;
+    margin: 2% 0 5% auto;
+    width: auto;
    overflow: hidden;
    z-index: 2;
 }
 
-.floating-bad-button {
-    position: fixed;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    z-index: 1000;
+.strobe-panel {
+     flex: 0 0 280px;
+     width: 280px;
+     margin-top: 2rem;
 }
 
 /* Additional Tablet Responsive Styles */
@@ -238,6 +248,17 @@ div.links > ul > li:nth-child(3) > a:hover {
     margin: 2% auto 3% auto;
     padding: 0 10px;
   }
+
+    .home-layout {
+        flex-direction: column;
+        padding: 0 1rem 0 220px;
+    }
+
+    .strobe-panel {
+        width: 100%;
+        flex-basis: auto;
+        margin: 1rem auto 2rem auto;
+    }
 }
 
 /* Additional Mobile Responsive Styles */
@@ -263,8 +284,12 @@ div.links > ul > li:nth-child(3) > a:hover {
     padding: 0 5px;
   }
   
-  .floating-bad-button {
-    right: 10px;
-  }
+    .header {
+        padding: 0 0.75rem 0 0.75rem;
+    }
+
+    .home-layout {
+        padding: 0 0.75rem;
+    }
 }
 

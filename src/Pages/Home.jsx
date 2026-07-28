@@ -47,97 +47,93 @@ const Home = () => {
 
   return (
     <>
-   
+      <div className="header home-layout">
+        <div className="home-main">
+          {/* NameWave positioned right below NavBar */}
+          <div className="home">
+            <div className="wave">
+              <NameWave />
+            </div>
+          </div>
+          
+          <div className="intro">
+            <p
+              className="intro1"
+              ref={popoverRefs[0]}
+              onMouseEnter={() => canShow[0] && setHovered(0)}
+              onMouseLeave={() => setHovered(null)}
+            >
+              Exercise Imagination<br />
+            </p>
+            <p
+              className="intro2"
+              ref={popoverRefs[1]}
+              onMouseEnter={() => canShow[1] && setHovered(1)}
+              onMouseLeave={() => setHovered(null)}
+            >
+              Inspire Connection<br />
+            </p>
+            <p
+              className="intro3"
+              ref={popoverRefs[2]}
+              onMouseEnter={() => canShow[2] && setHovered(2)}
+              onMouseLeave={() => setHovered(null)}
+            >
+              Live Fearlessly<br />
+            </p>
 
-      <div className="header">
-        {/* NameWave positioned right below NavBar */}
-        <div className="home">
-          <div className="wave">
-            <NameWave />
+            {hovered !== null && (
+              <div
+                style={{
+                  position: 'absolute',
+                  top: popoverPos.top,
+                  left: popoverPos.left,
+                  transform: 'translate(-50%, -100%)',
+                  background: '#000000',
+                  padding: '3px 6px',
+                  border: '6px solid #ff17e4',
+                  borderRadius: '10px',
+                  zIndex: 50,
+                  minWidth: 180,
+                  maxWidth: 600,
+                  textAlign: 'center',
+                  margin: '0',
+                  pointerEvents: 'none'
+                }}
+              >
+                {popoverTexts[hovered]}
+              </div>
+            )}
+          </div>
+
+      
+          <div className="links">
+            <ul className="b">
+              <li><Link to="/Resume">Resume</Link></li>
+              <li><Link to="/List">Portfolio</Link></li>
+              <li><Link to="/Contact">Contact Rick</Link></li>
+            </ul>
+          </div>
+
+          <div className="quote">
+            <p>"Twenty years from now you will be more disappointed by the things
+              that you didn't do than by the ones you did do,
+              so throw off the bowlines, sail away from safe harbor,
+              catch the trade winds in your sails. Explore. Dream. Discover."
+              <br></br><span>~Mark Twain</span></p>
+            <br></br>
+            <p>"The ones who are crazy enough to think that they can change the world are the ones who do."
+              <br></br> <span>~Steve Jobs</span>
+            </p>
+            <p>"All of our dreams can come true, if we have the courage to pursue them."
+              <br></br><span>~Walt Disney</span>
+            </p>
           </div>
         </div>
-        
-        <div className="intro">
-          <p
-            className="intro1"
-            ref={popoverRefs[0]}
-            onMouseEnter={() => canShow[0] && setHovered(0)}
-            onMouseLeave={() => setHovered(null)}
-          >
-            Exercise Imagination<br />
-          </p>
-          <p
-            className="intro2"
-            ref={popoverRefs[1]}
-            onMouseEnter={() => canShow[1] && setHovered(1)}
-            onMouseLeave={() => setHovered(null)}
-          >
-            Inspire Connection<br />
-          </p>
-          <p
-            className="intro3"
-            ref={popoverRefs[2]}
-            onMouseEnter={() => canShow[2] && setHovered(2)}
-            onMouseLeave={() => setHovered(null)}
-          >
-            Live Fearlessly<br />
-          </p>
 
-          {hovered !== null && (
-            <div
-              style={{
-                position: 'absolute',
-                top: popoverPos.top,
-                left: popoverPos.left,
-                transform: 'translate(-50%, -100%)',
-                background: '#000000',
-                padding: '3px 6px',
-                border: '6px solid #ff17e4',
-                borderRadius: '10px',
-                zIndex: 50,
-                minWidth: 180,
-                maxWidth: 600,
-                textAlign: 'center',
-                margin: '0',
-                pointerEvents: 'none'
-              }}
-            >
-              {popoverTexts[hovered]}
-            </div>
-          )}
-        </div>
-
-    
-        <div className="links">
-          <ul className="b">
-            <li><Link to="/Resume">Resume</Link></li>
-            <li><Link to="/List">Portfolio</Link></li>
-            <li><Link to="/Contact">Contact Rick</Link></li>
-          </ul>
-        </div>
-
-        <div className="quote">
-          <p>"Twenty years from now you will be more disappointed by the things
-            that you didn't do than by the ones you did do,
-            so throw off the bowlines, sail away from safe harbor,
-            catch the trade winds in your sails. Explore. Dream. Discover."
-            <br></br><span>~Mark Twain</span></p>
-          <br></br>
-          <p>"The ones who are crazy enough to think that they can change the world are the ones who do."
-            <br></br> <span>~Steve Jobs</span>
-          </p>
-          <p>"All of our dreams can come true, if we have the courage to pursue them."
-            <br></br><span>~Walt Disney</span>
-          </p>
-        </div>
-        <br></br>
-        <br></br>
-        <br></br>
-
-        <div className="strobe">
+        <aside className="strobe strobe-panel">
           <Carousel />
-
-        </div>
+        </aside>
     {/* <div className="spaceman">
           <img src={Spaceman} alt="spaceman"></img>
         </div> */}

@@ -1,4 +1,5 @@
 import { NavLink, Link } from "react-router-dom";
+import BadButton from "./badbutton";
 import "./Navbar.css"
 
 export const Navbar = () => {
@@ -33,6 +34,9 @@ export const Navbar = () => {
                 </li>
                 <li className="c">
                     <NavLink to="/Contact">Contact</NavLink>
+                </li>
+                <li className="c nav-badbutton">
+                    <BadButton />
                 </li>
             </ul>
         </nav>
