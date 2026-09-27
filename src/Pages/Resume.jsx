@@ -93,9 +93,13 @@ function Resume() {
                                 justifyContent: 'center',
                                 gap: 2,
                             }}>
-                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={github} alt="github" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={sql} alt="SQL" />
                                 <div className="overlay">
-                                    <div className="text">GitHub</div>
+                                    <div className="text">SQL</div>
+                                </div></Item>
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={python} alt="python" />
+                                <div className="overlay">
+                                    <div className="text">Python</div>
                                 </div></Item>
                             <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={reactpic} alt="react" />
                                 <div className="overlay">
@@ -105,10 +109,7 @@ function Resume() {
                                 <div className="overlay">
                                     <div className="text">Node</div>
                                 </div></Item>
-                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={mongo} alt="mongoDB" />
-                                <div className="overlay">
-                                    <div className="text">MongoDB</div>
-                                </div></Item>
+                          
                         </Stack>
                         <Stack 
                             direction="row"
@@ -120,13 +121,13 @@ function Resume() {
                                 justifyContent: 'center',
                                 gap: 2,
                             }}>
-                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={sql} alt="SQL" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={github} alt="github" />
                                 <div className="overlay">
-                                    <div className="text">SQL</div>
+                                    <div className="text">GitHub</div>
                                 </div></Item>
-                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={python} alt="python" />
+                            <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={mongo} alt="mongoDB" />
                                 <div className="overlay">
-                                    <div className="text">Python</div>
+                                    <div className="text">MongoDB</div>
                                 </div></Item>
                             <Item sx={{ width: '45%', minWidth: '120px', maxWidth: '150px' }}><img className="res" src={git} alt="gitBash" />
                                 <div className="overlay">
@@ -226,33 +227,29 @@ function Resume() {
                     <div className="teamwork">
                         <h2>Teamwork Traits</h2>
                         <ul className="teamwork">
-                            <li>Agile Method</li>
-                            <li>Excellent Communicator</li>
-                            <li>SCRUM Framework</li>
-                            <li>Adaptable Creativity</li>
-                            <li>Collaborative</li>
-                            <li>Critical Thinker</li>
+                            <li>Reliable and Accountable</li>
+                            <li>Clear and Respectful Communicator</li>
+                            <li>Encourages and Motivates Others</li>
+                            <li>Skilled in Conflict Resolution</li>
+                            <li>Willing to Take the Initiative</li>
+                    
 
                         </ul>
                     </div>
                     <div className="skills">
                         <h2>Technical Skills</h2>
                         <ul className="skills">
-                            <li>Full-Stack Programming</li>
-                            <li>UX/UI</li>
-                            <li>RESTful APIs</li>
-                            <li>Program Testing CI/CD</li>
+                            <li>SCADA Systems</li>
+                            <li>Water Quality Analysis</li>
                             <li>Process Automation</li>
-                            <li>PLC/HMI/VFD</li>
-                            <li>Control Panel Design</li>
-                            <li>Process Instrumentation</li>
-                            <li>Calibration</li>
+                            <li>PLC Programming</li>
+                            <li>Instrumentation</li>
+                            <li>Vibration Analysis</li>
                         </ul>
                     </div>
                     <div className="education">
                         <h2>Education</h2>
                         <ul className="education">
-                            <li>Software Development Certificate (KU) </li>
                             <li>B.S. Environmental Science(KU)</li>
                             <li>Minor Biological Anthropology(KU)</li>
                         </ul>
@@ -260,7 +257,7 @@ function Resume() {
                     <div className="certifications">
                         <h2>Certifications</h2>
                         <ul className="certifications">
-
+                            <li>Computer Coding Certificate(KU)</li>
                             <li>AALSO Operator(lv.1)</li>
                             <li>Water Quality Technician(lv.2)</li>
                             <li>OSHA 10</li>
@@ -274,7 +271,7 @@ function Resume() {
                     <div className="workHistory">
                         <h3>Kansas City Zoo and Aquarium (LSS Manager)</h3>
                         <p>Oversaw the operation and maintenance of all life support systems throughout the
-                        Zoo. This includes ensuring all systems are functioning properly and overseeing day-to-day operations to assure proper water quality, clarity and chemistry. This position also supervised the Life Support Operators. Exhibits included The SOBELLS Aquarium, Polar Bear Pool, Helzberg Penguin Plaza (2 penguin pools and multiple saltwater aquariums), Elephant Passage Pool, Sea Lion Splash, Stingray Bay, Otter Pool, and Missouri Department of Conservation Aquarium.</p>
+                        Zoo. This includes ensuring all systems are functioning properly and overseeing day-to-day operations to assure proper water quality, clarity and chemistry. This position also supervised the Life Support Operators. Exhibits included The Sobela Ocean Aquarium, Polar Bear Pool, Helzberg Penguin Plaza (2 penguin pools and multiple saltwater aquariums), Elephant Passage Pool, Sea Lion Splash, Stingray Bay, Otter Pool, and Missouri Department of Conservation Aquarium.</p>
                         <br></br>
                         <h3>Landry's T-REX Cafe (Curator/ Aqusition&Quarantine Manager)</h3>
                         <p>With a team of 3 direct reporting staff, maintained 4x marine aquariums(29,000 gallons total) throughout the building. This included elasmobranchs and teleost. Selected, purchased, transported, acclimated and quarantined new specimens. Managed a scientific exempt dive program that operated 5 days a week.</p>

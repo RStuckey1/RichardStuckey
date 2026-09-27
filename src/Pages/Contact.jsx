@@ -59,7 +59,7 @@ export const Contact = () => {
         <>
             <div className="contact">
                 <h2 className="contactintro">To get in touch, send a message...</h2>
-                <h2 className="contactintro">...or find me at LinkedIn or GitHub(click the icons below)</h2>
+                <h2 className="contactintro">...or find me on LinkedIn or GitHub(click the icons below)</h2>
                 <br></br>
                 <br></br>
                 <div className="information">
@@ -99,7 +99,7 @@ export const Contact = () => {
                                     name='from_name'
                                     label="name"
                                     margin="dense"
-                                    sx={{ width: '100%' }}
+                                    sx={{ width: '100%',  borderRadius: '10px', border: '2px solid #06E8C6' }}
                                     inputColor='secondary'
                                 />
                             </Item>
