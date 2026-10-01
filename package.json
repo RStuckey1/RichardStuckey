@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "start": "vite",
-    "build": "vite build",
+    "dev": "dev",
+    "start": "start",
+    "build": "build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "preview"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
